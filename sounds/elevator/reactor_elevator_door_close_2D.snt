@@ -1,0 +1,8 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="reactor_elevator_door_close_2D" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="0.85" MinDistance="15" MaxDistance="25" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="False" Loop="False" Use3D="True" Blockable="False" BlockVolumeMul="0.0" Priority="2" />
+</SOUNDENTITY>

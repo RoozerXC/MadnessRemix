@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2013-01-14T13:41:46Z</created>
+    <keywords></keywords>
+    <modified>2013-01-14T13:41:46Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.001000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file12-image" name="file12">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/Amnesia - Source/StaticObjects/streets/buildings/streets_generic_buildings_wood.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file12-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="WALL_polySurface160-lib" name="WALL_polySurface160Mesh">
+      <mesh>
+        <source id="WALL_polySurface160-POSITION">
+          <float_array id="WALL_polySurface160-POSITION-array" count="63">
+1670.718994 -108.812813 -1085.994385
+1668.323486 -91.521706 -1085.994385
+1800.919067 0.000000 -1084.900391
+1532.517334 -91.521751 -1085.994385
+1530.122070 -108.812859 -1085.994385
+1400.919067 0.000000 -1084.900391
+1539.540283 -75.409027 -1085.994385
+1550.711914 -61.572693 -1085.994385
+1565.271240 -50.955688 -1085.994385
+1582.225952 -44.281586 -1085.994385
+1600.420410 -42.005188 -1085.994385
+1618.615112 -44.281586 -1085.994385
+1635.569702 -50.955688 -1085.994385
+1650.128906 -61.572662 -1085.994385
+1661.300781 -75.408997 -1085.994385
+1505.535645 -108.812859 -1085.994385
+1505.535645 -287.500000 -1085.994385
+1400.919067 -400.000000 -1084.900391
+1695.305420 -108.812813 -1085.994385
+1695.305420 -287.500000 -1085.994385
+1800.867798 -400.000000 -1084.900391
+</float_array>
+          <technique_common>
+            <accessor source="#WALL_polySurface160-POSITION-array" count="21" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WALL_polySurface160-Normal0">
+          <float_array id="WALL_polySurface160-Normal0-array" count="189">
+-0.007532 -0.001043 0.999971
+-0.007532 -0.001043 0.999971
+-0.007532 -0.001043 0.999971
+0.007585 -0.001050 0.999971
+0.007585 -0.001050 0.999971
+0.007585 -0.001050 0.999971
+0.006378 -0.002780 0.999976
+0.006378 -0.002780 0.999976
+0.006378 -0.002780 0.999976
+0.005485 -0.004427 0.999975
+0.005485 -0.004427 0.999975
+0.005485 -0.004427 0.999975
+0.004668 -0.006405 0.999969
+0.004668 -0.006405 0.999969
+0.004668 -0.006405 0.999969
+0.003725 -0.009459 0.999948
+0.003725 -0.009459 0.999948
+0.003725 -0.009459 0.999948
+0.002045 -0.016334 0.999865
+0.002045 -0.016334 0.999865
+0.002045 -0.016334 0.999865
+-0.000138 -0.025377 0.999678
+-0.000138 -0.025377 0.999678
+-0.000138 -0.025377 0.999678
+-0.000138 -0.025377 0.999678
+-0.000138 -0.025377 0.999678
+-0.000138 -0.025377 0.999678
+-0.003712 -0.009427 0.999949
+-0.003712 -0.009427 0.999949
+-0.003712 -0.009427 0.999949
+-0.004652 -0.006377 0.999969
+-0.004652 -0.006377 0.999969
+-0.004652 -0.006377 0.999969
+-0.005452 -0.004405 0.999976
+-0.005452 -0.004405 0.999976
+-0.005452 -0.004405 0.999976
+-0.006342 -0.002764 0.999976
+-0.006342 -0.002764 0.999976
+-0.006342 -0.002764 0.999976
+0.010456 0.000000 0.999945
+0.010456 0.000000 0.999945
+0.010456 0.000000 0.999945
+0.010456 0.000000 0.999945
+0.010456 0.000000 0.999945
+0.010456 0.000000 0.999945
+0.000000 -0.010053 0.999949
+0.000000 -0.010053 0.999949
+0.000000 -0.010053 0.999949
+0.000000 -0.010053 0.999949
+0.000000 -0.010053 0.999949
+0.000000 -0.010053 0.999949
+-0.010361 0.000001 0.999946
+-0.010361 0.000001 0.999946
+-0.010361 0.000001 0.999946
+-0.010361 0.000001 0.999946
+-0.010361 0.000001 0.999946
+-0.010361 0.000001 0.999946
+0.000000 0.009724 0.999953
+0.000000 0.009724 0.999953
+0.000000 0.009724 0.999953
+0.000000 0.009724 0.999953
+0.000000 0.009724 0.999953
+0.000000 0.009724 0.999953
+</float_array>
+          <technique_common>
+            <accessor source="#WALL_polySurface160-Normal0-array" count="63" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WALL_polySurface160-UV0">
+          <float_array id="WALL_polySurface160-UV0-array" count="42">
+0.770998 0.936134
+0.780629 0.866616
+1.304094 1.304095
+0.879478 0.866616
+0.742763 1.000914
+0.879478 0.148208
+1.303889 -0.304095
+0.697847 1.056543
+0.116513 0.148208
+-0.304095 -0.304095
+0.639312 1.099229
+0.116513 0.866615
+-0.304095 1.304095
+0.571146 1.126061
+0.215363 0.866615
+0.497995 1.135214
+0.224992 0.936134
+0.424844 1.126061
+0.253228 1.000914
+0.356679 1.099229
+0.298144 1.056543
+</float_array>
+          <technique_common>
+            <accessor source="#WALL_polySurface160-UV0-array" count="21" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WALL_polySurface160-VERTEX">
+          <input semantic="POSITION" source="#WALL_polySurface160-POSITION"/>
+        </vertices>
+        <triangles count="21" material="lambert1">
+          <input semantic="VERTEX" offset="0" source="#WALL_polySurface160-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#WALL_polySurface160-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#WALL_polySurface160-UV0"/>
+          <p> 1 0 0 0 1 1 2 2 2 4 3 14 3 4 16 5 5 12 3 6 16 6 7 18 5 8 12 6 9 18 7 10 20 5 11 12 7 12 20 8 13 19 5 14 12 8 15 19 9 16 17 5 17 12 9 18 17 10 19 15 5 20 12 2 21 2 5 22 12 10 23 15 2 24 2 10 25 15 11 26 13 11 27 13 12 28 10 2 29 2 12 30 10 13 31 7 2 32 2 13 33 7 14 34 4 2 35 2 14 36 4 1 37 0 2 38 2 5 39 12 16 40 8 15 41 11 5 42 12 17 43 9 16 44 8 15 45 11 4 46 14 5 47 12 0 48 1 18 49 3 2 50 2 2 51 2 19 52 5 20 53 6 19 54 5 2 55 2 18 56 3 19 57 5 16 58 8 17 59 9 19 60 5 17 61 9 20 62 6</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="group25" id="group25" sid="group25">
+        <matrix sid="matrix">10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+        <node name="WALL_polySurface159" id="WALL_polySurface159" sid="WALL_polySurface159">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 -1400.919067 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1084.900391 0.000000 0.000000 0.000000 1.000000</matrix>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+          <node name="WALL_polySurface160" id="WALL_polySurface160" sid="WALL_polySurface160">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+            <instance_geometry url="#WALL_polySurface160-lib">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert1" target="#lambert1"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+          </node>
+        </node>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

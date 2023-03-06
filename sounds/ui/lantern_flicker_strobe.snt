@@ -1,0 +1,10 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="lantern_flicker_strobe1" />
+		<Sound File="lantern_flicker_strobe2" />
+		<Sound File="lantern_flicker_strobe3" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="0.25" MinDistance="1" MaxDistance="10" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="False" Loop="False" Use3D="False" Blockable="True" BlockVolumeMul="0.5" Priority="9999" />
+</SOUNDENTITY>

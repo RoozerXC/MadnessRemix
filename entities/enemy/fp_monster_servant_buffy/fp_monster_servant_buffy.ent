@@ -1,0 +1,256 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.14723 2.71603 1.96477" CameraTarget="0.115222 1.63258 -0.113647" CameraZoom="3.06013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="InLucysEyes/entities/fp_enemy/fp_monster_servant_buffy/fp_monster_servant_buffy.dae">
+            <SubMesh Active="true" ID="46" Material="" Name="polySurface1" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones>
+            <Bone ID="47" Name="Root" />
+            <Bone ID="48" Name="Spine1" />
+            <Bone ID="49" Name="Spine2" />
+            <Bone ID="50" Name="Spine3" />
+            <Bone ID="51" Name="Neck" />
+            <Bone ID="52" Name="Head" />
+            <Bone ID="53" Name="Jaw" />
+            <Bone ID="54" Name="JawEnd" />
+            <Bone ID="55" Name="R_Collar" />
+            <Bone ID="56" Name="R_Shoulder" />
+            <Bone ID="57" Name="R_Elbow" />
+            <Bone ID="58" Name="R_Wrist" />
+            <Bone ID="59" Name="Thumb1" />
+            <Bone ID="60" Name="Thumb2" />
+            <Bone ID="61" Name="ThumbEnd" />
+            <Bone ID="62" Name="Index1" />
+            <Bone ID="63" Name="Index2" />
+            <Bone ID="64" Name="Index3" />
+            <Bone ID="65" Name="IndexEnd" />
+            <Bone ID="66" Name="Mid1" />
+            <Bone ID="67" Name="Mid2" />
+            <Bone ID="68" Name="Mid3" />
+            <Bone ID="69" Name="MidEnd" />
+            <Bone ID="70" Name="Ring1" />
+            <Bone ID="71" Name="Ring2" />
+            <Bone ID="72" Name="Ring3" />
+            <Bone ID="73" Name="RingEnd" />
+            <Bone ID="74" Name="L_Collar" />
+            <Bone ID="75" Name="L_Shoulder" />
+            <Bone ID="76" Name="L_Elbow" />
+            <Bone ID="77" Name="Chain1" />
+            <Bone ID="78" Name="Chain2" />
+            <Bone ID="79" Name="Chain3" />
+            <Bone ID="80" Name="Chain4" />
+            <Bone ID="81" Name="ChainEnd" />
+            <Bone ID="82" Name="R_Thigh" />
+            <Bone ID="83" Name="R_Knee" />
+            <Bone ID="84" Name="R_Foot1" />
+            <Bone ID="85" Name="R_Foot2" />
+            <Bone ID="86" Name="R_FootEnd" />
+            <Bone ID="87" Name="L_Thigh" />
+            <Bone ID="88" Name="L_Knee" />
+            <Bone ID="89" Name="L_Foot1" />
+            <Bone ID="90" Name="L_Foot2" />
+            <Bone ID="91" Name="L_FootEnd" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_idle.dae_anim" Name="Idle" SpecialEventTime="1.19834e-031" Speed="1">
+                <Event Time="0.1" Type="PlaySound" Value="fp_monster_buffy_groan_average" />
+                <Event Time="0.4" Type="PlaySound" Value="fp_monster_skinny_chain" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_run.dae_anim" Name="Run" SpecialEventTime="1.19834e-031" Speed="0.2">
+                <Event Time="0.2" Type="PlaySound" Value="grunt/leather_run" />
+                <Event Time="0.3" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="0.2" Type="PlaySound" Value="fp_monster_skinny_breath" />
+                <Event Time="0.2" Type="PlaySound" Value="fp_monster_buffy_scream_short_angry" />
+                <Event Time="0.2" Type="PlaySound" Value="fp_monster_buffy_step" />
+                <Event Time="0.8" Type="PlaySound" Value="fp_monster_buffy_step" />
+                <Event Time="0.2" Type="PlaySound" Value="15_bang_buffy" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_walk.dae_anim" Name="Walk" SpecialEventTime="1.19834e-031" Speed="1.12">
+                <Event Time="0.5" Type="Step" Value="0" />
+                <Event Time="0.5" Type="PlaySound" Value="grunt/leather_walk" />
+                <Event Time="1.5" Type="Step" Value="0" />
+                <Event Time="1.5" Type="PlaySound" Value="grunt/leather_walk" />
+                <Event Time="0.5" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="0.5" Type="PlaySound" Value="fp_monster_skinny_breath" />
+                <Event Time="0.5" Type="PlaySound" Value="fp_monster_buffy_step" />
+                <Event Time="1.5" Type="PlaySound" Value="fp_monster_buffy_step" />
+                <Event Time="0.5" Type="PlaySound" Value="15_bang_buffy" />
+                <Event Time="1.5" Type="PlaySound" Value="15_bang_buffy" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_attack1.dae_anim" Name="SwingClaws01" SpecialEventTime="1" Speed="1.1">
+                <Event Time="0.3" Type="PlaySound" Value="fp_monster_buffy_groan_short" />
+                <Event Time="0.6" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="0.6" Type="PlaySound" Value="fp_monster_skinny_breath" />
+                <Event Time="1" Type="PlaySound" Value="fp_monster_buffy_step" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_attack2.dae_anim" Name="SwingClaws02" SpecialEventTime="0.9" Speed="1.1">
+                <Event Time="0.9" Type="PlaySound" Value="fp_monster_skinny_breath" />
+                <Event Time="0.15" Type="PlaySound" Value="fp_monster_buffy_scream_short" />
+                <Event Time="0.9" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="0.15" Type="PlaySound" Value="fp_monster_buffy_groan_average" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_attack_run.dae_anim" Name="SwingLaunch" SpecialEventTime="0.35" Speed="1">
+                <Event Time="0.3" Type="Step" Value="0" />
+                <Event Time="0.2" Type="PlaySound" Value="fp_monster_buffy_scream_short_angry" />
+                <Event Time="0.2" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="1" Type="Step" Value="0" />
+                <Event Time="0.2" Type="PlaySound" Value="fp_monster_buffy_scream_short" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_break_door.dae_anim" Name="BreakDoor" SpecialEventTime="0.75" Speed="1.1">
+                <Event Time="0.1" Type="PlaySound" Value="fp_monster_buffy_groan_short" />
+                <Event Time="1" Type="Step" Value="0" />
+                <Event Time="0.75" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="0.75" Type="PlaySound" Value="fp_monster_skinny_breath" />
+                <Event Time="0.75" Type="PlaySound" Value="fp_monster_buffy_scream_short_angry" />
+                <Event Time="0.75" Type="PlaySound" Value="fp_monster_buffy_scream_short" />
+                <Event Time="0.75" Type="PlaySound" Value="fp_monster_buffy_step" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_flinch.dae_anim" Name="Flinch" SpecialEventTime="0.05" Speed="1">
+                <Event Time="0.1" Type="PlaySound" Value="fp_monster_skinny_breath" />
+                <Event Time="0.15" Type="Step" Value="0" />
+                <Event Time="0.2" Type="PlaySound" Value="runt/leather_walk" />
+                <Event Time="0.1" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="1.1" Type="PlaySound" Value="fp_monster_buffy_groan_long" />
+                <Event Time="0.3" Type="PlaySound" Value="fp_monster_buffy_scream_short" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_idle_extra1.dae_anim" Name="IdleExtra1" SpecialEventTime="1.19834e-031" Speed="0.9">
+                <Event Time="0.6" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="0.1" Type="PlaySound" Value="fp_monster_buffy_groan_average" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_idle_extra2.dae_anim" Name="IdleExtra2" SpecialEventTime="1.19834e-031" Speed="1">
+                <Event Time="0.6" Type="PlaySound" Value="fp_monster_buffy_step" />
+                <Event Time="0.1" Type="PlaySound" Value="fp_monster_buffy_scream_long" />
+                <Event Time="0.4" Type="PlaySound" Value="fp_monster_skinny_chain" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_idle_extra3.dae_anim" Name="IdleExtra3" SpecialEventTime="1.19834e-031" Speed="0.85">
+                <Event Time="0.3" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="0.1" Type="PlaySound" Value="fp_monster_buffy_groan_average" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_notice1.dae_anim" Name="Notice1" SpecialEventTime="1.19834e-031" Speed="1.1">
+                <Event Time="0.2" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="0.4" Type="PlaySound" Value="fp_monster_buffy_groan_short" />
+            </Animation>
+            <Animation File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/fp_monster_servant_buffy/Animations/fp_monster_servant_buffy_notice2.dae_anim" Name="Notice2" SpecialEventTime="1.19834e-031" Speed="0.9">
+                <Event Time="0.2" Type="PlaySound" Value="fp_monster_skinny_chain" />
+                <Event Time="0.4" Type="PlaySound" Value="fp_monster_buffy_groan_short" />
+                <Event Time="1.7" Type="PlaySound" Value="fp_monster_buffy_scream_short" />
+                <Event Time="1.8" Type="PlaySound" Value="fp_monster_skinny_chain" />
+            </Animation>
+        </Animations>
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="Enemy_Grunt">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="AutoRemoveAtPathEnd" Value="false" />
+        <Var Name="SightRange" Value="20" />
+        <Var Name="DarknessSightRange" Value="4" />
+        <Var Name="HearVolume" Value="0.35" />
+        <Var Name="FOV" Value="120" />
+        <Var Name="FOVXMul" Value="1" />
+        <Var Name="ActivationDistance" Value="40" />
+        <Var Name="MaxRegenHealth" Value="100" />
+        <Var Name="RegenHealthSpeed" Value="5" />
+        <Var Name="DangerMusic" Value="dan_brute.ogg" />
+        <Var Name="DangerMusicPrio" Value="0" />
+        <Var Name="SearchMusic" Value="search_brute.ogg" />
+        <Var Name="SearchMusicPrio" Value="0" />
+        <Var Name="AttackMusic" Value="att_brute.ogg" />
+        <Var Name="AttackMusicPrio" Value="0" />
+        <Var Name="PlayerSearchMaxAngle" Value="45" />
+        <Var Name="PlayerSearchMinDistMul" Value="0.5" />
+        <Var Name="PlayerSearchMaxDistMul" Value="2" />
+        <Var Name="PlayerSearchTime" Value="15" />
+        <Var Name="PlayerPatrolMaxAngle" Value="110" />
+        <Var Name="PlayerPatrolMinDist" Value="8" />
+        <Var Name="PlayerPatrolMaxDist" Value="18" />
+        <Var Name="Body_Size" Value="1.2 2 1.2" />
+        <Var Name="Body_Mass" Value="80" />
+        <Var Name="Body_AccurateClimbing" Value="true" />
+        <Var Name="Body_MaxNoSlideSlopeAngle" Value="45" />
+        <Var Name="Body_MaxPushMass" Value="55" />
+        <Var Name="Body_PushForce" Value="250" />
+        <Var Name="Body_CharacterMaxPushMass" Value="20" />
+        <Var Name="Body_CharacterPushForce" Value="100" />
+        <Var Name="Body_MaxStepSize" Value="0.5" />
+        <Var Name="Body_StepClimbSpeed" Value="6.0" />
+        <Var Name="Body_OffsetRot" Value="0 180 0" />
+        <Var Name="Body_OffsetTrans" Value="0 -0.02 0" />
+        <Var Name="Walk_ForwardSpeed" Value="1.3" />
+        <Var Name="Walk_BackwardSpeed" Value="0.4" />
+        <Var Name="Walk_ForwardAcc" Value="2" />
+        <Var Name="Walk_ForwardDeacc" Value="18" />
+        <Var Name="Run_ForwardSpeed" Value="5.1" />
+        <Var Name="Run_BackwardSpeed" Value="2.0" />
+        <Var Name="Run_ForwardAcc" Value="4.0" />
+        <Var Name="Run_ForwardDeacc" Value="8.0" />
+        <Var Name="TurnSpeedMul" Value="6" />
+        <Var Name="TurnMaxSpeed" Value="10" />
+        <Var Name="TurnMinBreakAngle" Value="8" />
+        <Var Name="TurnBreakMul" Value="2" />
+        <Var Name="MoveSpeedAnimMul" Value="1.25" />
+        <Var Name="StoppedToWalkSpeed" Value="0.5" />
+        <Var Name="WalkToStoppedSpeed" Value="0.1" />
+        <Var Name="WalkToRunSpeed" Value="2.6" />
+        <Var Name="RunToWalkSpeed" Value="2.4" />
+        <Var Name="WaterStepSpeedWalk" Value="3.0" />
+        <Var Name="WaterStepSpeedRun" Value="5.0" />
+        <Var Name="WaterStepSpeedMisc" Value="3.0" />
+        <Var Name="HitPS_Sword" Value="blood.ps" />
+        <Var Name="HitSound_Sword" Value="hit_generic" />
+        <Var Name="HitPS_Club" Value="blood.ps" />
+        <Var Name="HitSound_Club" Value="" />
+        <Var Name="HitPS_Bullet" Value="" />
+        <Var Name="HitSound_Bullet" Value="" />
+        <Var Name="HitPS_Dud" Value="" />
+        <Var Name="HitSound_Dud" Value="" />
+        <Var Name="AmbientSound_Idle" Value="" />
+        <Var Name="AmbientMinTime_Idle" Value="1" />
+        <Var Name="AmbientMaxTime_Idle" Value="3" />
+        <Var Name="AmbientSound_Alert" Value="" />
+        <Var Name="AmbientMinTime_Alert" Value="1" />
+        <Var Name="AmbientMaxTime_Alert" Value="2" />
+        <Var Name="AmbientSound_Hunt" Value="" />
+        <Var Name="AmbientMinTime_Hunt" Value="1" />
+        <Var Name="AmbientMaxTime_Hunt" Value="3" />
+        <Var Name="NormalAttackDistance" Value="1.9" />
+        <Var Name="NormalDamageSize" Value="1 1.6 1.75" />
+        <Var Name="NormalDamageOffset" Value="0 0 1.2" />
+        <Var Name="NormalAttackHitSound" Value="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/sounds/enemy/grunt/attack_claw_hit.snt" />
+        <Var Name="NormalAttackDamage" Value="30 50" />
+        <Var Name="NormalAttackForce" Value="32 5" />
+        <Var Name="NormalAttackStrength" Value="1.1" />
+        <Var Name="NormalDamageType" Value="Claws" />
+        <Var Name="BreakDoorAttackDamage" Value="30 40" />
+        <Var Name="BreakDoorAttackForce" Value="30 5" />
+        <Var Name="BreakDoorAttackStrength" Value="6.4" />
+        <Var Name="BreakDoorAttackHitSound" Value="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/sounds/enemy/grunt/attack_claw_hit.snt" />
+        <Var Name="BreakDoorDamageType" Value="BloodSplat" />
+        <Var Name="NoticeSound" Value="" />
+        <Var Name="GiveUpNoticeSound" Value="" />
+        <Var Name="EnabledSound" Value="fp_monster_buffy_scream_long" />
+        <Var Name="GroggyDamageCount" Value="2" />
+        <Var Name="AlertToHuntDistance" Value="9" />
+        <Var Name="AlertToInstantHuntDistance" Value="2.5" />
+        <Var Name="HuntPauseMinTime" Value="2.0" />
+        <Var Name="HuntPauseMaxTime" Value="4.5" />
+        <Var Name="IncreaseAlertSpeedDistance" Value="6" />
+        <Var Name="IncreasedAlertSpeedMul" Value="1.25" />
+        <Var Name="AlertRunTowardsToHuntLimit" Value="30" />
+        <Var Name="AlertRunTowardsCheckDistance" Value="6" />
+        <Var Name="IdleExtraTimeMin" Value="2" />
+        <Var Name="IdleExtraTimeMax" Value="4.5" />
+        <Var Name="IdleExtraNum" Value="3" />
+    </UserDefinedVariables>
+</Entity>

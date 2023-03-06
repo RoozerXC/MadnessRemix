@@ -1,0 +1,42 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 180.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="180.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 180.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.453029 5.040347 7.483413" CameraTarget="-0.064910 -1.367144 1.768954" CameraZoom="1.760131" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="mansion_white.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="mansion_door_mesh" Rotation="1.552284 -0.388490 0.048839" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="12" WorldPos="0.000000 0.152565 1.138511" />
+            <SubMesh Active="true" GroupID="0" ID="1" Name="mansion_door_hinges" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="1" Tag="" Type="12" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="2" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="1.745000 2.745000 0.180000" RelativeTranslation="0.000000 0.000000 0.000000" Rotation="1.550479 -0.383041 0.051358" Scale="1.745000 2.745000 0.180000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="9" WorldPos="-0.570841 0.162058 2.521488" />
+            <BodyShape Active="true" GroupID="0" ID="4" Name="Shape_2" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.030000 0.235000 0.030000" RelativeTranslation="0.000000 0.999133 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.030000 0.235000 0.030000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="9" WorldPos="-0.883243 2.499320 0.076746" />
+            <BodyShape Active="true" GroupID="0" ID="5" Name="Shape_3" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.030000 0.235000 0.030000" RelativeTranslation="0.000000 -0.999133 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.030000 0.235000 0.030000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="9" WorldPos="-0.883243 0.501054 0.076746" />
+            <BodyShape Active="true" GroupID="0" ID="8" Name="Shape_4" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.070000 0.350000 0.380000" RelativeTranslation="0.734656 -0.000200 0.000000" Rotation="1.550479 -0.383041 0.051358" Scale="0.070000 0.350000 0.380000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="9" WorldPos="0.109752 0.197038 2.795875" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" ID="6" LinearDamping="0.000000" Mass="0.000000" Material="Metal" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="10" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.883243 1.500187 0.076746">
+                <Shape ID="5" />
+                <Shape ID="4" />
+                <Children>
+                    <Child ID="1" />
+                </Children>
+            </Body>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="false" GroupID="0" ID="9" LinearDamping="0.000000" Mass="0.000000" Material="Wood" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body" PushedByCharacterGravity="false" Rotation="1.550479 -0.383041 0.051358" Scale="1.000000 1.000000 1.000000" Tag="" Type="10" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.570841 0.162058 2.521488">
+                <Shape ID="2" />
+                <Shape ID="8" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

@@ -1,0 +1,69 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="true" GridSnapSeparation="0.125" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.375 4.25 179.625" CameraTarget="0.375 4.25 -0.375" CameraZoom="0" GridHeight="-0.375" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180.375 4.25 -0.375" CameraTarget="0.375 4.25 -0.375" CameraZoom="0" GridHeight="0.375" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.375 184.25 -0.375" CameraTarget="0.375 4.25 -0.375" CameraZoom="0" GridHeight="4.25" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.444106 -1.66807 0.292469" CameraTarget="0.676604 4.69991 -0.943741" CameraZoom="2.02754" GridHeight="4.25" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities>
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0.62 0.397 0.224 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="16" Name="PointLight_1" Radius="2" Rotation="0 -0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0 4.125 1.375" />
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0.62 0.397 0.224 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="17" Name="PointLight_2" Radius="2" Rotation="0 -0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0 4.125 -1.375" />
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0 0.163 0.207 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="18" Name="PointLight_3" Radius="4" Rotation="0 -0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0 8 -0.125" />
+            <Billboard Active="true" BillboardColor="0.63 0.37 0.145 1" BillboardOffset="0" BillboardSize="1 1" BillboardType="Point" ConnectLight="" HaloSourceSize="2 2 2" ID="19" IsHalo="true" MaterialFile="C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/pig/Game/redist/billboards/bb_white_halo.mat" Name="Billboard_1" Rotation="0 0 0" Tag="" WorldPos="0 4.125 1.375" />
+            <Billboard Active="true" BillboardColor="0.63 0.37 0.145 1" BillboardOffset="0" BillboardSize="1 1" BillboardType="Point" ConnectLight="" HaloSourceSize="2 2 2" ID="20" IsHalo="true" MaterialFile="C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/pig/Game/redist/billboards/bb_white_halo.mat" Name="Billboard_2" Rotation="0 -0 0" Tag="" WorldPos="0 4.125 -1.5" />
+            <ParticleSystem Active="true" Color="0 0.224 0.224 1" FadeAtDistance="true" File="ps_area_fog_falling.ps" ID="21" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="0.25 8.375 -0.375" />
+        </Entities>
+        <Mesh Filename="entities/elevator/elevator_shaft_8m.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="elevator_8m_module_metal1" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="1" Material="" Name="polySurface276" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="2" Material="" Name="polySurface283" Rotation="0 0 0" Scale="1 1 1" SubMeshID="2" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="3" Material="" Name="polySurface286" Rotation="0 0 0" Scale="1 1 1" SubMeshID="3" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="4" Material="" Name="polySurface291" Rotation="0 0 0" Scale="1 1 1" SubMeshID="4" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="5" Material="" Name="polySurface292" Rotation="0 0 0" Scale="1 1 1" SubMeshID="5" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="6" Material="" Name="polySurface293" Rotation="0 0 0" Scale="1 1 1" SubMeshID="6" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="7" Material="" Name="polySurface294" Rotation="0 0 0" Scale="1 1 1" SubMeshID="7" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="8" Material="" Name="polySurface295" Rotation="0 0 0" Scale="1 1 1" SubMeshID="8" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="9" Material="" Name="polySurface296" Rotation="0 0 0" Scale="1 1 1" SubMeshID="9" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="10" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="0.5 8.5 3" RelativeTranslation="-1.75 0 0" Rotation="0 0 0" Scale="0.5 8.5 3" ShapeType="Box" Tag="" WorldPos="-1.75 4.25 0" />
+            <BodyShape Active="true" ID="12" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="0.5 8.5 3" RelativeTranslation="1.75 0 0" Rotation="0 -0 0" Scale="0.5 8.5 3" ShapeType="Box" Tag="" WorldPos="1.75 4.25 0" />
+            <BodyShape Active="true" ID="13" Name="Shape_3" RelativeRotation="0 -1.19209e-007 0" RelativeScale="4 8.5 0.5" RelativeTranslation="0 0 -1.75" Rotation="0 -1.19209e-007 0" Scale="4 8.5 0.5" ShapeType="Box" Tag="" WorldPos="0 4.25 -1.75" />
+            <BodyShape Active="true" ID="14" Name="Shape_4" RelativeRotation="0 -1.19209e-007 0" RelativeScale="4 8.5 0.5" RelativeTranslation="0 0 1.75" Rotation="0 -1.19209e-007 0" Scale="4 8.5 0.5" ShapeType="Box" Tag="" WorldPos="0 4.25 1.75" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="15" LinearDamping="0" Mass="0" Material="Default" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0 4.25 0">
+                <Children>
+                    <Child ID="0" />
+                    <Child ID="1" />
+                    <Child ID="2" />
+                    <Child ID="3" />
+                    <Child ID="4" />
+                    <Child ID="5" />
+                    <Child ID="6" />
+                    <Child ID="7" />
+                    <Child ID="8" />
+                    <Child ID="9" />
+                    <Child ID="16" />
+                    <Child ID="17" />
+                    <Child ID="18" />
+                    <Child ID="19" />
+                    <Child ID="20" />
+                    <Child ID="21" />
+                </Children>
+                <Shape ID="14" />
+                <Shape ID="10" />
+                <Shape ID="12" />
+                <Shape ID="13" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+</Entity>

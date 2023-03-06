@@ -1,0 +1,8 @@
+<Material>
+    <Main DepthTest="True" PhysicsMaterial="Default" Type="SolidDiffuse" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="" AnimMode="" File="mansionbase02_blue.dds" Mipmaps="true" Type="2D" Wrap="Repeat" />
+        <NMap AnimFrameTime="" AnimMode="" File="mansionbase02_nrm.dds" Mipmaps="true" Type="2D" Wrap="Repeat" />
+        <Specular AnimFrameTime="" AnimMode="" File="mansionbase02_spec.dds" Mipmaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+</Material>

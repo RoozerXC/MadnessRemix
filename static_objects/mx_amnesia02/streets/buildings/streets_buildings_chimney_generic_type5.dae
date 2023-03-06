@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2013-01-08T10:38:57Z</created>
+    <keywords></keywords>
+    <modified>2013-01-08T10:38:57Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.001000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file1-image" name="file1">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/Amnesia - Source/StaticObjects/streets/buildings/streets_generic_buildings_chimney.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="lambert2" name="lambert2">
+      <instance_effect url="#lambert2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert2-fx" name="lambert2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface160-lib" name="polySurface160Mesh">
+      <mesh>
+        <source id="polySurface160-POSITION">
+          <float_array id="polySurface160-POSITION-array" count="48">
+-49.091553 398.173950 0.000000
+50.908447 398.173950 0.000000
+-49.091553 48.173950 500.000000
+50.908447 48.173950 500.000000
+50.908447 48.173950 -500.000000
+-49.091553 48.173950 -500.000000
+-49.091553 349.999878 0.000000
+-49.091553 -0.000061 -500.000000
+50.908447 -0.000061 -500.000000
+50.908447 349.999878 0.000000
+50.908447 -0.000061 500.000000
+-49.091553 -0.000061 500.000000
+-49.091553 -0.000061 -500.000000
+50.908447 -0.000061 -500.000000
+50.908447 -0.000061 500.000000
+-49.091553 -0.000061 500.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface160-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface160-Normal0">
+          <float_array id="polySurface160-Normal0-array" count="144">
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.819232 0.573462
+0.000000 0.819232 0.573462
+0.000000 0.819232 0.573462
+0.000000 0.819232 0.573462
+0.000000 0.819232 0.573462
+0.000000 0.819232 0.573462
+0.000000 0.819232 -0.573462
+0.000000 0.819232 -0.573462
+0.000000 0.819232 -0.573462
+0.000000 0.819232 -0.573462
+0.000000 0.819232 -0.573462
+0.000000 0.819232 -0.573462
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface160-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface160-UV0">
+          <float_array id="polySurface160-UV0-array" count="68">
+0.505939 0.070896
+0.505939 0.007097
+0.998239 0.007097
+0.998239 0.070687
+0.013639 0.070688
+0.013640 0.007097
+0.874249 0.521457
+0.874437 0.570040
+0.785152 0.570042
+0.785339 0.521458
+0.505939 0.233156
+0.013639 0.233156
+0.013640 0.169564
+0.505939 0.169356
+0.998239 0.233156
+0.998239 0.169565
+0.304020 0.573206
+0.303830 0.524623
+0.394122 0.524623
+0.393932 0.573206
+0.998239 0.163897
+0.505939 0.163713
+0.505939 0.076540
+0.998239 0.076355
+0.013639 0.076356
+0.013640 0.163897
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface160-UV0-array" count="34" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface160-VERTEX">
+          <input semantic="POSITION" source="#polySurface160-POSITION"/>
+        </vertices>
+        <triangles count="16" material="lambert2">
+          <input semantic="VERTEX" offset="0" source="#polySurface160-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#polySurface160-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#polySurface160-UV0"/>
+          <p> 2 0 3 6 1 1 11 2 2 6 3 1 2 4 3 0 5 0 7 6 5 6 7 1 5 8 4 0 9 0 5 10 4 6 11 1 7 12 8 4 13 6 8 14 7 4 15 6 7 16 8 5 17 9 4 18 12 1 19 13 9 20 10 9 21 10 8 22 11 4 23 12 9 24 10 3 25 15 10 26 14 3 27 15 9 28 10 1 29 13 11 30 17 10 31 18 2 32 16 3 33 19 2 34 16 10 35 18 0 36 22 2 37 23 3 38 20 3 39 20 1 40 21 0 41 22 1 42 21 5 43 24 0 44 22 5 45 24 1 46 21 4 47 25</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="polySurface144" id="polySurface144" sid="polySurface144">
+        <matrix sid="matrix">10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+        <node name="polySurface146" id="polySurface146" sid="polySurface146">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+          <node name="polySurface149" id="polySurface149" sid="polySurface149">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+            <node name="transform9" id="transform9" sid="transform9">
+              <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+              <extra>
+                <technique profile="FCOLLADA">
+                  <visibility>0.000000</visibility>
+                </technique>
+              </extra>
+            </node>
+          </node>
+          <node name="polySurface150" id="polySurface150" sid="polySurface150">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+            <node name="transform8" id="transform8" sid="transform8">
+              <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+              <extra>
+                <technique profile="FCOLLADA">
+                  <visibility>0.000000</visibility>
+                </technique>
+              </extra>
+            </node>
+          </node>
+          <node name="polySurface151" id="polySurface151" sid="polySurface151">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+            <node name="transform7" id="transform7" sid="transform7">
+              <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+              <extra>
+                <technique profile="FCOLLADA">
+                  <visibility>0.000000</visibility>
+                </technique>
+              </extra>
+            </node>
+          </node>
+          <node name="polySurface152" id="polySurface152" sid="polySurface152">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+            <node name="transform6" id="transform6" sid="transform6">
+              <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+              <extra>
+                <technique profile="FCOLLADA">
+                  <visibility>0.000000</visibility>
+                </technique>
+              </extra>
+            </node>
+          </node>
+          <node name="polySurface153" id="polySurface153" sid="polySurface153">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+            <node name="transform5" id="transform5" sid="transform5">
+              <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+              <extra>
+                <technique profile="FCOLLADA">
+                  <visibility>0.000000</visibility>
+                </technique>
+              </extra>
+            </node>
+          </node>
+          <node name="polySurface154" id="polySurface154" sid="polySurface154">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+            <node name="transform4" id="transform4" sid="transform4">
+              <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+              <extra>
+                <technique profile="FCOLLADA">
+                  <visibility>0.000000</visibility>
+                </technique>
+              </extra>
+            </node>
+          </node>
+          <node name="polySurface155" id="polySurface155" sid="polySurface155">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+            <node name="transform3" id="transform3" sid="transform3">
+              <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+              <extra>
+                <technique profile="FCOLLADA">
+                  <visibility>0.000000</visibility>
+                </technique>
+              </extra>
+            </node>
+          </node>
+          <node name="polySurface156" id="polySurface156" sid="polySurface156">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+            <node name="transform2" id="transform2" sid="transform2">
+              <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+              <extra>
+                <technique profile="FCOLLADA">
+                  <visibility>0.000000</visibility>
+                </technique>
+              </extra>
+            </node>
+          </node>
+          <node name="transform1" id="transform1" sid="transform1">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>0.000000</visibility>
+              </technique>
+            </extra>
+          </node>
+        </node>
+      </node>
+      <node name="polySurface158" id="polySurface158" sid="polySurface158">
+        <matrix sid="matrix">10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+        <node name="polySurface160" id="polySurface160" sid="polySurface160">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <instance_geometry url="#polySurface160-lib">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert2" target="#lambert2"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+        </node>
+        <node name="transform10" id="transform10" sid="transform10">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>0.000000</visibility>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

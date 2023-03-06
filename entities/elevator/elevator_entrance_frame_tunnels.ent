@@ -1,0 +1,43 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="-1.5 1.875 180" CameraTarget="-1.5 1.875 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="178.5 1.875 0" CameraTarget="-1.5 1.875 0" CameraZoom="0" GridHeight="-1.5" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-1.5 181.875 0" CameraTarget="-1.5 1.875 0" CameraZoom="0" GridHeight="1.875" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="6.12839 5.13022 -2.19802" CameraTarget="0.872784 1.55531 -0.170209" CameraZoom="2.01413" GridHeight="1.875" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/elevator/elevator_entrance_frame.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="polySurface263" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="0.25 5 0.25" RelativeTranslation="-1.875 -0.00931907 -0.255641" Rotation="0 0 0" Scale="0.25 5 0.25" ShapeType="Box" Tag="" WorldPos="-1.875 2 0" />
+            <BodyShape Active="true" ID="2" Name="Shape_2" RelativeRotation="1.50996e-007 1.5708 1.50996e-007" RelativeScale="0.25 5 4" RelativeTranslation="0 -0.00931907 1.61936" Rotation="1.50996e-007 1.5708 1.50996e-007" Scale="0.25 5 4" ShapeType="Box" Tag="" WorldPos="0 2 1.875" />
+            <BodyShape Active="true" ID="3" Name="Shape_3" RelativeRotation="1.50996e-007 1.5708 1.50996e-007" RelativeScale="1.61003 0.5 4" RelativeTranslation="0 2.25932 -1.41649" Rotation="1.50996e-007 1.5708 1.50996e-007" Scale="1.61003 0.5 4" ShapeType="Box" Tag="" WorldPos="0 4.26864 -1.16085" />
+            <BodyShape Active="true" ID="4" Name="Shape_4" RelativeRotation="0 -0 1.5708" RelativeScale="0.6 3.96186 1.35539" RelativeTranslation="-0.0115345 -2.25486 -1.61936" Rotation="0 0 1.5708" Scale="0.6 3.96186 1.35539" ShapeType="Box" Tag="" WorldPos="-0.0115345 -0.24554 -1.36372" />
+            <BodyShape Active="true" ID="5" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="0.25 5 0.25" RelativeTranslation="1.875 -0.00931907 1.11936" Rotation="0 0 0" Scale="0.25 5 0.25" ShapeType="Box" Tag="" WorldPos="1.875 2 1.375" />
+            <BodyShape Active="true" ID="6" Name="Shape_6" RelativeRotation="0 -0 0" RelativeScale="0.25 0.5 2" RelativeTranslation="1.875 2.24068 -0.255641" Rotation="0 -0 0" Scale="0.25 0.5 2" ShapeType="Box" Tag="" WorldPos="1.875 4.25 0" />
+            <BodyShape Active="true" ID="7" Name="Shape_7" RelativeRotation="0 -0 0" RelativeScale="0.5 0.5 2" RelativeTranslation="1.75 -2.25932 -0.255641" Rotation="0 -0 0" Scale="0.5 0.5 2" ShapeType="Box" Tag="" WorldPos="1.75 -0.25 0" />
+            <BodyShape Active="true" ID="10" Name="Shape_8" RelativeRotation="1.49828e-007 0.854857 1.47368e-007" RelativeScale="0.6 4.95233 1.35539" RelativeTranslation="0.600467 0.0470011 -1.60334" Rotation="1.49828e-007 0.854857 1.47368e-007" Scale="0.6 4.95233 1.35539" ShapeType="Box" Tag="" WorldPos="0.600467 2.05632 -1.34769" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="12" LinearDamping="0" Mass="0" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0 2.00932 0.255641">
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="6" />
+                <Shape ID="7" />
+                <Shape ID="10" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+</Entity>

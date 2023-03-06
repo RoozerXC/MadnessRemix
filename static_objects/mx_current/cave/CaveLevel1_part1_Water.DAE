@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Linus</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.3.1;  Revision: 847M;  Platform: x64;  Configuration: Release_Max2012_static</authoring_tool>
+      <source_data>file:///C:/Users/Linus/Documents/3dsMax/scenes/Timorem/CaveLevel1_part1_WATER.max</source_data>
+    </contributor>
+    <created>2012-04-09T19:10:23</created>
+    <modified>2012-04-09T19:10:23</modified>
+    <unit name="inch" meter="0.0254"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material__25">
+      <profile_COMMON>
+        <newparam sid="Water_Flowing_dds-surface">
+          <surface type="2D">
+            <init_from>Water_Flowing_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Water_Flowing_dds-sampler">
+          <sampler2D>
+            <source>Water_Flowing_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Water_Flowing_dds-sampler" texcoord="CHANNEL1"/>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <apply_reflection_dimming>0</apply_reflection_dimming>
+            <dim_level>0</dim_level>
+            <falloff_type>0</falloff_type>
+            <index_of_refraction>1.5</index_of_refraction>
+            <opacity_type>0</opacity_type>
+            <reflection_level>3</reflection_level>
+            <wire_size>1</wire_size>
+            <wire_units>0</wire_units>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_lock>1</ambient_diffuse_lock>
+            <ambient_diffuse_texture_lock>1</ambient_diffuse_texture_lock>
+            <diffuse_specular_lock>0</diffuse_specular_lock>
+            <soften>0.1</soften>
+            <use_self_illum_color>0</use_self_illum_color>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Material__25-material" name="Material__25">
+      <instance_effect url="#Material__25"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-Plane001" name="Plane001">
+      <mesh>
+        <source id="geom-Plane001-positions">
+          <float_array id="geom-Plane001-positions-array" count="48">-660 68.98738 0 188.1003 68.98738 0 -660 485.4745 0 188.1003 485.4746 0 -343.7458 17.8868 0 -58.95166 17.8868 0 -318.2839 -132.488 -57.57815 -33.4898 -132.488 -84.0994 -240.2066 -337.5384 -97.24237 6.432312 -195.1413 -97.24237 -27.80643 -468.5068 -97.24237 114.5906 -221.8678 -97.24237 149.7557 -501.6543 -97.24237 292.1527 -255.0153 -97.24237 237.6353 -595.4091 -97.24237 380.0323 -348.7701 -97.24237</float_array>
+          <technique_common>
+            <accessor source="#geom-Plane001-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Plane001-normals">
+          <float_array id="geom-Plane001-normals-array" count="120">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.3575811 0.9338821 0 -0.3575811 0.9338821 0 -0.3575811 0.9338821 0.08154812 -0.4759357 0.8756913 0.08154812 -0.4759356 0.8756913 0.08154812 -0.4759356 0.8756913 0.09159687 -0.1553863 0.9835981 0.09159687 -0.1553863 0.9835981 0.09159687 -0.1553863 0.983598 0.08718381 -0.1510068 0.9846805 0.08718381 -0.1510068 0.9846806 0.08718381 -0.1510068 0.9846807 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#geom-Plane001-normals-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Plane001-map1">
+          <float_array id="geom-Plane001-map1-array" count="48">13.052 -11.43156 0 13.11977 -6.812214 0 2.115942 -6.955441 0 2.048167 -11.57479 0 9.02077 -6.384799 0 5.325658 -6.432896 0 8.707351 -4.503263 0 5.009012 -4.514491 0 7.722241 -2.179902 0 4.499007 -3.800909 0 4.987729 -0.7631702 0 3.100036 -3.522745 0 2.689311 -0.4255104 0 0.8016183 -3.185087 0 1.564357 0.5995007 0 -0.323334 -2.160073 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Plane001-map1-array" count="16" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-Plane001-vertices">
+          <input semantic="POSITION" source="#geom-Plane001-positions"/>
+        </vertices>
+        <triangles material="Material__25_1" count="14">
+          <input semantic="VERTEX" source="#geom-Plane001-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-Plane001-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-Plane001-map1" offset="2" set="0"/>
+          <p>0 0 1 1 1 2 3 2 3 3 2 3 2 3 0 0 0 1 1 4 2 0 5 1 4 6 4 4 7 4 5 8 5 1 9 2 5 10 5 4 11 4 6 12 6 6 13 6 7 14 7 5 15 5 7 16 7 6 17 6 8 18 8 8 19 8 9 20 9 7 21 7 9 22 9 8 23 8 10 24 10 10 25 10 11 26 11 9 27 9 11 28 11 10 29 10 12 30 12 12 31 12 13 32 13 11 33 11 13 34 13 12 35 12 14 36 14 14 37 14 15 38 15 13 39 13</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="Water_Flowing_dds">
+      <init_from>file:///E:/Program%20Files%20(x86)/Steam/steamapps/common/amnesia%20the%20dark%20descent/static_objects/Timorem_Caves/CaveLevelMeshes/images/Water_Flowing.dds</init_from>
+    </image>
+  </library_images>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-Plane001" name="Plane001">
+        <scale>0.03367653 0.03367653 0.03367653</scale>
+        <instance_geometry url="#geom-Plane001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material__25_1" target="#Material__25-material">
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,44 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.01" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="-1.75 4.125 179.5" CameraTarget="-1.75 4.125 -0.5" CameraZoom="0" GridHeight="-0.5" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="178.25 4.125 -0.5" CameraTarget="-1.75 4.125 -0.5" CameraZoom="0" GridHeight="-1.75" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-1.75 184.125 -0.5" CameraTarget="-1.75 4.125 -0.5" CameraZoom="0" GridHeight="4.125" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-2.86848 11.1553 0.147189" CameraTarget="-0.03925 6.43882 0.138674" CameraZoom="2.20728" GridHeight="4.125" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/elevator/elevator_8m_module_reactor.dae">
+            <SubMesh Active="true" ID="1" Material="" Name="elevator_8m_module_bars" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 -9.17514" />
+            <SubMesh Active="true" ID="12" Material="" Name="elevator_8m_module_grating" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 -9.17514" />
+            <SubMesh Active="true" ID="13" Material="" Name="elevator_8m_module_bars" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 -9.17514" />
+            <SubMesh Active="true" ID="14" Material="" Name="polySurface315" Rotation="0 0 0" Scale="1 1 1" SubMeshID="2" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="3" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="0.5 8.5 3" RelativeTranslation="-1.75 0 0" Rotation="0 -0 0" Scale="0.5 8.5 3" ShapeType="Box" Tag="" WorldPos="-1.75 4.25 0" />
+            <BodyShape Active="true" ID="5" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="0.5 8.5 3" RelativeTranslation="1.75 0 0" Rotation="0 -0 0" Scale="0.5 8.5 3" ShapeType="Box" Tag="" WorldPos="1.75 4.25 0" />
+            <BodyShape Active="true" ID="7" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="4 8.5 0.5" RelativeTranslation="0 0 1.75" Rotation="0 -0 0" Scale="4 8.5 0.5" ShapeType="Box" Tag="" WorldPos="0 4.25 1.75" />
+            <BodyShape Active="true" ID="10" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="4 8.5 0.5" RelativeTranslation="0 0 -1.75" Rotation="0 -0 0" Scale="4 8.5 0.5" ShapeType="Box" Tag="" WorldPos="0 4.25 -1.75" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="15" LinearDamping="0" Mass="0" Material="Default" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0 4.25 0">
+                <Children>
+                    <Child ID="1" />
+                    <Child ID="12" />
+                    <Child ID="14" />
+                    <Child ID="13" />
+                </Children>
+                <Shape ID="10" />
+                <Shape ID="3" />
+                <Shape ID="7" />
+                <Shape ID="5" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+</Entity>

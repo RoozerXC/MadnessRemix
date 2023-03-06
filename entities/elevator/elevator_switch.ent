@@ -1,0 +1,70 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="-1.25564 1.3491 179.99" CameraTarget="-1.25564 1.3491 -0.0100682" CameraZoom="0" GridHeight="-0.0100682" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="178.744 1.3491 -0.0100682" CameraTarget="-1.25564 1.3491 -0.0100682" CameraZoom="0" GridHeight="-1.25564" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-1.25564 181.349 -0.0100682" CameraTarget="-1.25564 1.3491 -0.0100682" CameraZoom="0" GridHeight="1.3491" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.649624 1.62644 0.170794" CameraTarget="-1.22795 1.19451 -0.188095" CameraZoom="4.12755" GridHeight="1.3491" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/elevator/elevator_switch.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="elevator_switch_handle" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="3" Name="Shape_1" RelativeRotation="0 -0 -1.5708" RelativeScale="0.03 0.175 0.03" RelativeTranslation="0 0 0" Rotation="0 0 -1.5708" Scale="0.03 0.175 0.03" ShapeType="Cylinder" Tag="" WorldPos="-1.1552 1.3491 -0.00966535" />
+            <BodyShape Active="true" ID="7" Name="Shape_2" RelativeRotation="0 -0 -7.62032e-011" RelativeScale="0.1 0.5 0.3" RelativeTranslation="-9.53306e-008 -1.26788e-008 9.31323e-010" Rotation="0 -0 -0.00942805" Scale="0.1 0.5 0.3" ShapeType="Box" Tag="" WorldPos="-1.3055 1.27407 -0.0109066" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="0.1" CanAttachCharacter="true" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="false" ID="4" LinearDamping="1" Mass="1" Material="Default" MaxAngularSpeed="0.25" MaxLinearSpeed="0.25" Name="lever" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-1.1552 1.3491 -0.00966535">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="3" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="9" LinearDamping="0" Mass="0" Material="Default" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="base" PushedByCharacterGravity="true" Rotation="0 0 -0.00942805" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-1.3055 1.27407 -0.0109066">
+                <Shape ID="7" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointSlider Active="true" BreakForce="0" BreakSound="" Breakable="false" CollideBodies="true" ConnectedChildBodyID="4" ConnectedParentBodyID="9" ID="10" LimitStepCount="0" MaxDistance="0.2" MaxLimitMaxSpeed="0" MaxLimitMinSpeed="0" MaxLimitSound="church_draw_lever_open.snt" MaxMoveFreq="0.85" MaxMoveFreqSpeed="0.7" MaxMoveSpeed="1" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinDistance="0" MinLimitMaxSpeed="0" MinLimitMinSpeed="0" MinLimitSound="church_draw_lever_open.snt" MinMoveFreq="0.8" MinMoveFreqSpeed="0.6" MinMoveSpeed="0.01" MinMoveVolume="0.8" MoveSound="joint_lever_tesla_pull.snt" MoveType="Linear" Name="JointSlider_1" PinDir="0 -0.903987 -0.427561" Rotation="-2.6998 0 0" Scale="1 1 1" StickyMaxLimit="false" StickyMinLimit="false" Stiffness="0" Tag="" WorldPos="-1.25564 1.3491 -0.0100682" />
+        </Joints>
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="MultiSlider">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="SlideMaxSpeed" Value="10" />
+        <Var Name="SlideSlowDownFactor" Value="2" />
+        <Var Name="SlideSpeedFactor" Value="0.6" />
+        <Var Name="SlideThrowImpulse" Value="3" />
+        <Var Name="NumOfStates" Value="2" />
+        <Var Name="StickToStateMaxDist" Value="0.04" />
+        <Var Name="CanInteractWithStaticBody" Value="true" />
+        <Var Name="AutoMoveToCurrentState" Value="true" />
+        <Var Name="AutoMoveSpeedFactor" Value="2" />
+        <Var Name="AutoMoveMaxSpeed" Value="8" />
+        <Var Name="ChangeStateSound" Value="lever_chain_door_close.snt" />
+        <Var Name="StuckSound" Value="" />
+    </UserDefinedVariables>
+</Entity>

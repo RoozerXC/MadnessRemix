@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-09-14T02:32:50Z</created>
+    <keywords></keywords>
+    <modified>2011-09-14T02:32:50Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file1-image" name="file1">
+      <init_from>file://C:/Program Files (x86)/Steam/SteamApps/common/amnesia the dark descent/static_objects/pramod_static_objects/mansionbase/mansionbase_wood.dds</init_from>
+    </image>
+    <image id="file9-image" name="file9">
+      <init_from>file://C:/Program Files (x86)/Steam/SteamApps/common/amnesia the dark descent/static_objects/pramod_static_objects/mansionbase/mansionbase_wood_spec.dds</init_from>
+    </image>
+    <image id="file7-image" name="file7">
+      <init_from>file://C:/Program Files (x86)/Steam/SteamApps/common/amnesia the dark descent/static_objects/mansionbase/wall/..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\amnesia the dark descent\static_objects\mansionbase\wall\mansionbase_spec.dds</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="mansionbase_material" name="mansionbase_material">
+      <instance_effect url="#mansionbase_material-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="mansionbase_material-fx" name="mansionbase_material">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <texture texture="file9-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="file7-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float sid="shininess">0.300000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="mansionbase_default-lib" name="mansionbase_defaultMesh">
+      <mesh>
+        <source id="mansionbase_default-POSITION">
+          <float_array id="mansionbase_default-POSITION-array" count="120">
+-2.000000 0.000000 0.000000
+2.000000 0.000000 0.000000
+2.000000 0.121719 0.000000
+-2.000000 0.121719 0.000000
+2.000000 0.196623 0.025697
+-2.000000 0.196623 0.025697
+-2.000000 1.041070 0.000000
+-2.000000 0.303238 0.000000
+2.000000 0.303238 0.000000
+2.000000 1.041070 0.000000
+2.000000 0.303238 0.132542
+-2.000000 0.303238 0.132542
+-2.000000 0.273066 0.132542
+2.000000 0.273066 0.132542
+2.000000 3.703710 0.085459
+-2.000000 3.703710 0.085459
+-2.000000 3.703710 0.000000
+2.000000 3.703710 0.000000
+2.000000 3.745130 0.084883
+-2.000000 3.745130 0.084883
+-2.000000 3.895680 0.201120
+2.000000 3.895680 0.201120
+2.000000 4.000000 0.201120
+-2.000000 4.000000 0.201120
+2.000000 3.803500 0.098588
+-2.000000 3.803500 0.098588
+-2.000000 3.874990 0.146033
+2.000000 3.874990 0.146033
+-2.000000 1.160610 0.075829
+2.000000 1.160610 0.075829
+2.000000 1.160610 0.000000
+-2.000000 1.160610 0.000000
+-2.000000 1.139170 0.075829
+2.000000 1.139170 0.075829
+-2.000000 1.123100 0.038784
+2.000000 1.123100 0.038784
+2.000000 1.089070 0.012391
+-2.000000 1.089070 0.012391
+-2.000000 0.253710 0.080029
+2.000000 0.253710 0.080029
+</float_array>
+          <technique_common>
+            <accessor source="#mansionbase_default-POSITION-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mansionbase_default-Normal0">
+          <float_array id="mansionbase_default-Normal0-array" count="342">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.164491 0.986379
+0.000000 -0.164491 0.986379
+0.000000 0.000000 1.000000
+0.000000 -0.164491 0.986379
+0.000000 -0.164491 0.986379
+0.000000 -0.164491 0.986379
+0.000000 -0.518917 0.854825
+0.000000 -0.518917 0.854825
+0.000000 -0.164491 0.986379
+0.000000 -0.518917 0.854825
+0.000000 -0.125993 0.992031
+0.000000 0.000000 1.000000
+0.000000 -0.125993 0.992031
+0.000000 -0.125993 0.992031
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.707107 0.707107
+0.000000 1.000000 0.000000
+0.000000 0.707107 0.707107
+0.000000 0.707107 0.707107
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.707107 0.707107
+0.000000 0.000000 1.000000
+0.000000 0.707107 0.707107
+0.000000 0.707107 0.707107
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 0.013894 0.999904
+0.000000 -0.108152 0.994134
+0.000000 0.013894 0.999904
+0.000000 0.013894 0.999904
+0.000000 -0.108152 0.994134
+0.000000 -0.108152 0.994134
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.108152 0.994134
+0.000000 -0.108152 0.994134
+0.000000 -0.397021 0.917809
+0.000000 -0.397021 0.917809
+0.000000 -0.108152 0.994134
+0.000000 -0.397021 0.917809
+0.000000 -0.782544 0.622595
+0.000000 -0.782544 0.622595
+0.000000 -0.936168 0.351553
+0.000000 -0.936168 0.351553
+0.000000 -0.782544 0.622595
+0.000000 -0.936168 0.351553
+0.000000 -0.397021 0.917809
+0.000000 -0.782544 0.622595
+0.000000 -0.397021 0.917809
+0.000000 -0.397021 0.917809
+0.000000 -0.782544 0.622595
+0.000000 -0.782544 0.622595
+0.000000 0.707107 0.707107
+0.000000 0.707107 0.707107
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.707107 0.707107
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.707107 0.707107
+0.000000 0.707107 0.707107
+0.000000 0.000000 1.000000
+0.000000 0.707107 0.707107
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.917372 0.398032
+0.000000 -0.789844 0.613308
+0.000000 -0.917372 0.398032
+0.000000 -0.917372 0.398032
+0.000000 -0.789844 0.613308
+0.000000 -0.789844 0.613308
+0.000000 -0.125993 0.992031
+0.000000 -0.125993 0.992031
+0.000000 -0.440512 0.897747
+0.000000 -0.440512 0.897747
+0.000000 -0.125993 0.992031
+0.000000 -0.440512 0.897747
+0.000000 -0.440512 0.897747
+0.000000 -0.789844 0.613308
+0.000000 -0.440512 0.897747
+0.000000 -0.440512 0.897747
+0.000000 -0.789844 0.613308
+0.000000 -0.789844 0.613308
+0.000000 -0.938291 0.345848
+0.000000 -0.835569 0.549385
+0.000000 -0.938291 0.345848
+0.000000 -0.938291 0.345848
+0.000000 -0.835569 0.549385
+0.000000 -0.835569 0.549385
+0.000000 -0.518917 0.854825
+0.000000 -0.835569 0.549385
+0.000000 -0.518917 0.854825
+0.000000 -0.518917 0.854825
+0.000000 -0.835569 0.549385
+0.000000 -0.835569 0.549385
+</float_array>
+          <technique_common>
+            <accessor source="#mansionbase_default-Normal0-array" count="114" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mansionbase_default-UV0">
+          <float_array id="mansionbase_default-UV0-array" count="80">
+0.006360 0.007019
+0.406989 0.007019
+0.406989 0.019205
+0.006360 0.019205
+0.406989 0.027131
+0.006360 0.027131
+0.006360 0.131160
+0.006360 0.056982
+0.406989 0.056982
+0.406989 0.130903
+0.406989 0.043684
+0.006360 0.043684
+0.006360 0.040642
+0.406989 0.040642
+0.406989 0.417290
+0.006360 0.417290
+0.006360 0.408748
+0.406989 0.408748
+0.406989 0.421425
+0.006360 0.421425
+0.006360 0.441860
+0.406989 0.441860
+0.406989 0.452300
+0.006360 0.452300
+0.406989 0.427415
+0.006360 0.427415
+0.006360 0.436277
+0.406989 0.435988
+0.006360 0.146461
+0.406989 0.146461
+0.406989 0.154053
+0.006360 0.154053
+0.006360 0.144298
+0.406989 0.144298
+0.006360 0.140226
+0.406989 0.140226
+0.406989 0.135887
+0.006360 0.135887
+0.006360 0.035025
+0.406989 0.035025
+</float_array>
+          <technique_common>
+            <accessor source="#mansionbase_default-UV0-array" count="40" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="mansionbase_default-VERTEX">
+          <input semantic="POSITION" source="#mansionbase_default-POSITION"/>
+        </vertices>
+        <triangles count="38" material="mansionbase_material">
+          <input semantic="VERTEX" offset="0" source="#mansionbase_default-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#mansionbase_default-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#mansionbase_default-UV0"/>
+          <p> 0 0 0 1 1 1 3 2 3 3 3 3 1 4 1 2 5 2 3 6 3 2 7 2 5 8 5 5 9 5 2 10 2 4 11 4 6 12 6 7 13 7 9 14 9 9 15 9 7 16 7 8 17 8 10 18 10 8 19 8 11 20 11 11 21 11 8 22 8 7 23 7 11 24 11 12 25 12 10 26 10 10 27 10 12 28 12 13 29 13 14 30 14 15 31 15 17 32 17 17 33 17 15 34 15 16 35 16 14 36 14 18 37 18 15 38 15 15 39 15 18 40 18 19 41 19 20 42 20 21 43 21 23 44 23 23 45 23 21 46 21 22 47 22 19 48 19 18 49 18 25 50 25 25 51 25 18 52 18 24 53 24 26 54 26 27 55 27 20 56 20 20 57 20 27 58 27 21 59 21 24 60 24 27 61 27 25 62 25 25 63 25 27 64 27 26 65 26 28 66 28 29 67 29 31 68 31 31 69 31 29 70 29 30 71 30 32 72 32 33 73 33 28 74 28 28 75 28 33 76 33 29 77 29 16 78 16 31 79 31 17 80 17 17 81 17 31 82 31 30 83 30 32 84 32 34 85 34 33 86 33 33 87 33 34 88 34 35 89 35 6 90 6 9 91 9 37 92 37 37 93 37 9 94 9 36 95 36 36 96 36 35 97 35 37 98 37 37 99 37 35 100 35 34 101 34 12 102 12 38 103 38 13 104 13 13 105 13 38 106 38 39 107 39 4 108 4 39 109 39 5 110 5 5 111 5 39 112 39 38 113 38</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="mansionbase_default" id="mansionbase_default" sid="mansionbase_default">
+        <matrix sid="matrix">100.000000 0.000000 0.000000 0.000000 0.000000 100.000000 0.000000 0.000000 0.000000 0.000000 100.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#mansionbase_default-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mansionbase_material" target="#mansionbase_material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

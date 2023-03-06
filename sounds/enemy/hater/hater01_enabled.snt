@@ -1,0 +1,13 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="hater01_yell14.ogg" />
+  		<Sound File="hater01_yell16.ogg" />
+  		<Sound File="hater01_yell23.ogg" />
+  		<Sound File="hater01_yell24.ogg" />
+  		<Sound File="hater01_yell25.ogg" />
+  		<Sound File="hater01_yell29.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1" MinDistance="10" MaxDistance="60" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="False" Use3D="True" Blockable="False" BlockVolumeMul="0.7" Priority="0" />
+</SOUNDENTITY>

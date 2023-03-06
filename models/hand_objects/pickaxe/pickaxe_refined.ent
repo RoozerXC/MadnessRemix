@@ -1,0 +1,22 @@
+<Entity>
+    <EditorSession>
+        <GridConfig GridPlane="1" Height="0.000000" Snap="false" SnapSeparation="1.000000" />
+        <ViewportConfig SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 20.000000" CameraRadius="20.000000" CameraSphCoordT="0.000000" CameraSphCoordU="0.000000" CameraTarget="0.000000 0.000000 0.000000" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="20.000000 0.000000 0.000000" CameraRadius="20.000000" CameraSphCoordT="0.000000" CameraSphCoordU="0.000000" CameraTarget="0.000000 0.000000 0.000000" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 20.000000 0.000000" CameraRadius="20.000000" CameraSphCoordT="0.000000" CameraSphCoordU="0.000000" CameraTarget="0.000000 0.000000 0.000000" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="-0.775260 0.583310 0.455483" CameraRadius="1.071795" CameraSphCoordT="2.610399" CameraSphCoordU="0.995317" CameraTarget="0.000000 0.000000 0.000000" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+        <GlobalLightConfig AmbientLight="true" PointLight="true" />
+    </EditorSession>
+    <UserDefinedVariables EntityType="HandObject" />
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="H:/Lux/redist/models/hand_objects/pickaxe/pickaxe.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="axe" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="5" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Shapes />
+        <Bodies />
+        <Joints />
+    </ModelData>
+</Entity>

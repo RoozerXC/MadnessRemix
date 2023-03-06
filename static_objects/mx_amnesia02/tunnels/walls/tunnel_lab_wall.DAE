@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-07-06T12:28:35Z</created>
+    <keywords></keywords>
+    <modified>2012-07-06T12:28:35Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #30-image" name="Map #30">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\tunnels\lab_tiles.psd</init_from>
+    </image>
+    <image id="Map #31-image" name="Map #31">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\tunnels\lab_wall.psd</init_from>
+    </image>
+    <image id="Map #33-image" name="Map #33">
+      <init_from>file://C:\AMFP\Game\redist\static_objects\teslabase\dressing\tesla_dressing_cupboard_01.dds</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material #51" name="Material #51">
+      <instance_effect url="#Material #51-fx"/>
+    </material>
+    <material id="Material #52" name="Material #52">
+      <instance_effect url="#Material #52-fx"/>
+    </material>
+    <material id="Material #54" name="Material #54">
+      <instance_effect url="#Material #54-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #51-fx" name="Material #51">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #30-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #52-fx" name="Material #52">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #31-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #54-fx" name="Material #54">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #33-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="lab_tiles-lib" name="lab_tilesMesh">
+      <mesh>
+        <source id="lab_tiles-POSITION">
+          <float_array id="lab_tiles-POSITION-array" count="12">
+-2.000000 0.018784 0.000000
+2.000000 0.018784 0.000000
+-2.000000 0.018784 1.663664
+2.000000 0.018784 1.665653
+</float_array>
+          <technique_common>
+            <accessor source="#lab_tiles-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lab_tiles-Normal0">
+          <float_array id="lab_tiles-Normal0-array" count="18">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#lab_tiles-Normal0-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lab_tiles-UV0">
+          <float_array id="lab_tiles-UV0-array" count="8">
+2.000000 2.000000
+-2.000000 2.000000
+-2.000000 0.336336
+2.000000 0.334347
+</float_array>
+          <technique_common>
+            <accessor source="#lab_tiles-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lab_tiles-VERTEX">
+          <input semantic="POSITION" source="#lab_tiles-POSITION"/>
+        </vertices>
+        <triangles count="2" material="Material #51">
+          <input semantic="VERTEX" offset="0" source="#lab_tiles-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#lab_tiles-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#lab_tiles-UV0"/>
+          <p> 0 0 1 2 1 2 3 2 3 3 3 3 1 4 0 0 5 1</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="lab_wall-lib" name="lab_wallMesh">
+      <mesh>
+        <source id="lab_wall-POSITION">
+          <float_array id="lab_wall-POSITION-array" count="12">
+-2.000000 0.000000 4.000000
+2.000000 0.000000 4.000000
+-2.000000 0.000000 1.662670
+2.000000 0.000000 1.666648
+</float_array>
+          <technique_common>
+            <accessor source="#lab_wall-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lab_wall-Normal0">
+          <float_array id="lab_wall-Normal0-array" count="18">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#lab_wall-Normal0-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lab_wall-UV0">
+          <float_array id="lab_wall-UV0-array" count="8">
+1.000000 0.415627
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.416622
+</float_array>
+          <technique_common>
+            <accessor source="#lab_wall-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lab_wall-VERTEX">
+          <input semantic="POSITION" source="#lab_wall-POSITION"/>
+        </vertices>
+        <triangles count="2" material="Material #52">
+          <input semantic="VERTEX" offset="0" source="#lab_wall-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#lab_wall-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#lab_wall-UV0"/>
+          <p> 0 0 1 1 1 2 3 2 3 3 3 3 2 4 0 0 5 1</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="lab_wall_details-lib" name="lab_wall_detailsMesh">
+      <mesh>
+        <source id="lab_wall_details-POSITION">
+          <float_array id="lab_wall_details-POSITION-array" count="126">
+-2.000000 0.031129 1.660787
+2.000000 0.031129 1.660787
+-2.000000 0.054163 1.751797
+2.000000 0.031129 1.731635
+-2.000000 0.000000 1.821212
+2.000000 0.000000 1.821212
+-2.000000 0.031129 1.821212
+2.000000 0.054163 1.801050
+-2.000000 0.031129 1.731635
+2.000000 0.054163 1.751797
+-2.000000 0.054163 1.801050
+2.000000 0.031129 1.821212
+-2.000000 0.000000 1.660787
+2.000000 0.000000 1.660787
+2.000000 0.031129 4.006054
+2.000000 0.031129 3.935205
+-2.000000 0.031129 3.935207
+-2.000000 0.031129 4.006054
+2.000000 0.000000 3.845629
+-2.000000 0.000000 3.845630
+-2.000000 0.031129 3.845630
+2.000000 0.031129 3.845629
+-2.000000 0.054163 3.915045
+2.000000 0.054163 3.915043
+2.000000 0.054163 3.865791
+-2.000000 0.054163 3.865792
+-2.000000 0.000000 4.006054
+2.000000 0.000000 4.006054
+2.000000 0.031129 0.161050
+2.000000 0.031129 0.090202
+-2.000000 0.031129 0.090202
+-2.000000 0.031129 0.161050
+2.000000 0.000000 0.000626
+-2.000000 0.000000 0.000625
+-2.000000 0.031129 0.000625
+2.000000 0.031129 0.000626
+-2.000000 0.054163 0.070040
+2.000000 0.054163 0.070040
+2.000000 0.054163 0.020788
+-2.000000 0.054163 0.020787
+-2.000000 0.000000 0.161050
+2.000000 0.000000 0.161050
+</float_array>
+          <technique_common>
+            <accessor source="#lab_wall_details-POSITION-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lab_wall_details-Normal0">
+          <float_array id="lab_wall_details-Normal0-array" count="324">
+0.000000 1.000000 0.000006
+0.000000 1.000000 0.000006
+0.000000 1.000000 0.000006
+0.000000 1.000000 0.000006
+0.000000 1.000000 0.000006
+0.000000 1.000000 0.000006
+0.000000 0.351806 0.936073
+0.000000 0.351806 0.936073
+0.000000 0.000000 1.000000
+0.000000 0.351806 0.936073
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.910668 0.413139
+0.000000 0.910668 0.413139
+0.000000 0.910668 -0.413138
+0.000000 0.910668 0.413139
+0.000000 0.910668 -0.413138
+0.000000 0.910668 -0.413138
+0.000000 0.910668 -0.413138
+0.000000 0.910668 -0.413138
+0.000000 0.658634 -0.752464
+0.000000 0.658634 -0.752464
+0.000000 0.658634 -0.752464
+0.000000 0.910668 -0.413138
+0.000000 0.910668 0.413139
+0.000000 0.351806 0.936073
+0.000000 0.910668 0.413139
+0.000000 0.351806 0.936073
+0.000000 0.910668 0.413139
+0.000000 0.351806 0.936073
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.000000 1.000000 -0.000006
+-0.000000 1.000000 -0.000006
+-0.000000 1.000000 -0.000006
+-0.000000 1.000000 -0.000006
+-0.000000 1.000000 -0.000006
+-0.000000 1.000000 -0.000006
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.351806 -0.936073
+-0.000000 0.000000 -1.000000
+-0.000000 0.351806 -0.936073
+-0.000000 0.351806 -0.936073
+0.000000 0.910668 0.413138
+-0.000000 0.910668 -0.413139
+0.000000 0.910668 0.413138
+-0.000000 0.910668 -0.413139
+0.000000 0.910668 0.413138
+-0.000000 0.910668 -0.413139
+0.000000 0.910668 0.413138
+0.000000 0.658634 0.752464
+0.000000 0.910668 0.413138
+0.000000 0.658634 0.752464
+0.000000 0.910668 0.413138
+0.000000 0.658634 0.752464
+-0.000000 0.910668 -0.413139
+-0.000000 0.910668 -0.413139
+-0.000000 0.351806 -0.936073
+-0.000000 0.351806 -0.936073
+-0.000000 0.351806 -0.936073
+-0.000000 0.910668 -0.413139
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 -0.000006
+0.000000 1.000000 -0.000006
+0.000000 1.000000 -0.000006
+0.000000 1.000000 -0.000006
+0.000000 1.000000 -0.000006
+0.000000 1.000000 -0.000006
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.351806 -0.936073
+0.000000 0.000000 -1.000000
+0.000000 0.351806 -0.936073
+0.000000 0.351806 -0.936073
+-0.000000 0.910668 0.413138
+-0.000000 0.910668 0.413138
+0.000000 0.910668 -0.413139
+-0.000000 0.910668 0.413138
+0.000000 0.910668 -0.413139
+0.000000 0.910668 -0.413139
+-0.000000 0.910668 0.413138
+-0.000000 0.658634 0.752464
+-0.000000 0.910668 0.413138
+-0.000000 0.658634 0.752464
+-0.000000 0.910668 0.413138
+-0.000000 0.658634 0.752464
+0.000000 0.910668 -0.413139
+0.000000 0.910668 -0.413139
+0.000000 0.351806 -0.936073
+0.000000 0.351806 -0.936073
+0.000000 0.351806 -0.936073
+0.000000 0.910668 -0.413139
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#lab_wall_details-Normal0-array" count="108" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lab_wall_details-UV0">
+          <float_array id="lab_wall_details-UV0-array" count="108">
+0.932605 0.339387
+0.268814 0.339387
+0.269447 0.390345
+0.269447 0.367739
+0.525856 0.436136
+0.525856 0.986783
+0.516211 0.986783
+0.516211 0.436136
+0.491464 0.986783
+0.491465 0.436136
+0.506725 0.436136
+0.506725 0.986783
+0.481980 0.436136
+0.481980 0.986783
+0.932247 0.367739
+0.932247 0.390345
+0.268814 0.332376
+0.932605 0.332376
+0.269447 0.390345
+0.269447 0.367739
+0.932247 0.367739
+0.932247 0.390345
+0.525856 0.436136
+0.525856 0.986783
+0.516211 0.986783
+0.516211 0.436136
+0.491464 0.986783
+0.491465 0.436136
+0.506725 0.436136
+0.506725 0.986783
+0.481980 0.436136
+0.481980 0.986783
+0.932605 0.339387
+0.268814 0.339387
+0.268814 0.332376
+0.932605 0.332376
+0.269447 0.390345
+0.269447 0.367739
+0.932247 0.367739
+0.932247 0.390345
+0.525856 0.436136
+0.525856 0.986783
+0.516211 0.986783
+0.516211 0.436136
+0.491464 0.986783
+0.491465 0.436136
+0.506725 0.436136
+0.506725 0.986783
+0.481980 0.436136
+0.481980 0.986783
+0.932605 0.339387
+0.268814 0.339387
+0.268814 0.332376
+0.932605 0.332376
+</float_array>
+          <technique_common>
+            <accessor source="#lab_wall_details-UV0-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lab_wall_details-VERTEX">
+          <input semantic="POSITION" source="#lab_wall_details-POSITION"/>
+        </vertices>
+        <triangles count="36" material="Material #54">
+          <input semantic="VERTEX" offset="0" source="#lab_wall_details-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#lab_wall_details-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#lab_wall_details-UV0"/>
+          <p> 3 0 14 0 1 2 8 2 3 0 3 2 3 4 14 1 5 15 11 6 6 6 7 7 4 8 4 11 9 6 4 10 4 5 11 5 10 12 10 7 13 11 9 14 8 10 15 10 9 16 8 2 17 9 2 18 9 9 19 8 8 20 12 3 21 13 8 22 12 9 23 8 10 24 10 11 25 6 7 26 11 11 27 6 10 28 10 6 29 7 13 30 16 12 31 17 0 32 0 13 33 16 0 34 0 1 35 1 15 36 19 16 37 20 14 38 18 17 39 21 14 40 18 16 41 20 18 42 22 19 43 23 20 44 24 18 45 22 20 46 24 21 47 25 23 48 27 25 49 29 22 50 26 25 51 29 23 52 27 24 53 28 22 54 26 15 55 30 23 56 27 15 57 30 22 58 26 16 59 31 25 60 29 24 61 28 20 62 24 21 63 25 20 64 24 24 65 28 14 66 32 17 67 33 26 68 34 14 69 32 26 70 34 27 71 35 29 72 37 31 73 39 28 74 36 31 75 39 29 76 37 30 77 38 32 78 40 33 79 41 34 80 42 32 81 40 34 82 42 35 83 43 36 84 44 37 85 45 38 86 46 36 87 44 38 88 46 39 89 47 36 90 44 29 91 48 37 92 45 29 93 48 36 94 44 30 95 49 39 96 47 38 97 46 34 98 42 35 99 43 34 100 42 38 101 46 28 102 50 31 103 51 40 104 52 28 105 50 40 106 52 41 107 53</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="lab_tiles" id="lab_tiles" layer="tunnel_wall" sid="lab_tiles">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#lab_tiles-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #51" target="#Material #51"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="lab_wall" id="lab_wall" layer="tunnel_wall" sid="lab_wall">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#lab_wall-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #52" target="#Material #52"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="lab_wall_details" id="lab_wall_details" layer="tunnel_wall" sid="lab_wall_details">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#lab_wall_details-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #54" target="#Material #54"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>-0.066667</start_time>
+          <end_time>6.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

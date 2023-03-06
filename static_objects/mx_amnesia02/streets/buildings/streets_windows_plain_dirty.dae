@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2013-01-05T14:44:22Z</created>
+    <keywords></keywords>
+    <modified>2013-01-05T14:44:22Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.001000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="windowsd_file3-image" name="windowsd_file3">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/Amnesia - Source/StaticObjects/streets/buildings/streets_generic_buildings_windows.jpg</init_from>
+    </image>
+    <image id="file4-image" name="file4">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/Amnesia - Source/StaticObjects/streets/buildings/streets_generic_buildings_brick_dirty.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="windowsd_lambert3" name="windowsd_lambert3">
+      <instance_effect url="#windowsd_lambert3-fx"/>
+    </material>
+    <material id="lambert4" name="lambert4">
+      <instance_effect url="#lambert4-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="windowsd_lambert3-fx" name="windowsd_lambert3">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="windowsd_file3-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert4-fx" name="lambert4">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file4-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="stockbrick_plain_trim3-lib" name="stockbrick_plain_trim3Mesh">
+      <mesh>
+        <source id="stockbrick_plain_trim3-POSITION">
+          <float_array id="stockbrick_plain_trim3-POSITION-array" count="72">
+-400.000000 400.000000 0.000000
+0.000000 400.000000 0.000000
+-400.000000 375.610962 0.000000
+0.000000 375.610962 0.000000
+0.000000 391.140503 -3.562088
+0.000000 376.653687 -3.562088
+-400.000000 376.653687 -3.562088
+-400.000000 391.140503 -3.562088
+-400.000000 400.000000 -7.468008
+0.000000 400.000000 -7.468008
+0.000000 391.140503 -7.468006
+-400.000000 391.140503 -7.468006
+-133.333344 400.000000 0.000000
+-133.333344 398.891632 -7.468008
+-133.333344 390.338379 -7.468008
+-133.333344 390.338379 -3.562088
+-133.333344 376.165283 -3.562088
+-133.333344 376.165314 0.000000
+-266.666687 400.000000 0.000000
+-266.666687 398.891632 -7.468008
+-266.666687 390.338379 -7.468008
+-266.666687 390.338379 -3.562088
+-266.666687 377.298279 -3.562088
+-266.666687 375.610962 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#stockbrick_plain_trim3-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="stockbrick_plain_trim3-Normal0">
+          <float_array id="stockbrick_plain_trim3-Normal0-array" count="270">
+-0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.002257 -0.933782 -0.357835
+0.000073 -0.955558 -0.294804
+0.000073 -0.955558 -0.294804
+0.000073 -0.955558 -0.294804
+0.002257 -0.933782 -0.357835
+0.002257 -0.933782 -0.357835
+0.002074 0.993876 -0.110479
+0.004145 0.997249 -0.074003
+0.002074 0.993876 -0.110479
+0.004145 0.997249 -0.074003
+0.002074 0.993876 -0.110479
+0.004145 0.997249 -0.074003
+-0.006016 -0.999982 0.000000
+-0.003008 -0.999995 0.000000
+-0.006016 -0.999982 0.000000
+-0.003008 -0.999995 0.000000
+-0.006016 -0.999982 0.000000
+-0.003008 -0.999995 0.000000
+-0.004145 0.997249 -0.074003
+-0.002074 0.993876 -0.110479
+-0.004145 0.997249 -0.074003
+-0.002074 0.993876 -0.110479
+-0.004145 0.997249 -0.074003
+-0.002074 0.993876 -0.110479
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.003008 -0.999995 0.000000
+0.006016 -0.999982 0.000000
+0.006016 -0.999982 0.000000
+0.006016 -0.999982 0.000000
+0.003008 -0.999995 0.000000
+0.003008 -0.999995 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.001179 -0.982204 -0.187816
+-0.000245 -0.989459 -0.144815
+-0.000245 -0.989459 -0.144815
+-0.000245 -0.989459 -0.144815
+-0.001179 -0.982204 -0.187816
+-0.001179 -0.982204 -0.187816
+-0.002074 0.993876 -0.110479
+0.002074 0.993876 -0.110479
+-0.002074 0.993876 -0.110479
+0.002074 0.993876 -0.110479
+-0.002074 0.993876 -0.110479
+0.002074 0.993876 -0.110479
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+-0.003008 -0.999995 0.000000
+0.003008 -0.999995 0.000000
+-0.003008 -0.999995 0.000000
+0.003008 -0.999995 0.000000
+-0.003008 -0.999995 0.000000
+0.003008 -0.999995 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000073 -0.955558 -0.294804
+-0.001179 -0.982204 -0.187816
+0.000073 -0.955558 -0.294804
+-0.001179 -0.982204 -0.187816
+0.000073 -0.955558 -0.294804
+-0.001179 -0.982204 -0.187816
+</float_array>
+          <technique_common>
+            <accessor source="#stockbrick_plain_trim3-Normal0-array" count="90" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="stockbrick_plain_trim3-UV0">
+          <float_array id="stockbrick_plain_trim3-UV0-array" count="64">
+0.000000 0.861711
+1.000000 0.861711
+1.000000 0.654983
+0.000000 0.654983
+0.000000 0.746239
+0.000000 0.685996
+1.000000 0.685996
+1.000000 0.746239
+1.000000 0.886749
+0.000000 0.886749
+0.000000 0.861951
+1.000000 0.886314
+1.000000 0.886749
+0.000000 0.886749
+0.000000 0.886314
+1.000000 0.861951
+0.666667 0.861711
+0.666667 0.861951
+0.666667 0.886314
+0.666667 0.886749
+0.333333 0.746239
+0.666667 0.886749
+0.333333 0.689429
+0.333333 0.654983
+0.333333 0.861711
+0.333333 0.861951
+0.333333 0.886314
+0.333333 0.886749
+0.666667 0.746239
+0.333333 0.886749
+0.666667 0.685996
+0.666667 0.654983
+</float_array>
+          <technique_common>
+            <accessor source="#stockbrick_plain_trim3-UV0-array" count="32" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="stockbrick_plain_trim3-VERTEX">
+          <input semantic="POSITION" source="#stockbrick_plain_trim3-POSITION"/>
+        </vertices>
+        <triangles count="30" material="windowsd_lambert3">
+          <input semantic="VERTEX" offset="0" source="#stockbrick_plain_trim3-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#stockbrick_plain_trim3-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#stockbrick_plain_trim3-UV0"/>
+          <p> 6 0 6 21 1 28 22 2 30 21 3 28 6 4 6 7 5 7 11 6 13 19 7 25 20 8 27 19 9 25 11 10 13 8 11 10 2 12 2 22 13 30 23 14 31 22 15 30 2 16 2 6 17 6 19 18 26 8 19 14 18 20 24 0 21 0 18 22 24 8 23 14 11 24 13 21 25 29 7 26 9 21 27 29 11 28 13 20 29 27 9 30 11 13 31 18 1 32 1 12 33 16 1 34 1 13 35 18 13 36 17 10 37 12 14 38 19 10 39 12 13 40 17 9 41 15 15 42 21 10 43 12 4 44 8 10 45 12 15 46 21 14 47 19 5 48 5 15 49 20 4 50 4 15 51 20 5 52 5 16 53 22 17 54 23 5 55 5 3 56 3 5 57 5 17 58 23 16 59 22 13 60 18 19 61 26 12 62 16 18 63 24 12 64 16 19 65 26 19 66 25 13 67 17 20 68 27 14 69 19 20 70 27 13 71 17 20 72 27 15 73 21 21 74 29 15 75 21 20 76 27 14 77 19 22 78 30 15 79 20 16 80 22 15 81 20 22 82 30 21 83 28 22 84 30 17 85 23 23 86 31 17 87 23 22 88 30 16 89 22</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="stockbrick_plain_bricks3-lib" name="stockbrick_plain_bricks3Mesh">
+      <mesh>
+        <source id="stockbrick_plain_bricks3-POSITION">
+          <float_array id="stockbrick_plain_bricks3-POSITION-array" count="12">
+-400.820068 -0.000000 0.000000
+0.000000 0.000000 0.000000
+-400.820068 400.000000 -0.000000
+0.000000 400.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#stockbrick_plain_bricks3-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="stockbrick_plain_bricks3-Normal0">
+          <float_array id="stockbrick_plain_bricks3-Normal0-array" count="12">
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#stockbrick_plain_bricks3-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="stockbrick_plain_bricks3-UV0">
+          <float_array id="stockbrick_plain_bricks3-UV0-array" count="8">
+0.000968 0.003012
+0.996984 0.003012
+0.996984 0.996988
+0.000968 0.996988
+</float_array>
+          <technique_common>
+            <accessor source="#stockbrick_plain_bricks3-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="stockbrick_plain_bricks3-VERTEX">
+          <input semantic="POSITION" source="#stockbrick_plain_bricks3-POSITION"/>
+          <input semantic="NORMAL" source="#stockbrick_plain_bricks3-Normal0"/>
+        </vertices>
+        <triangles count="2" material="lambert4">
+          <input semantic="VERTEX" offset="0" source="#stockbrick_plain_bricks3-VERTEX"/>
+          <input semantic="TEXCOORD" offset="1" set="0" source="#stockbrick_plain_bricks3-UV0"/>
+          <p> 1 0 0 1 2 2 1 0 2 2 3 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="streets_windows_plain_dae" id="streets_windows_plain_dae" sid="streets_windows_plain_dae">
+        <matrix sid="matrix">10.000000 0.000000 0.000000 9000.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+        <node name="stockbrick_plain_trim3" id="stockbrick_plain_trim3" sid="stockbrick_plain_trim3">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 -900.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <instance_geometry url="#stockbrick_plain_trim3-lib">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="windowsd_lambert3" target="#windowsd_lambert3"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+        </node>
+        <node name="stockbrick_plain_bricks3" id="stockbrick_plain_bricks3" sid="stockbrick_plain_bricks3">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 -900.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <instance_geometry url="#stockbrick_plain_bricks3-lib">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert4" target="#lambert4"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

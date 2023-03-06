@@ -1,0 +1,7 @@
+<Material>
+    <Main BlendMode="PremulAlpha" DepthTest="false" PhysicsMaterial="Billiard_Ball" Type="decal" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="false" File="C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/pig/Game/redist/static_objects/streets/decals/streets_decals_ales.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+    <SpecificVariables />
+</Material>

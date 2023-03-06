@@ -1,0 +1,36 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="hater01_yell01.ogg" />
+  		<Sound File="hater01_yell02.ogg" />
+  		<Sound File="hater01_yell03.ogg" />
+  		<Sound File="hater01_yell04.ogg" />
+  		<Sound File="hater01_yell05.ogg" />
+  		<Sound File="hater01_yell06.ogg" />
+  		<Sound File="hater01_yell07.ogg" />
+  		<Sound File="hater01_yell08.ogg" />
+  		<Sound File="hater01_yell09.ogg" />
+  		<Sound File="hater01_yell10.ogg" />
+  		<Sound File="hater01_yell11.ogg" />
+  		<Sound File="hater01_yell12.ogg" />
+  		<Sound File="hater01_yell13.ogg" />
+  		<Sound File="hater01_yell14.ogg" />
+  		<Sound File="hater01_yell15.ogg" />
+  		<Sound File="hater01_yell16.ogg" />
+  		<Sound File="hater01_yell17.ogg" />
+  		<Sound File="hater01_yell18.ogg" />
+  		<Sound File="hater01_yell19.ogg" />
+  		<Sound File="hater01_yell20.ogg" />
+  		<Sound File="hater01_yell21.ogg" />
+  		<Sound File="hater01_yell22.ogg" />
+  		<Sound File="hater01_yell23.ogg" />
+  		<Sound File="hater01_yell24.ogg" />
+  		<Sound File="hater01_yell25.ogg" />
+  		<Sound File="hater01_yell26.ogg" />
+  		<Sound File="hater01_yell27.ogg" />
+  		<Sound File="hater01_yell28.ogg" />
+  		<Sound File="hater01_yell29.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1" MinDistance="2" MaxDistance="16" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.7" Priority="1" />
+</SOUNDENTITY>

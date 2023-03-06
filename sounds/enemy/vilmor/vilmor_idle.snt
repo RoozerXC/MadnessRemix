@@ -1,0 +1,10 @@
+<SOUNDENTITY>
+  <SOUNDS>
+	<Main>
+  		<Sound File="vilmor_idle01.ogg" />
+  		<Sound File="vilmor_idle02.ogg" />
+  		<Sound File="vilmor_idle03.ogg" />
+	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1" MinDistance="0.5" MaxDistance="17" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="False" Loop="False" Use3D="True" Blockable="False" BlockVolumeMul="0.7" Priority="0" />
+</SOUNDENTITY>

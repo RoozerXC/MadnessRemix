@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2013-01-04T13:15:14Z</created>
+    <keywords></keywords>
+    <modified>2013-01-04T13:15:14Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.001000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file3-image" name="file3">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/Amnesia - Source/StaticObjects/streets/buildings/streets_generic_buildings_ground.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="lambert4" name="lambert4">
+      <instance_effect url="#lambert4-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert4-fx" name="lambert4">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file3-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pPlane6-lib" name="pPlane6Mesh">
+      <mesh>
+        <source id="pPlane6-POSITION">
+          <float_array id="pPlane6-POSITION-array" count="60">
+0.000000 98.102493 0.000000
+0.000000 0.000000 0.000000
+0.000000 74.360123 -40.784908
+0.000000 61.014969 -29.752064
+0.000000 83.014847 -41.894627
+0.000000 98.102493 -30.053143
+0.000000 26.007042 -29.752048
+0.000000 4.749840 -28.031147
+0.000000 7.826988 -29.752045
+0.000000 0.718414 -21.837513
+-400.000000 0.000000 0.000000
+-400.000000 0.718414 -21.837513
+-400.000000 4.749840 -28.031147
+-400.000000 7.826988 -29.752045
+-400.000000 26.007042 -29.752048
+-400.000000 61.014969 -29.752064
+-400.000000 74.360123 -40.784908
+-400.000000 83.014847 -41.894627
+-400.000000 98.102493 -30.053143
+-400.000000 98.102493 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pPlane6-POSITION-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane6-Normal0">
+          <float_array id="pPlane6-Normal0-array" count="162">
+0.000000 0.265723 -0.964050
+0.000000 0.899277 -0.437379
+0.000000 0.265723 -0.964050
+0.000000 0.899277 -0.437379
+0.000000 0.265723 -0.964050
+0.000000 0.899277 -0.437379
+0.000000 -0.637176 -0.770718
+0.000000 -0.397855 -0.917449
+0.000000 -0.637176 -0.770718
+0.000000 -0.397855 -0.917449
+0.000000 -0.637176 -0.770718
+0.000000 -0.397855 -0.917449
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.397855 -0.917449
+0.000000 0.265723 -0.964050
+0.000000 -0.397855 -0.917449
+0.000000 0.265723 -0.964050
+0.000000 -0.397855 -0.917449
+0.000000 0.265723 -0.964050
+0.000000 0.899277 -0.437379
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.899277 -0.437379
+0.000000 0.899277 -0.437379
+0.000000 -0.252206 -0.967674
+0.000000 -0.000000 -1.000000
+0.000000 -0.252206 -0.967674
+0.000000 -0.000000 -1.000000
+0.000000 -0.252206 -0.967674
+0.000000 -0.000000 -1.000000
+0.000000 -0.953863 -0.300242
+0.000000 -0.682994 -0.730424
+0.000000 -0.953863 -0.300242
+0.000000 -0.682994 -0.730424
+0.000000 -0.953863 -0.300242
+0.000000 -0.682994 -0.730424
+0.000000 -0.682994 -0.730424
+0.000000 -0.252206 -0.967674
+0.000000 -0.682994 -0.730424
+0.000000 -0.252206 -0.967674
+0.000000 -0.682994 -0.730424
+0.000000 -0.252206 -0.967674
+0.000000 -0.999459 -0.032880
+0.000000 -0.953863 -0.300242
+0.000000 -0.999459 -0.032880
+0.000000 -0.953863 -0.300242
+0.000000 -0.999459 -0.032880
+0.000000 -0.953863 -0.300242
+</float_array>
+          <technique_common>
+            <accessor source="#pPlane6-Normal0-array" count="54" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane6-UV0">
+          <float_array id="pPlane6-UV0-array" count="44">
+1.000000 0.297242
+0.000000 0.507517
+0.000000 0.487618
+0.000000 0.519523
+1.000000 0.349158
+0.000000 0.400387
+0.000000 0.351281
+0.000000 0.299278
+0.000000 0.354293
+0.000000 0.334233
+0.000000 0.545703
+0.500000 0.299279
+0.500000 0.334233
+0.500000 0.351277
+0.500000 0.354230
+0.500000 0.399942
+0.500000 0.487555
+0.500000 0.507513
+0.500000 0.519523
+0.500000 0.545703
+0.500000 0.349158
+0.500000 0.297242
+</float_array>
+          <technique_common>
+            <accessor source="#pPlane6-UV0-array" count="22" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pPlane6-VERTEX">
+          <input semantic="POSITION" source="#pPlane6-POSITION"/>
+        </vertices>
+        <triangles count="18" material="lambert4">
+          <input semantic="VERTEX" offset="0" source="#pPlane6-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pPlane6-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pPlane6-UV0"/>
+          <p> 17 0 18 5 1 10 4 2 3 5 3 10 17 4 18 18 5 19 15 6 16 2 7 1 3 8 2 2 9 1 15 10 16 16 11 17 14 12 15 3 13 2 6 14 5 3 15 2 14 16 15 15 17 16 16 18 17 4 19 3 2 20 1 4 21 3 16 22 17 17 23 18 5 24 4 19 25 21 0 26 0 19 27 21 5 28 4 18 29 20 13 30 14 6 31 5 8 32 8 6 33 5 13 34 14 14 35 15 11 36 12 7 37 6 9 38 9 7 39 6 11 40 12 12 41 13 12 42 13 8 43 8 7 44 6 8 45 8 12 46 13 13 47 14 10 48 11 9 49 9 1 50 7 9 51 9 10 52 11 11 53 12</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="pPlane6" id="pPlane6" sid="pPlane6">
+        <matrix sid="matrix">10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#pPlane6-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert4" target="#lambert4"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

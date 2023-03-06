@@ -1,0 +1,13 @@
+void OnStart() {
+	SetPlayerLampOil(0);
+}
+
+void OnEnter() {
+	PlayMusic("mx_ch01_00_amb.ogg", true, 1, 2, 0, true);
+}
+
+/*
+void InteractScareDoor(string &in asEntity) {
+	AddTimer("0", 0.5f, "TimerLockedDoorMess");
+}
+*/

@@ -1,0 +1,2128 @@
+<Level>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="false" GPointLight="false" GridSnap="true" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="false" UsingLTCam="true" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-13.3015 12.7332 4.83715" CameraTarget="-4.82696 2.75001 -13.4183" CameraZoom="0.8" GridHeight="2.75" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="false" ShowGrid="false" UsingLTCam="true" />
+        </ViewportConfig>
+        <Groups>
+            <Group ID="0" Name="None" Visible="true" />
+        </Groups>
+    </EditorSession>
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="true" SkyBoxColor="0 0 0 1" SkyBoxTexture="../../../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="4">
+                <File Id="0" Path="static_objects/dungeonbase/floor/bridge.dae" />
+                <File Id="1" Path="static_objects/dungeonbase/special/hub_bottom.dae" />
+                <File Id="2" Path="static_objects/dungeonbase/special/hub_top.dae" />
+                <File Id="3" Path="static_objects/dungeonbase/special/hub_platform.dae" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="3">
+                <File Id="0" Path="entities/enemy/servant_grunt/servant_grunt.ent" />
+                <File Id="1" Path="entities/enemy/servant_brute/servant_brute.ent" />
+                <File Id="2" Path="entities/item/potion_health/potion_health.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="0" />
+            <StaticObjects>
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="1" Name="special_hub_bottom_1" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.75 0 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="2" Name="special_hub_top_1" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.75 10 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="5" Name="floor_bridge_1" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-0.25 2.75 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="6" Name="floor_bridge_2" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-8.25 2.75 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="7" Name="floor_bridge_3" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-16.25 2.75 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="8" Name="special_hub_top_2" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-26.25 10 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="9" Name="special_hub_bottom_2" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-26.25 0 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="10" Name="floor_bridge_4" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.5 2.75 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="11" Name="floor_bridge_5" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.5 2.75 -9.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="12" Name="floor_bridge_6" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.5 2.75 -17.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="14" Name="special_hub_bottom_3" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.75 0 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="15" Name="special_hub_top_3" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.75 10 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="16" Name="floor_bridge_7" Rotation="3.88378e-013 -4.35511e-006 -7.64271e-015" Scale="2 2 2" Tag="" WorldPos="-26.25 2.75 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="17" Name="floor_bridge_8" Rotation="3.88378e-013 -4.35511e-006 -7.64271e-015" Scale="2 2 2" Tag="" WorldPos="-26.25 2.75 -9.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="18" Name="floor_bridge_9" Rotation="3.88378e-013 -4.35511e-006 -7.64271e-015" Scale="2 2 2" Tag="" WorldPos="-26.25 2.75 -17.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="19" Name="special_hub_bottom_4" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-26.5 0 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="20" Name="special_hub_top_4" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-26.5 10 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="21" Name="floor_bridge_10" Rotation="-3.12172 -1.5708 3.12172" Scale="2 2 2" Tag="" WorldPos="-16.5 2.75 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="22" Name="floor_bridge_11" Rotation="-3.12172 -1.5708 3.12172" Scale="2 2 2" Tag="" WorldPos="-8.5 2.75 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="23" Name="floor_bridge_12" Rotation="-3.12172 -1.5708 3.12172" Scale="2 2 2" Tag="" WorldPos="-0.5 2.75 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="27" Name="special_hub_platform_1" Rotation="0 1.5708 0" Scale="3 2 3" Tag="" WorldPos="-14.25 9.25 -9.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="28" Name="special_hub_platform_2" Rotation="-3.13664 -1.5708 3.13664" Scale="3 2 3" Tag="" WorldPos="-2.25 9.25 -9.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="45" Name="floor_bridge_13" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-36.25 2.75 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="46" Name="floor_bridge_14" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-44.25 2.75 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="47" Name="floor_bridge_15" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-52.25 2.75 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="48" Name="floor_bridge_16" Rotation="-3.12172 -1.5708 3.12172" Scale="2 2 2" Tag="" WorldPos="-36.5 2.75 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="49" Name="floor_bridge_17" Rotation="-3.12172 -1.5708 3.12172" Scale="2 2 2" Tag="" WorldPos="-44.5 2.75 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="50" Name="floor_bridge_18" Rotation="-3.12172 -1.5708 3.12172" Scale="2 2 2" Tag="" WorldPos="-52.5 2.75 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="51" Name="floor_bridge_19" Rotation="3.88378e-013 -4.35511e-006 -7.64271e-015" Scale="2 2 2" Tag="" WorldPos="-26.25 2.75 -53.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="52" Name="floor_bridge_20" Rotation="3.88378e-013 -4.35511e-006 -7.64271e-015" Scale="2 2 2" Tag="" WorldPos="-26.25 2.75 -45.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="53" Name="floor_bridge_21" Rotation="3.88378e-013 -4.35511e-006 -7.64271e-015" Scale="2 2 2" Tag="" WorldPos="-26.25 2.75 -37.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="54" Name="floor_bridge_22" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.5 2.75 -53.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="55" Name="floor_bridge_23" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.5 2.75 -45.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="56" Name="floor_bridge_24" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.5 2.75 -37.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="57" Name="floor_bridge_25" Rotation="3.88378e-013 -4.35511e-006 -7.64271e-015" Scale="2 2 2" Tag="" WorldPos="-26.25 2.75 18.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="58" Name="floor_bridge_26" Rotation="3.88378e-013 -4.35511e-006 -7.64271e-015" Scale="2 2 2" Tag="" WorldPos="-26.25 2.75 26.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="59" Name="floor_bridge_27" Rotation="3.88378e-013 -4.35511e-006 -7.64271e-015" Scale="2 2 2" Tag="" WorldPos="-26.25 2.75 34.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="60" Name="floor_bridge_28" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.5 2.75 18.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="61" Name="floor_bridge_29" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.5 2.75 26.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="62" Name="floor_bridge_30" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.5 2.75 34.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="63" Name="floor_bridge_31" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="19.75 2.75 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="64" Name="floor_bridge_32" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="35.75 2.75 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="65" Name="floor_bridge_33" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="27.75 2.75 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="66" Name="floor_bridge_34" Rotation="-3.12172 -1.5708 3.12172" Scale="2 2 2" Tag="" WorldPos="35.5 2.75 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="67" Name="floor_bridge_35" Rotation="-3.12172 -1.5708 3.12172" Scale="2 2 2" Tag="" WorldPos="27.5 2.75 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="68" Name="floor_bridge_36" Rotation="-3.12172 -1.5708 3.12172" Scale="2 2 2" Tag="" WorldPos="19.5 2.75 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="73" Name="special_hub_bottom_5" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.75 0 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="74" Name="special_hub_top_5" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.75 10 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="75" Name="special_hub_top_6" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-26.5 10 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="76" Name="special_hub_bottom_6" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-26.5 0 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="77" Name="special_hub_bottom_7" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.75 0 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="78" Name="special_hub_top_7" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="9.75 10 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="79" Name="special_hub_top_8" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-26.5 10 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="80" Name="special_hub_bottom_8" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-26.5 0 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="83" Name="special_hub_top_9" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-62.5 10 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="84" Name="special_hub_bottom_9" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-62.5 0 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="85" Name="special_hub_top_10" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 10 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="86" Name="special_hub_bottom_10" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 0 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="87" Name="special_hub_top_11" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="45.5 10 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="88" Name="special_hub_bottom_11" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="45.5 0 -27.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="89" Name="special_hub_top_12" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.75 10 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="90" Name="special_hub_bottom_12" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.75 0 8.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="91" Name="floor_bridge_37" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.5 2.75 -17.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="92" Name="floor_bridge_38" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.5 2.75 -9.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="93" Name="floor_bridge_39" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.5 2.75 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="94" Name="floor_bridge_40" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.5 2.75 34.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="95" Name="floor_bridge_41" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.5 2.75 26.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="96" Name="floor_bridge_42" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.5 2.75 18.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="97" Name="floor_bridge_43" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.5 2.75 -37.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="98" Name="floor_bridge_44" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.5 2.75 -45.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="99" Name="floor_bridge_45" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.5 2.75 -53.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="100" Name="floor_bridge_46" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 2.75 -17.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="101" Name="floor_bridge_47" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 2.75 -9.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="102" Name="floor_bridge_48" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 2.75 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="103" Name="floor_bridge_49" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 2.75 34.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="104" Name="floor_bridge_50" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 2.75 26.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="105" Name="floor_bridge_51" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 2.75 18.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="106" Name="floor_bridge_52" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 2.75 -37.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="107" Name="floor_bridge_53" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 2.75 -45.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="108" Name="floor_bridge_54" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="-62.25 2.75 -53.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="109" Name="floor_bridge_55" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-52.25 2.75 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="110" Name="floor_bridge_56" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-44.25 2.75 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="111" Name="floor_bridge_57" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-36.25 2.75 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="112" Name="floor_bridge_58" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-16.25 2.75 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="113" Name="floor_bridge_59" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-8.25 2.75 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="114" Name="floor_bridge_60" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-0.25 2.75 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="115" Name="floor_bridge_61" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="19.75 2.75 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="116" Name="floor_bridge_62" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="27.75 2.75 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="117" Name="floor_bridge_63" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="35.75 2.75 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="118" Name="floor_bridge_64" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-52.25 2.75 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="119" Name="floor_bridge_65" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-44.25 2.75 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="120" Name="floor_bridge_66" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-36.25 2.75 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="121" Name="floor_bridge_67" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-16.25 2.75 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="122" Name="floor_bridge_68" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-8.25 2.75 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="123" Name="floor_bridge_69" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="-0.25 2.75 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="124" Name="floor_bridge_70" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="19.75 2.75 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="125" Name="floor_bridge_71" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="27.75 2.75 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="126" Name="floor_bridge_72" Rotation="0 1.5708 0" Scale="2 2 2" Tag="" WorldPos="35.75 2.75 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="129" Name="special_hub_top_13" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-62.25 10 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="130" Name="special_hub_bottom_13" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-62.25 0 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="131" Name="special_hub_top_14" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-62.25 10 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="132" Name="special_hub_bottom_14" Rotation="3.88378e-013 -4.51408e-006 6.25501e-015" Scale="2 2 2" Tag="" WorldPos="-62.25 0 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="133" Name="special_hub_top_15" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.75 10 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="134" Name="special_hub_bottom_15" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.75 0 -63.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="135" Name="special_hub_top_16" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.75 10 44.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="136" Name="special_hub_bottom_16" Rotation="3.14159 7.15493e-008 3.14159" Scale="2 2 2" Tag="" WorldPos="45.75 0 44.5" />
+            </StaticObjects>
+            <Primitives />
+            <Decals />
+            <Entities>
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="29" Mesh="" Name="PlayerStartArea_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-8.25 9.25 -9.5">
+                    <UserVariables />
+                </Area>
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="1 0 0 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="30" Name="Red" Radius="1" Rotation="0 0 0" Scale="24.5 12.75 24.5" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="24.5 12.75 24.5" Tag="" WorldPos="-8.25 10.75 -9.5" />
+                <BoxLight Active="false" BlendFunc="0" CastShadows="false" DiffuseColor="0.333333 1 0 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="31" Name="Green" Radius="1" Rotation="0 0 0" Scale="24.5 12.75 24.5" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="24.5 12.75 24.5" Tag="" WorldPos="-8.25 11.25 -9.5" />
+                <BoxLight Active="false" BlendFunc="0" CastShadows="false" DiffuseColor="0 0.666667 1 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="32" Name="Blue" Radius="1" Rotation="0 0 0" Scale="24.5 12.75 24.5" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="24.5 12.75 24.5" Tag="" WorldPos="-8.25 11.75 -9.5" />
+                <BoxLight Active="false" BlendFunc="0" CastShadows="false" DiffuseColor="1 0 1 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="33" Name="Purple" Radius="1" Rotation="0 0 0" Scale="24.5 12.75 24.5" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="24.5 12.75 24.5" Tag="" WorldPos="-8.25 12.25 -9.5" />
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.289063 0.289063 0.289063 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="34" Name="BoxLight_1" Radius="1" Rotation="0 0 0" Scale="83.75 48.75 15" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="83.75 48.75 15" Tag="" WorldPos="-7.75 9.25 -29.5" />
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.289063 0.289063 0.289063 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="35" Name="BoxLight_2" Radius="1" Rotation="0 0 0" Scale="83.75 48.75 15" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="83.75 48.75 15" Tag="" WorldPos="-7.75 9.25 10.25" />
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.289063 0.289063 0.289063 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="36" Name="BoxLight_3" Radius="1" Rotation="0 -2.26498e-006 0" Scale="28.25 48.75 58" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="28.25 48.75 58" Tag="" WorldPos="-34.75 9.25 -9.5" />
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.289063 0.289063 0.289063 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="37" Name="BoxLight_4" Radius="1" Rotation="0 -2.26498e-006 0" Scale="28.25 48.75 58" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="28.25 48.75 58" Tag="" WorldPos="18.25 9.25 -9.5" />
+                <Area Active="true" AreaType="Script" Group="0" ID="38" Mesh="" Name="SpawnArea" Rotation="0 0 0" Scale="150 1 150" Tag="" WorldPos="-8.25 5.75 -9.5">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <FogArea Active="true" Color="0 0 0 1" End="10" FalloffExp="1" Group="0" ID="39" Name="FogArea_1" Rotation="0 0 0" Scale="150 15 150" ShownBacksideWhenInside="true" ShownBacksideWhenOutside="false" Start="0" Tag="" WorldPos="-8.25 -4.75 -9.5" />
+                <FogArea Active="true" Color="0 0 0 1" End="10" FalloffExp="0.5" Group="0" ID="40" Name="FogArea_2" Rotation="0 0 0" Scale="150 15 150" ShownBacksideWhenInside="true" ShownBacksideWhenOutside="false" Start="0" Tag="" WorldPos="-8.25 -6.5 -9.5" />
+                <FogArea Active="true" Color="0 0 0 1" End="10" FalloffExp="0" Group="0" ID="41" Name="FogArea_3" Rotation="0 0 0" Scale="150 15 150" ShownBacksideWhenInside="true" ShownBacksideWhenOutside="false" Start="0" Tag="" WorldPos="-8.25 -8.25 -9.5" />
+                <Area Active="true" AreaType="Script" Group="0" ID="43" Mesh="" Name="DeathArea" Rotation="0 0 0" Scale="300 1 300" Tag="" WorldPos="-8.25 -2.25 -9.5">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.289063 0.289063 0.289063 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="69" Name="BoxLight_5" Radius="1" Rotation="0 -2.26498e-006 0" Scale="147.75 48.75 209" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="147.75 48.75 209" Tag="" WorldPos="78.5 9.25 -9.5" />
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.289063 0.289063 0.289063 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="70" Name="BoxLight_6" Radius="1" Rotation="0 -2.26498e-006 0" Scale="188.25 48.75 209" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="188.25 48.75 209" Tag="" WorldPos="-5.5 9.25 110" />
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.289063 0.289063 0.289063 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="71" Name="BoxLight_7" Radius="1" Rotation="0 -2.26498e-006 0" Scale="188.25 48.75 209" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="188.25 48.75 209" Tag="" WorldPos="-118.75 9.25 -56.5" />
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.289063 0.289063 0.289063 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="72" Name="BoxLight_8" Radius="1" Rotation="0 -2.26498e-006 0" Scale="188.25 48.75 209" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="188.25 48.75 209" Tag="" WorldPos="-9.5 9.25 -128.25" />
+                <Area Active="true" AreaType="PathNode" Group="0" ID="146" Mesh="" Name="PathNodeArea_1" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="147" Mesh="" Name="PathNodeArea_2" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="148" Mesh="" Name="PathNodeArea_3" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -59.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="149" Mesh="" Name="PathNodeArea_4" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46 2.75 -56.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="150" Mesh="" Name="PathNodeArea_5" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.5 2.75 -53.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="151" Mesh="" Name="PathNodeArea_6" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -51.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="152" Mesh="" Name="PathNodeArea_7" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.5 2.75 -48.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="153" Mesh="" Name="PathNodeArea_8" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.5 2.75 -46.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="154" Mesh="" Name="PathNodeArea_9" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.5 2.75 -44.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="155" Mesh="" Name="PathNodeArea_10" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.5 2.75 -41.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="156" Mesh="" Name="PathNodeArea_11" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.5 2.75 -39">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="157" Mesh="" Name="PathNodeArea_12" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.25 2.75 -36.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="158" Mesh="" Name="PathNodeArea_13" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.5 2.75 -34.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="159" Mesh="" Name="PathNodeArea_14" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -30.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="160" Mesh="" Name="PathNodeArea_15" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -28">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="161" Mesh="" Name="PathNodeArea_16" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -25.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="162" Mesh="" Name="PathNodeArea_17" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.5 2.75 -23.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="163" Mesh="" Name="PathNodeArea_18" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -20.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="164" Mesh="" Name="PathNodeArea_19" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46 2.75 -17.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="165" Mesh="" Name="PathNodeArea_20" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46 2.75 -14.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="166" Mesh="" Name="PathNodeArea_21" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -12">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="167" Mesh="" Name="PathNodeArea_22" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -9.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="168" Mesh="" Name="PathNodeArea_23" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.25 2.75 -7.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="169" Mesh="" Name="PathNodeArea_24" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 -5.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="170" Mesh="" Name="PathNodeArea_25" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45 2.75 -3.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="171" Mesh="" Name="PathNodeArea_26" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 -1.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="172" Mesh="" Name="PathNodeArea_27" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45 2.75 -1.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="173" Mesh="" Name="PathNodeArea_28" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 0.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="174" Mesh="" Name="PathNodeArea_29" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.5 2.75 1">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="175" Mesh="" Name="PathNodeArea_30" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.5 2.75 4">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="176" Mesh="" Name="PathNodeArea_31" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.5 2.75 4.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="177" Mesh="" Name="PathNodeArea_32" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 7">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="178" Mesh="" Name="PathNodeArea_33" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44 2.75 7.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="179" Mesh="" Name="PathNodeArea_34" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 10.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="180" Mesh="" Name="PathNodeArea_35" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.25 2.75 9">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="181" Mesh="" Name="PathNodeArea_36" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45 2.75 12.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="182" Mesh="" Name="PathNodeArea_37" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 8">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="183" Mesh="" Name="PathNodeArea_38" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.5 2.75 11.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="184" Mesh="" Name="PathNodeArea_39" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.25 2.75 14.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="185" Mesh="" Name="PathNodeArea_40" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.75 2.75 16.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="186" Mesh="" Name="PathNodeArea_41" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 18">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="187" Mesh="" Name="PathNodeArea_42" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.5 2.75 18.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="188" Mesh="" Name="PathNodeArea_43" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 21">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="189" Mesh="" Name="PathNodeArea_44" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.25 2.75 20.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="190" Mesh="" Name="PathNodeArea_45" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 23">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="191" Mesh="" Name="PathNodeArea_46" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.25 2.75 22.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="192" Mesh="" Name="PathNodeArea_47" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.5 2.75 26">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="193" Mesh="" Name="PathNodeArea_48" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.25 2.75 26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="194" Mesh="" Name="PathNodeArea_49" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.25 2.75 27.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="195" Mesh="" Name="PathNodeArea_50" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.5 2.75 28">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="196" Mesh="" Name="PathNodeArea_51" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 30">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="197" Mesh="" Name="PathNodeArea_52" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.25 2.75 29.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="198" Mesh="" Name="PathNodeArea_53" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.5 2.75 31.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="199" Mesh="" Name="PathNodeArea_54" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.25 2.75 30.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="200" Mesh="" Name="PathNodeArea_55" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 33.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="201" Mesh="" Name="PathNodeArea_56" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.5 2.75 33">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="202" Mesh="" Name="PathNodeArea_57" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 36">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="203" Mesh="" Name="PathNodeArea_58" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.5 2.75 35">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="204" Mesh="" Name="PathNodeArea_59" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.25 2.75 37.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="205" Mesh="" Name="PathNodeArea_60" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.75 2.75 37.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="206" Mesh="" Name="PathNodeArea_61" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.25 2.75 40.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="207" Mesh="" Name="PathNodeArea_62" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.5 2.75 40.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="208" Mesh="" Name="PathNodeArea_63" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="48.25 2.75 42.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="209" Mesh="" Name="PathNodeArea_64" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.25 2.75 42.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="210" Mesh="" Name="PathNodeArea_65" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="43.25 2.75 42">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="211" Mesh="" Name="PathNodeArea_66" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="42 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="212" Mesh="" Name="PathNodeArea_67" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="43.25 2.75 45">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="213" Mesh="" Name="PathNodeArea_68" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44 2.75 48">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="214" Mesh="" Name="PathNodeArea_69" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="215" Mesh="" Name="PathNodeArea_70" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.75 2.75 48.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="216" Mesh="" Name="PathNodeArea_71" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="47.5 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="217" Mesh="" Name="PathNodeArea_72" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="48 2.75 47">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="218" Mesh="" Name="PathNodeArea_73" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.5 2.75 45.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="219" Mesh="" Name="PathNodeArea_74" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="43.5 2.75 46.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="220" Mesh="" Name="PathNodeArea_75" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44 2.75 11">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="221" Mesh="" Name="PathNodeArea_76" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="42.5 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="222" Mesh="" Name="PathNodeArea_77" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="223" Mesh="" Name="PathNodeArea_78" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45 2.75 5.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="224" Mesh="" Name="PathNodeArea_79" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="48 2.75 6.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="225" Mesh="" Name="PathNodeArea_80" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="48.25 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="226" Mesh="" Name="PathNodeArea_81" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="42.25 2.75 7">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="227" Mesh="" Name="PathNodeArea_82" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="48.5 2.75 10.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="228" Mesh="" Name="PathNodeArea_83" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.5 2.75 -31.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="229" Mesh="" Name="PathNodeArea_84" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44 2.75 -28.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="230" Mesh="" Name="PathNodeArea_85" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44 2.75 -26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="231" Mesh="" Name="PathNodeArea_86" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44 2.75 -24.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="232" Mesh="" Name="PathNodeArea_87" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="41.75 2.75 -26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="233" Mesh="" Name="PathNodeArea_88" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="42.25 2.75 -27.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="234" Mesh="" Name="PathNodeArea_89" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="42.25 2.75 -29.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="235" Mesh="" Name="PathNodeArea_90" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="43.5 2.75 -30.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="236" Mesh="" Name="PathNodeArea_91" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.75 2.75 -30">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="237" Mesh="" Name="PathNodeArea_92" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="48.75 2.75 -28.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="238" Mesh="" Name="PathNodeArea_93" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="47.25 2.75 -28.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="239" Mesh="" Name="PathNodeArea_94" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="48.75 2.75 -26.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="240" Mesh="" Name="PathNodeArea_95" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46.5 2.75 -26.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="241" Mesh="" Name="PathNodeArea_96" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="47.25 2.75 -24.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="242" Mesh="" Name="PathNodeArea_97" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.5 2.75 -62.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="243" Mesh="" Name="PathNodeArea_98" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="43.75 2.75 -64.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="244" Mesh="" Name="PathNodeArea_99" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="46 2.75 -65.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="245" Mesh="" Name="PathNodeArea_100" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="47.25 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="246" Mesh="" Name="PathNodeArea_101" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="47 2.75 -61.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="247" Mesh="" Name="PathNodeArea_102" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="42.75 2.75 -63.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="248" Mesh="" Name="PathNodeArea_103" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="44.25 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="249" Mesh="" Name="PathNodeArea_104" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="42.75 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="250" Mesh="" Name="PathNodeArea_105" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="47 2.75 -60.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="251" Mesh="" Name="PathNodeArea_106" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="49.25 2.75 -62.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="252" Mesh="" Name="PathNodeArea_107" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="48.5 2.75 -65.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="253" Mesh="" Name="PathNodeArea_108" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="45.5 2.75 -67.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="254" Mesh="" Name="PathNodeArea_109" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="43.5 2.75 -66.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="255" Mesh="" Name="PathNodeArea_110" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="42.25 2.75 -65.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="256" Mesh="" Name="PathNodeArea_111" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="38.75 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="257" Mesh="" Name="PathNodeArea_112" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="35.5 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="258" Mesh="" Name="PathNodeArea_113" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="32 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="259" Mesh="" Name="PathNodeArea_114" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="37.75 2.75 -63.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="260" Mesh="" Name="PathNodeArea_115" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="29.5 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="261" Mesh="" Name="PathNodeArea_116" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="26.5 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="262" Mesh="" Name="PathNodeArea_117" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="24 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="263" Mesh="" Name="PathNodeArea_118" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="22.25 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="264" Mesh="" Name="PathNodeArea_119" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="19.75 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="265" Mesh="" Name="PathNodeArea_120" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="17.5 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="266" Mesh="" Name="PathNodeArea_121" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="16 2.75 -63.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="267" Mesh="" Name="PathNodeArea_122" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="13.5 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="268" Mesh="" Name="PathNodeArea_123" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="38.75 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="269" Mesh="" Name="PathNodeArea_124" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="36.75 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="270" Mesh="" Name="PathNodeArea_125" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="34.5 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="271" Mesh="" Name="PathNodeArea_126" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="33.75 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="272" Mesh="" Name="PathNodeArea_127" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="30.5 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="273" Mesh="" Name="PathNodeArea_128" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="28.75 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="274" Mesh="" Name="PathNodeArea_129" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="26 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="275" Mesh="" Name="PathNodeArea_130" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="23.75 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="276" Mesh="" Name="PathNodeArea_131" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="21.5 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="277" Mesh="" Name="PathNodeArea_132" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="19.5 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="278" Mesh="" Name="PathNodeArea_133" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="17.5 2.75 -26.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="279" Mesh="" Name="PathNodeArea_134" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="16.25 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="280" Mesh="" Name="PathNodeArea_135" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="13.75 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="281" Mesh="" Name="PathNodeArea_136" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="38.75 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="282" Mesh="" Name="PathNodeArea_137" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="35.75 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="283" Mesh="" Name="PathNodeArea_138" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="34.25 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="284" Mesh="" Name="PathNodeArea_139" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="30.25 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="285" Mesh="" Name="PathNodeArea_140" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="27.25 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="286" Mesh="" Name="PathNodeArea_141" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="26.25 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="287" Mesh="" Name="PathNodeArea_142" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="23.25 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="288" Mesh="" Name="PathNodeArea_143" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="22.25 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="289" Mesh="" Name="PathNodeArea_144" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="31.75 2.75 8.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="290" Mesh="" Name="PathNodeArea_145" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="20.5 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="291" Mesh="" Name="PathNodeArea_146" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="18.5 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="292" Mesh="" Name="PathNodeArea_147" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="17.25 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="293" Mesh="" Name="PathNodeArea_148" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="16.25 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="294" Mesh="" Name="PathNodeArea_149" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="14 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="295" Mesh="" Name="PathNodeArea_150" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="39.25 2.75 45">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="296" Mesh="" Name="PathNodeArea_151" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="37 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="297" Mesh="" Name="PathNodeArea_152" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="35 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="298" Mesh="" Name="PathNodeArea_153" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="32.75 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="299" Mesh="" Name="PathNodeArea_154" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="30.75 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="300" Mesh="" Name="PathNodeArea_155" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="28 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="301" Mesh="" Name="PathNodeArea_156" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="26 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="302" Mesh="" Name="PathNodeArea_157" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="23 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="303" Mesh="" Name="PathNodeArea_158" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="20 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="304" Mesh="" Name="PathNodeArea_159" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="17.25 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="305" Mesh="" Name="PathNodeArea_160" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="13.5 2.75 45.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="306" Mesh="" Name="PathNodeArea_161" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-22.25 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="307" Mesh="" Name="PathNodeArea_162" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-19.75 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="308" Mesh="" Name="PathNodeArea_163" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-18.5 2.75 -26.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="309" Mesh="" Name="PathNodeArea_164" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-22 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="310" Mesh="" Name="PathNodeArea_165" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-16.5 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="311" Mesh="" Name="PathNodeArea_166" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-19.75 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="312" Mesh="" Name="PathNodeArea_167" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-18.75 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="313" Mesh="" Name="PathNodeArea_168" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-14.5 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="314" Mesh="" Name="PathNodeArea_169" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-17.5 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="315" Mesh="" Name="PathNodeArea_170" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-12.25 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="316" Mesh="" Name="PathNodeArea_171" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-15.5 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="317" Mesh="" Name="PathNodeArea_172" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-13.75 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="318" Mesh="" Name="PathNodeArea_173" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-10 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="319" Mesh="" Name="PathNodeArea_174" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-12.75 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="320" Mesh="" Name="PathNodeArea_175" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-9.75 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="321" Mesh="" Name="PathNodeArea_176" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-7.25 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="322" Mesh="" Name="PathNodeArea_177" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-8.75 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="323" Mesh="" Name="PathNodeArea_178" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-5.5 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="324" Mesh="" Name="PathNodeArea_179" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-5.75 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="325" Mesh="" Name="PathNodeArea_180" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-4.25 2.75 8.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="326" Mesh="" Name="PathNodeArea_181" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-2.25 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="327" Mesh="" Name="PathNodeArea_182" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-1.5 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="328" Mesh="" Name="PathNodeArea_183" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-1.75 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="329" Mesh="" Name="PathNodeArea_184" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="330" Mesh="" Name="PathNodeArea_185" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-0.25 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="331" Mesh="" Name="PathNodeArea_186" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="2.75 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="332" Mesh="" Name="PathNodeArea_187" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="2.75 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="333" Mesh="" Name="PathNodeArea_188" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="5.75 2.75 -26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="334" Mesh="" Name="PathNodeArea_189" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.25 2.75 -7.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="335" Mesh="" Name="PathNodeArea_190" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="6.25 2.75 -27.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="336" Mesh="" Name="PathNodeArea_191" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9 2.75 -3.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="337" Mesh="" Name="PathNodeArea_192" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -12">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="338" Mesh="" Name="PathNodeArea_193" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -9.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="339" Mesh="" Name="PathNodeArea_194" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9 2.75 -1.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="340" Mesh="" Name="PathNodeArea_195" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -5.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="341" Mesh="" Name="PathNodeArea_196" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="6.25 2.75 7">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="342" Mesh="" Name="PathNodeArea_197" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10 2.75 -14.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="343" Mesh="" Name="PathNodeArea_198" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8 2.75 -24.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="344" Mesh="" Name="PathNodeArea_199" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="6.25 2.75 -29.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="345" Mesh="" Name="PathNodeArea_200" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10 2.75 -17.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="346" Mesh="" Name="PathNodeArea_201" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8 2.75 -26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="347" Mesh="" Name="PathNodeArea_202" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -20.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="348" Mesh="" Name="PathNodeArea_203" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="6.5 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="349" Mesh="" Name="PathNodeArea_204" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.5 2.75 1">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="350" Mesh="" Name="PathNodeArea_205" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.5 2.75 4.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="351" Mesh="" Name="PathNodeArea_206" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.5 2.75 -23.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="352" Mesh="" Name="PathNodeArea_207" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8 2.75 -28.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="353" Mesh="" Name="PathNodeArea_208" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 -1.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="354" Mesh="" Name="PathNodeArea_209" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8 2.75 7.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="355" Mesh="" Name="PathNodeArea_210" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="7.5 2.75 -30.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="356" Mesh="" Name="PathNodeArea_211" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9 2.75 5.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="357" Mesh="" Name="PathNodeArea_212" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -25.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="358" Mesh="" Name="PathNodeArea_213" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 0.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="359" Mesh="" Name="PathNodeArea_214" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.25 2.75 9">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="360" Mesh="" Name="PathNodeArea_215" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.5 2.75 4">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="361" Mesh="" Name="PathNodeArea_216" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -28">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="362" Mesh="" Name="PathNodeArea_217" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.5 2.75 -26.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="363" Mesh="" Name="PathNodeArea_218" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="11.25 2.75 -24.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="364" Mesh="" Name="PathNodeArea_219" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.5 2.75 -31.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="365" Mesh="" Name="PathNodeArea_220" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8 2.75 11">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="366" Mesh="" Name="PathNodeArea_221" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -30.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="367" Mesh="" Name="PathNodeArea_222" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 7">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="368" Mesh="" Name="PathNodeArea_223" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="369" Mesh="" Name="PathNodeArea_224" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="11.25 2.75 -28.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="370" Mesh="" Name="PathNodeArea_225" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 8">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="371" Mesh="" Name="PathNodeArea_226" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 -30">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="372" Mesh="" Name="PathNodeArea_227" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9 2.75 12.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="373" Mesh="" Name="PathNodeArea_228" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="12 2.75 6.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="374" Mesh="" Name="PathNodeArea_229" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="12.75 2.75 -26.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="375" Mesh="" Name="PathNodeArea_230" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.5 2.75 -34.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="376" Mesh="" Name="PathNodeArea_231" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 10.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="377" Mesh="" Name="PathNodeArea_232" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.5 2.75 11.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="378" Mesh="" Name="PathNodeArea_233" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="12.75 2.75 -28.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="379" Mesh="" Name="PathNodeArea_234" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="12.25 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="380" Mesh="" Name="PathNodeArea_235" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.25 2.75 -36.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="381" Mesh="" Name="PathNodeArea_236" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.75 2.75 16.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="382" Mesh="" Name="PathNodeArea_237" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="12.5 2.75 10.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="383" Mesh="" Name="PathNodeArea_238" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.25 2.75 14.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="384" Mesh="" Name="PathNodeArea_239" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.5 2.75 -39">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="385" Mesh="" Name="PathNodeArea_240" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.5 2.75 18.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="386" Mesh="" Name="PathNodeArea_241" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.25 2.75 20.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="387" Mesh="" Name="PathNodeArea_242" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 18">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="388" Mesh="" Name="PathNodeArea_243" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.5 2.75 -41.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="389" Mesh="" Name="PathNodeArea_244" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.25 2.75 22.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="390" Mesh="" Name="PathNodeArea_245" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.5 2.75 -44.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="391" Mesh="" Name="PathNodeArea_246" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 21">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="392" Mesh="" Name="PathNodeArea_247" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 23">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="393" Mesh="" Name="PathNodeArea_248" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.25 2.75 26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="394" Mesh="" Name="PathNodeArea_249" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.5 2.75 -46.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="395" Mesh="" Name="PathNodeArea_250" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.5 2.75 -48.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="396" Mesh="" Name="PathNodeArea_251" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.5 2.75 28">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="397" Mesh="" Name="PathNodeArea_252" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.5 2.75 26">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="398" Mesh="" Name="PathNodeArea_253" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.25 2.75 29.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="399" Mesh="" Name="PathNodeArea_254" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.25 2.75 27.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="400" Mesh="" Name="PathNodeArea_255" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.25 2.75 30.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="401" Mesh="" Name="PathNodeArea_256" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -51.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="402" Mesh="" Name="PathNodeArea_257" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 30">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="403" Mesh="" Name="PathNodeArea_258" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.5 2.75 -53.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="404" Mesh="" Name="PathNodeArea_259" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-4 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="405" Mesh="" Name="PathNodeArea_260" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.5 2.75 33">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="406" Mesh="" Name="PathNodeArea_261" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.5 2.75 31.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="407" Mesh="" Name="PathNodeArea_262" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-0.5 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="408" Mesh="" Name="PathNodeArea_263" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.5 2.75 35">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="409" Mesh="" Name="PathNodeArea_264" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 33.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="410" Mesh="" Name="PathNodeArea_265" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10 2.75 -56.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="411" Mesh="" Name="PathNodeArea_266" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="1.75 2.75 -63.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="412" Mesh="" Name="PathNodeArea_267" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="2.75 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="413" Mesh="" Name="PathNodeArea_268" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="6.75 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="414" Mesh="" Name="PathNodeArea_269" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.75 2.75 37.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="415" Mesh="" Name="PathNodeArea_270" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.75 2.75 36">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="416" Mesh="" Name="PathNodeArea_271" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -59.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="417" Mesh="" Name="PathNodeArea_272" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.25 2.75 37.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="418" Mesh="" Name="PathNodeArea_273" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.25 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="419" Mesh="" Name="PathNodeArea_274" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="1 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="420" Mesh="" Name="PathNodeArea_275" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="6.75 2.75 -63.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="421" Mesh="" Name="PathNodeArea_276" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="422" Mesh="" Name="PathNodeArea_277" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8.5 2.75 -62.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="423" Mesh="" Name="PathNodeArea_278" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="11 2.75 -60.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="424" Mesh="" Name="PathNodeArea_279" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="7.25 2.75 42">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="425" Mesh="" Name="PathNodeArea_280" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.25 2.75 40.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="426" Mesh="" Name="PathNodeArea_281" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="3.25 2.75 45">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="427" Mesh="" Name="PathNodeArea_282" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="6.25 2.75 -65.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="428" Mesh="" Name="PathNodeArea_283" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="11 2.75 -61.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="429" Mesh="" Name="PathNodeArea_284" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="7.75 2.75 -64.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="430" Mesh="" Name="PathNodeArea_285" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.5 2.75 40.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="431" Mesh="" Name="PathNodeArea_286" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="432" Mesh="" Name="PathNodeArea_287" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="6 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="433" Mesh="" Name="PathNodeArea_288" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.25 2.75 42.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="434" Mesh="" Name="PathNodeArea_289" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="7.5 2.75 -66.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="435" Mesh="" Name="PathNodeArea_290" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="7.25 2.75 45">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="436" Mesh="" Name="PathNodeArea_291" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="13.25 2.75 -62.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="437" Mesh="" Name="PathNodeArea_292" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="11.25 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="438" Mesh="" Name="PathNodeArea_293" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="439" Mesh="" Name="PathNodeArea_294" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10 2.75 -65.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="440" Mesh="" Name="PathNodeArea_295" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="12.25 2.75 42.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="441" Mesh="" Name="PathNodeArea_296" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="7.5 2.75 46.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="442" Mesh="" Name="PathNodeArea_297" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.5 2.75 -67.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="443" Mesh="" Name="PathNodeArea_298" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="11.5 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="444" Mesh="" Name="PathNodeArea_299" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="12.5 2.75 -65.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="445" Mesh="" Name="PathNodeArea_300" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="10.5 2.75 45.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="446" Mesh="" Name="PathNodeArea_301" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8 2.75 48">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="447" Mesh="" Name="PathNodeArea_302" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="9.75 2.75 48.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="448" Mesh="" Name="PathNodeArea_303" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="12 2.75 47">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="449" Mesh="" Name="PathNodeArea_304" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-22.5 2.75 45.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="450" Mesh="" Name="PathNodeArea_305" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-18.75 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="451" Mesh="" Name="PathNodeArea_306" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-16 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="452" Mesh="" Name="PathNodeArea_307" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-13 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="453" Mesh="" Name="PathNodeArea_308" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-10 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="454" Mesh="" Name="PathNodeArea_309" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-8 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="455" Mesh="" Name="PathNodeArea_310" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-5.25 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="456" Mesh="" Name="PathNodeArea_311" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-3.25 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="457" Mesh="" Name="PathNodeArea_312" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-1 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="458" Mesh="" Name="PathNodeArea_313" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-6.5 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="459" Mesh="" Name="PathNodeArea_314" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-9.5 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="460" Mesh="" Name="PathNodeArea_315" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-12 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="461" Mesh="" Name="PathNodeArea_316" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-13.75 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="462" Mesh="" Name="PathNodeArea_317" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-16.25 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="463" Mesh="" Name="PathNodeArea_318" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-18.5 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="464" Mesh="" Name="PathNodeArea_319" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-20 2.75 -63.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="465" Mesh="" Name="PathNodeArea_320" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-22.5 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="466" Mesh="" Name="PathNodeArea_321" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-58 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="467" Mesh="" Name="PathNodeArea_322" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-55.5 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="468" Mesh="" Name="PathNodeArea_323" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-54.25 2.75 -26.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="469" Mesh="" Name="PathNodeArea_324" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-57.75 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="470" Mesh="" Name="PathNodeArea_325" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-52.25 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="471" Mesh="" Name="PathNodeArea_326" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-55.5 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="472" Mesh="" Name="PathNodeArea_327" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-54.5 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="473" Mesh="" Name="PathNodeArea_328" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-50.25 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="474" Mesh="" Name="PathNodeArea_329" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-53.25 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="475" Mesh="" Name="PathNodeArea_330" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-48 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="476" Mesh="" Name="PathNodeArea_331" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-51.25 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="477" Mesh="" Name="PathNodeArea_332" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-49.5 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="478" Mesh="" Name="PathNodeArea_333" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-45.75 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="479" Mesh="" Name="PathNodeArea_334" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-48.5 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="480" Mesh="" Name="PathNodeArea_335" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-45.5 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="481" Mesh="" Name="PathNodeArea_336" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-43 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="482" Mesh="" Name="PathNodeArea_337" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-44.5 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="483" Mesh="" Name="PathNodeArea_338" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-41.25 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="484" Mesh="" Name="PathNodeArea_339" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-41.5 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="485" Mesh="" Name="PathNodeArea_340" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-40 2.75 8.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="486" Mesh="" Name="PathNodeArea_341" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-38 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="487" Mesh="" Name="PathNodeArea_342" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-37.25 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="488" Mesh="" Name="PathNodeArea_343" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-37.5 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="489" Mesh="" Name="PathNodeArea_344" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-35 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="490" Mesh="" Name="PathNodeArea_345" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-36 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="491" Mesh="" Name="PathNodeArea_346" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-33 2.75 -27.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="492" Mesh="" Name="PathNodeArea_347" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-33 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="493" Mesh="" Name="PathNodeArea_348" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-30 2.75 -26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="494" Mesh="" Name="PathNodeArea_349" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.5 2.75 -7.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="495" Mesh="" Name="PathNodeArea_350" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-29.5 2.75 -27.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="496" Mesh="" Name="PathNodeArea_351" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.75 2.75 -3.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="497" Mesh="" Name="PathNodeArea_352" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -12">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="498" Mesh="" Name="PathNodeArea_353" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -9.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="499" Mesh="" Name="PathNodeArea_354" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.75 2.75 -1.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="500" Mesh="" Name="PathNodeArea_355" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -5.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="501" Mesh="" Name="PathNodeArea_356" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-29.5 2.75 7">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="502" Mesh="" Name="PathNodeArea_357" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.75 2.75 -14.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="503" Mesh="" Name="PathNodeArea_358" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.75 2.75 -24.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="504" Mesh="" Name="PathNodeArea_359" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-29.5 2.75 -29.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="505" Mesh="" Name="PathNodeArea_360" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.75 2.75 -17.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="506" Mesh="" Name="PathNodeArea_361" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.75 2.75 -26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="507" Mesh="" Name="PathNodeArea_362" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -20.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="508" Mesh="" Name="PathNodeArea_363" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-29.25 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="509" Mesh="" Name="PathNodeArea_364" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.25 2.75 1">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="510" Mesh="" Name="PathNodeArea_365" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.25 2.75 4.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="511" Mesh="" Name="PathNodeArea_366" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.25 2.75 -23.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="512" Mesh="" Name="PathNodeArea_367" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.75 2.75 -28.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="513" Mesh="" Name="PathNodeArea_368" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 -1.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="514" Mesh="" Name="PathNodeArea_369" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.75 2.75 7.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="515" Mesh="" Name="PathNodeArea_370" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-28.25 2.75 -30.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="516" Mesh="" Name="PathNodeArea_371" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.75 2.75 5.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="517" Mesh="" Name="PathNodeArea_372" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -25.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="518" Mesh="" Name="PathNodeArea_373" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 0.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="519" Mesh="" Name="PathNodeArea_374" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.5 2.75 9">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="520" Mesh="" Name="PathNodeArea_375" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.25 2.75 4">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="521" Mesh="" Name="PathNodeArea_376" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -28">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="522" Mesh="" Name="PathNodeArea_377" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.25 2.75 -26.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="523" Mesh="" Name="PathNodeArea_378" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-24.5 2.75 -24.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="524" Mesh="" Name="PathNodeArea_379" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.25 2.75 -31.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="525" Mesh="" Name="PathNodeArea_380" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.75 2.75 11">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="526" Mesh="" Name="PathNodeArea_381" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -30.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="527" Mesh="" Name="PathNodeArea_382" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 7">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="528" Mesh="" Name="PathNodeArea_383" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.75 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="529" Mesh="" Name="PathNodeArea_384" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-24.5 2.75 -28.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="530" Mesh="" Name="PathNodeArea_385" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 8">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="531" Mesh="" Name="PathNodeArea_386" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 -30">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="532" Mesh="" Name="PathNodeArea_387" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.75 2.75 12.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="533" Mesh="" Name="PathNodeArea_388" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-23.75 2.75 6.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="534" Mesh="" Name="PathNodeArea_389" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-23 2.75 -26.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="535" Mesh="" Name="PathNodeArea_390" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.25 2.75 -34.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="536" Mesh="" Name="PathNodeArea_391" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 10.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="537" Mesh="" Name="PathNodeArea_392" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.25 2.75 11.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="538" Mesh="" Name="PathNodeArea_393" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-23 2.75 -28.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="539" Mesh="" Name="PathNodeArea_394" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-23.5 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="540" Mesh="" Name="PathNodeArea_395" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.5 2.75 -36.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="541" Mesh="" Name="PathNodeArea_396" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27 2.75 16.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="542" Mesh="" Name="PathNodeArea_397" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-23.25 2.75 10.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="543" Mesh="" Name="PathNodeArea_398" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.5 2.75 14.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="544" Mesh="" Name="PathNodeArea_399" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.25 2.75 -39">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="545" Mesh="" Name="PathNodeArea_400" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.25 2.75 18.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="546" Mesh="" Name="PathNodeArea_401" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.5 2.75 20.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="547" Mesh="" Name="PathNodeArea_402" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 18">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="548" Mesh="" Name="PathNodeArea_403" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.25 2.75 -41.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="549" Mesh="" Name="PathNodeArea_404" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.5 2.75 22.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="550" Mesh="" Name="PathNodeArea_405" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.25 2.75 -44.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="551" Mesh="" Name="PathNodeArea_406" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 21">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="552" Mesh="" Name="PathNodeArea_407" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 23">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="553" Mesh="" Name="PathNodeArea_408" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.5 2.75 26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="554" Mesh="" Name="PathNodeArea_409" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.25 2.75 -46.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="555" Mesh="" Name="PathNodeArea_410" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.25 2.75 -48.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="556" Mesh="" Name="PathNodeArea_411" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.25 2.75 28">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="557" Mesh="" Name="PathNodeArea_412" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.25 2.75 26">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="558" Mesh="" Name="PathNodeArea_413" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.5 2.75 29.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="559" Mesh="" Name="PathNodeArea_414" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.5 2.75 27.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="560" Mesh="" Name="PathNodeArea_415" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.5 2.75 30.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="561" Mesh="" Name="PathNodeArea_416" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -51.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="562" Mesh="" Name="PathNodeArea_417" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 30">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="563" Mesh="" Name="PathNodeArea_418" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.25 2.75 -53.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="564" Mesh="" Name="PathNodeArea_419" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-39.75 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="565" Mesh="" Name="PathNodeArea_420" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.25 2.75 33">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="566" Mesh="" Name="PathNodeArea_421" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.25 2.75 31.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="567" Mesh="" Name="PathNodeArea_422" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-36.25 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="568" Mesh="" Name="PathNodeArea_423" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.25 2.75 35">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="569" Mesh="" Name="PathNodeArea_424" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 33.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="570" Mesh="" Name="PathNodeArea_425" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.75 2.75 -56.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="571" Mesh="" Name="PathNodeArea_426" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-34 2.75 -63.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="572" Mesh="" Name="PathNodeArea_427" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-33 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="573" Mesh="" Name="PathNodeArea_428" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-29 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="574" Mesh="" Name="PathNodeArea_429" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27 2.75 37.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="575" Mesh="" Name="PathNodeArea_430" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25 2.75 36">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="576" Mesh="" Name="PathNodeArea_431" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -59.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="577" Mesh="" Name="PathNodeArea_432" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.5 2.75 37.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="578" Mesh="" Name="PathNodeArea_433" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.5 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="579" Mesh="" Name="PathNodeArea_434" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-34.75 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="580" Mesh="" Name="PathNodeArea_435" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-29 2.75 -63.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="581" Mesh="" Name="PathNodeArea_436" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="582" Mesh="" Name="PathNodeArea_437" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.25 2.75 -62.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="583" Mesh="" Name="PathNodeArea_438" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-24.75 2.75 -60.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="584" Mesh="" Name="PathNodeArea_439" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-28.5 2.75 42">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="585" Mesh="" Name="PathNodeArea_440" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.5 2.75 40.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="586" Mesh="" Name="PathNodeArea_441" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-32.5 2.75 45">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="587" Mesh="" Name="PathNodeArea_442" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-29.5 2.75 -65.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="588" Mesh="" Name="PathNodeArea_443" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-24.75 2.75 -61.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="589" Mesh="" Name="PathNodeArea_444" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-28 2.75 -64.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="590" Mesh="" Name="PathNodeArea_445" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.25 2.75 40.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="591" Mesh="" Name="PathNodeArea_446" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="592" Mesh="" Name="PathNodeArea_447" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-29.75 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="593" Mesh="" Name="PathNodeArea_448" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.5 2.75 42.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="594" Mesh="" Name="PathNodeArea_449" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-28.25 2.75 -66.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="595" Mesh="" Name="PathNodeArea_450" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-28.5 2.75 45">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="596" Mesh="" Name="PathNodeArea_451" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-22.5 2.75 -62.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="597" Mesh="" Name="PathNodeArea_452" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-24.5 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="598" Mesh="" Name="PathNodeArea_453" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.75 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="599" Mesh="" Name="PathNodeArea_454" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.75 2.75 -65.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="600" Mesh="" Name="PathNodeArea_455" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-23.5 2.75 42.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="601" Mesh="" Name="PathNodeArea_456" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-28.25 2.75 46.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="602" Mesh="" Name="PathNodeArea_457" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26.25 2.75 -67.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="603" Mesh="" Name="PathNodeArea_458" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-24.25 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="604" Mesh="" Name="PathNodeArea_459" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-23.25 2.75 -65.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="605" Mesh="" Name="PathNodeArea_460" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-25.25 2.75 45.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="606" Mesh="" Name="PathNodeArea_461" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-27.75 2.75 48">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="607" Mesh="" Name="PathNodeArea_462" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-26 2.75 48.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="608" Mesh="" Name="PathNodeArea_463" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-23.75 2.75 47">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="609" Mesh="" Name="PathNodeArea_464" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-58.25 2.75 45.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="610" Mesh="" Name="PathNodeArea_465" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-54.5 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="611" Mesh="" Name="PathNodeArea_466" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-51.75 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="612" Mesh="" Name="PathNodeArea_467" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-48.75 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="613" Mesh="" Name="PathNodeArea_468" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-45.75 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="614" Mesh="" Name="PathNodeArea_469" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-43.75 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="615" Mesh="" Name="PathNodeArea_470" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-41 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="616" Mesh="" Name="PathNodeArea_471" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-39 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="617" Mesh="" Name="PathNodeArea_472" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-36.75 2.75 44.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="618" Mesh="" Name="PathNodeArea_473" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-42.25 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="619" Mesh="" Name="PathNodeArea_474" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-45.25 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="620" Mesh="" Name="PathNodeArea_475" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-47.75 2.75 -63.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="621" Mesh="" Name="PathNodeArea_476" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-49.5 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="622" Mesh="" Name="PathNodeArea_477" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-52 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="623" Mesh="" Name="PathNodeArea_478" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-54.25 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="624" Mesh="" Name="PathNodeArea_479" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-55.75 2.75 -63.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="625" Mesh="" Name="PathNodeArea_480" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-58.25 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="626" Mesh="" Name="PathNodeArea_481" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-94 2.75 -27">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="653" Mesh="" Name="PathNodeArea_508" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-66 2.75 -26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="654" Mesh="" Name="PathNodeArea_509" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.5 2.75 -7.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="655" Mesh="" Name="PathNodeArea_510" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-65.5 2.75 -27.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="656" Mesh="" Name="PathNodeArea_511" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.75 2.75 -3.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="657" Mesh="" Name="PathNodeArea_512" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -12">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="658" Mesh="" Name="PathNodeArea_513" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -9.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="659" Mesh="" Name="PathNodeArea_514" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.75 2.75 -1.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="660" Mesh="" Name="PathNodeArea_515" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -5.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="661" Mesh="" Name="PathNodeArea_516" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-65.5 2.75 7">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="662" Mesh="" Name="PathNodeArea_517" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.75 2.75 -14.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="663" Mesh="" Name="PathNodeArea_518" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.75 2.75 -24.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="664" Mesh="" Name="PathNodeArea_519" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-65.5 2.75 -29.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="665" Mesh="" Name="PathNodeArea_520" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.75 2.75 -17.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="666" Mesh="" Name="PathNodeArea_521" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.75 2.75 -26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="667" Mesh="" Name="PathNodeArea_522" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -20.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="668" Mesh="" Name="PathNodeArea_523" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-65.25 2.75 8.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="669" Mesh="" Name="PathNodeArea_524" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.25 2.75 1">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="670" Mesh="" Name="PathNodeArea_525" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.25 2.75 4.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="671" Mesh="" Name="PathNodeArea_526" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.25 2.75 -23.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="672" Mesh="" Name="PathNodeArea_527" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.75 2.75 -28.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="673" Mesh="" Name="PathNodeArea_528" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 -1.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="674" Mesh="" Name="PathNodeArea_529" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.75 2.75 7.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="675" Mesh="" Name="PathNodeArea_530" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-64.25 2.75 -30.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="676" Mesh="" Name="PathNodeArea_531" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.75 2.75 5.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="677" Mesh="" Name="PathNodeArea_532" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -25.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="678" Mesh="" Name="PathNodeArea_533" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 0.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="679" Mesh="" Name="PathNodeArea_534" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.5 2.75 9">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="680" Mesh="" Name="PathNodeArea_535" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.25 2.75 4">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="681" Mesh="" Name="PathNodeArea_536" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -28">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="682" Mesh="" Name="PathNodeArea_537" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.25 2.75 -26.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="683" Mesh="" Name="PathNodeArea_538" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-60.5 2.75 -24.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="684" Mesh="" Name="PathNodeArea_539" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.25 2.75 -31.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="685" Mesh="" Name="PathNodeArea_540" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.75 2.75 11">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="686" Mesh="" Name="PathNodeArea_541" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -30.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="687" Mesh="" Name="PathNodeArea_542" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 7">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="688" Mesh="" Name="PathNodeArea_543" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.75 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="689" Mesh="" Name="PathNodeArea_544" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-60.5 2.75 -28.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="690" Mesh="" Name="PathNodeArea_545" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 8">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="691" Mesh="" Name="PathNodeArea_546" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 -30">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="692" Mesh="" Name="PathNodeArea_547" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.75 2.75 12.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="693" Mesh="" Name="PathNodeArea_548" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-59.75 2.75 6.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="694" Mesh="" Name="PathNodeArea_549" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-59 2.75 -26.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="695" Mesh="" Name="PathNodeArea_550" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.25 2.75 -34.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="696" Mesh="" Name="PathNodeArea_551" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 10.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="697" Mesh="" Name="PathNodeArea_552" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.25 2.75 11.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="698" Mesh="" Name="PathNodeArea_553" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-59 2.75 -28.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="699" Mesh="" Name="PathNodeArea_554" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-59.5 2.75 8.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="700" Mesh="" Name="PathNodeArea_555" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.5 2.75 -36.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="701" Mesh="" Name="PathNodeArea_556" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63 2.75 16.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="702" Mesh="" Name="PathNodeArea_557" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-59.25 2.75 10.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="703" Mesh="" Name="PathNodeArea_558" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.5 2.75 14.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="704" Mesh="" Name="PathNodeArea_559" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.25 2.75 -39">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="705" Mesh="" Name="PathNodeArea_560" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.25 2.75 18.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="706" Mesh="" Name="PathNodeArea_561" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.5 2.75 20.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="707" Mesh="" Name="PathNodeArea_562" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 18">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="708" Mesh="" Name="PathNodeArea_563" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.25 2.75 -41.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="709" Mesh="" Name="PathNodeArea_564" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.5 2.75 22.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="710" Mesh="" Name="PathNodeArea_565" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.25 2.75 -44.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="711" Mesh="" Name="PathNodeArea_566" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 21">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="712" Mesh="" Name="PathNodeArea_567" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 23">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="713" Mesh="" Name="PathNodeArea_568" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.5 2.75 26.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="714" Mesh="" Name="PathNodeArea_569" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.25 2.75 -46.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="715" Mesh="" Name="PathNodeArea_570" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.25 2.75 -48.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="716" Mesh="" Name="PathNodeArea_571" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.25 2.75 28">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="717" Mesh="" Name="PathNodeArea_572" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.25 2.75 26">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="718" Mesh="" Name="PathNodeArea_573" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.5 2.75 29.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="719" Mesh="" Name="PathNodeArea_574" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.5 2.75 27.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="720" Mesh="" Name="PathNodeArea_575" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.5 2.75 30.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="721" Mesh="" Name="PathNodeArea_576" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -51.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="722" Mesh="" Name="PathNodeArea_577" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 30">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="723" Mesh="" Name="PathNodeArea_578" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.25 2.75 -53.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="725" Mesh="" Name="PathNodeArea_580" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.25 2.75 33">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="726" Mesh="" Name="PathNodeArea_581" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.25 2.75 31.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="728" Mesh="" Name="PathNodeArea_583" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.25 2.75 35">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="729" Mesh="" Name="PathNodeArea_584" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 33.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="730" Mesh="" Name="PathNodeArea_585" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.75 2.75 -56.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="733" Mesh="" Name="PathNodeArea_588" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-65 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="734" Mesh="" Name="PathNodeArea_589" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63 2.75 37.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="735" Mesh="" Name="PathNodeArea_590" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61 2.75 36">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="736" Mesh="" Name="PathNodeArea_591" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -59.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="737" Mesh="" Name="PathNodeArea_592" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.5 2.75 37.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="738" Mesh="" Name="PathNodeArea_593" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.5 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="740" Mesh="" Name="PathNodeArea_595" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-65 2.75 -63.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="741" Mesh="" Name="PathNodeArea_596" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -61.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="742" Mesh="" Name="PathNodeArea_597" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.25 2.75 -62.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="743" Mesh="" Name="PathNodeArea_598" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-60.75 2.75 -60.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="744" Mesh="" Name="PathNodeArea_599" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-64.5 2.75 42">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="745" Mesh="" Name="PathNodeArea_600" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.5 2.75 40.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="747" Mesh="" Name="PathNodeArea_602" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-65.5 2.75 -65.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="748" Mesh="" Name="PathNodeArea_603" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-60.75 2.75 -61.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="749" Mesh="" Name="PathNodeArea_604" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-64 2.75 -64.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="750" Mesh="" Name="PathNodeArea_605" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.25 2.75 40.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="751" Mesh="" Name="PathNodeArea_606" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="752" Mesh="" Name="PathNodeArea_607" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-65.75 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="753" Mesh="" Name="PathNodeArea_608" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.5 2.75 42.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="754" Mesh="" Name="PathNodeArea_609" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-64.25 2.75 -66.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="755" Mesh="" Name="PathNodeArea_610" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-64.5 2.75 45">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="756" Mesh="" Name="PathNodeArea_611" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-58.5 2.75 -62.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="757" Mesh="" Name="PathNodeArea_612" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-60.5 2.75 -64">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="758" Mesh="" Name="PathNodeArea_613" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.75 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="759" Mesh="" Name="PathNodeArea_614" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.75 2.75 -65.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="760" Mesh="" Name="PathNodeArea_615" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-59.5 2.75 42.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="761" Mesh="" Name="PathNodeArea_616" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-64.25 2.75 46.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="762" Mesh="" Name="PathNodeArea_617" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62.25 2.75 -67.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="763" Mesh="" Name="PathNodeArea_618" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-60.25 2.75 44.5">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="764" Mesh="" Name="PathNodeArea_619" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-59.25 2.75 -65.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="765" Mesh="" Name="PathNodeArea_620" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-61.25 2.75 45.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="766" Mesh="" Name="PathNodeArea_621" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-63.75 2.75 48">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="767" Mesh="" Name="PathNodeArea_622" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-62 2.75 48.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="768" Mesh="" Name="PathNodeArea_623" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-59.75 2.75 47">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="785" Mesh="" Name="PathNodeArea_640" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="-94.25 2.75 -63.5">
+                    <UserVariables />
+                </Area>
+                <Entity Active="false" FileIndex="0" Group="0" ID="786" Name="Grunt1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="45.25 2.75 -63.5">
+                    <UserVariables>
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="DisableTriggers" Value="false" />
+                        <Var Name="Hallucination" Value="false" />
+                        <Var Name="HallucinationEndDist" Value="3" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="false" FileIndex="0" Group="0" ID="787" Name="Grunt2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-62.5 2.75 45">
+                    <UserVariables>
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="DisableTriggers" Value="false" />
+                        <Var Name="Hallucination" Value="false" />
+                        <Var Name="HallucinationEndDist" Value="3" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="false" FileIndex="1" Group="0" ID="788" Name="Brute1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-62 2.75 -63.75">
+                    <UserVariables>
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="DisableTriggers" Value="false" />
+                        <Var Name="Hallucination" Value="false" />
+                        <Var Name="HallucinationEndDist" Value="3" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="false" FileIndex="1" Group="0" ID="789" Name="Brute2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="46 2.75 44.75">
+                    <UserVariables>
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="DisableTriggers" Value="false" />
+                        <Var Name="Hallucination" Value="false" />
+                        <Var Name="HallucinationEndDist" Value="3" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="790" Name="potion_health_1" Rotation="0 0 0" Scale="20 20 20" Tag="" WorldPos="9.75 2.75 9.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="CustomSubItemTypeName" Value="" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="791" Name="potion_health_2" Rotation="0 0 0" Scale="20 20 20" Tag="" WorldPos="-26.25 2.75 9.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="CustomSubItemTypeName" Value="" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="792" Name="potion_health_3" Rotation="0 0 0" Scale="20 20 20" Tag="" WorldPos="-26.25 2.75 -27.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="CustomSubItemTypeName" Value="" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="793" Name="potion_health_4" Rotation="0 0 0" Scale="20 20 20" Tag="" WorldPos="10 2.75 -27.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="CustomSubItemTypeName" Value="" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="794" Name="potion_health_5" Rotation="0 0 0" Scale="20 20 20" Tag="" WorldPos="50.5 2.75 -63.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="CustomSubItemTypeName" Value="" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="795" Name="potion_health_6" Rotation="0 0 0" Scale="20 20 20" Tag="" WorldPos="-62 2.75 -68.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="CustomSubItemTypeName" Value="" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="796" Name="potion_health_7" Rotation="0 0 0" Scale="20 20 20" Tag="" WorldPos="-67.5 2.75 44.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="CustomSubItemTypeName" Value="" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="797" Name="potion_health_8" Rotation="0 0 0" Scale="20 20 20" Tag="" WorldPos="45.75 2.75 49.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="CustomSubItemTypeName" Value="" />
+                    </UserVariables>
+                </Entity>
+                <Area Active="true" AreaType="Script" Group="0" ID="799" Mesh="" Name="TimerReset" Rotation="0 0 0" Scale="15 10 15" Tag="" WorldPos="-8.25 13 -9.5">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

@@ -1,0 +1,37 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-1.03839 0.764479 0.0640647" CameraTarget="0.0178925 0.294642 -0.0718922" CameraZoom="3.76013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities>
+            <SpotLight Active="true" Aspect="1" CastShadows="true" DiffuseColor="0.796 0.744 0.72 1" FOV="1.0472" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0.35" FlickerOffMinLength="0.25" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="item_flashlight_flicker.snt" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="1.2" FlickerOnMinLength="1.1" FlickerOnPS="" FlickerOnSound="" Gobo="security_camera_spotlight.tga" GoboAnimFrameTime="0" GoboAnimMode="None" ID="6" Name="SpotLight_1" NearClipPlane="0.1" Radius="10" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="-0.00131762 0.161323 -0.0122284" />
+            <Billboard Active="true" BillboardColor="1 1 1 1" BillboardOffset="0" BillboardSize="0.7 0.7" BillboardType="Point" ConnectLight="SpotLight_1" HaloSourceSize="0.01 0.01 0.01" ID="7" IsHalo="false" MaterialFile="D:/Games/Steam/steamapps/common/Amnesia The Dark Descent/billboards/white_halo_pen.mat" Name="Billboard_1" Rotation="0 -0 0" Tag="" WorldPos="0.00416216 0.157772 -0.157622" />
+        </Entities>
+        <Mesh Filename="entities/nec_entities/furniture/mine_helmet/mine_helmet_hud.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="polySurface1" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones>
+            <Bone ID="1" Name="group" />
+            <Bone ID="2" Name="group2" />
+            <Bone ID="3" Name="polySurface1" />
+            <Bone ID="4" Name="joint1">
+                <Children>
+                    <Child ID="6" />
+                    <Child ID="7" />
+                </Children>
+            </Bone>
+            <Bone ID="5" Name="joint2" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="PlayerHands" />
+</Entity>

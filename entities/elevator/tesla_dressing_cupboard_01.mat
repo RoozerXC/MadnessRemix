@@ -1,0 +1,15 @@
+<Material>
+    <Main BlendMode="Add" DepthTest="true" PhysicsMaterial="Wood_Squeaky" Type="soliddiffuse" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/pig/Game/redist/static_objects/teslabase/dressing/tesla_dressing_cupboard_01.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <NMap AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/pig/Game/redist/static_objects/teslabase/dressing/tesla_dressing_cupboard_01_n.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <Specular AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/pig/Game/redist/static_objects/teslabase/dressing/tesla_dressing_cupboard_01_s.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+    <SpecificVariables>
+        <Var Name="HeightMapScale" Value="0.05000000074505806" />
+        <Var Name="HeightMapBias" Value="0" />
+        <Var Name="FrenselBias" Value="11" />
+        <Var Name="FrenselPow" Value="1" />
+        <Var Name="AlphaDissolveFilter" Value="false" />
+    </SpecificVariables>
+</Material>

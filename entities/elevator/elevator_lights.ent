@@ -1,0 +1,26 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="true" GridSnapSeparation="0.125" SelectedViewport="0" UsingEnlargedViewport="false">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="-0.375" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0.375" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="4.25" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="10 10 10" CameraTarget="0 0 0" CameraZoom="1.06013" GridHeight="4.25" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/elevator/elevator_lights.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="polySurface291" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="1" Material="" Name="polySurface292" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="2" Material="" Name="polySurface295" Rotation="0 0 0" Scale="1 1 1" SubMeshID="2" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="3" Material="" Name="polySurface296" Rotation="0 0 0" Scale="1 1 1" SubMeshID="3" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+</Entity>

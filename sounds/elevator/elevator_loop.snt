@@ -1,0 +1,8 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="elevator_loop" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="0.9" MinDistance="3" MaxDistance="12" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="False" Loop="True" Use3D="False" Blockable="False" BlockVolumeMul="0.4" Priority="0" />
+</SOUNDENTITY>

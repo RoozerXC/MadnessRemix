@@ -1,0 +1,6 @@
+<Material>
+    <Main BlendMode="Mulx2" DepthTest="true" PhysicsMaterial="Glass" Type="translucent" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Games/AmnesiaTDD_Workbench/static_objects/castlebase/wall/castlebase_wall_windows.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+</Material>

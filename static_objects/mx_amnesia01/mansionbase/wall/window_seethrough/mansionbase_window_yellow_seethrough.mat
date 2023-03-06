@@ -1,0 +1,6 @@
+<Material>
+    <Main BlendMode="Mulx2" DepthTest="true" HeightMapBias="0.000000" HeightMapScale="0.100000" PhysicsMaterial="Default" Type="translucent" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="" AnimMode="" File="mansionbase_window_yellow_seethrough.dds" Mipmaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+</Material>

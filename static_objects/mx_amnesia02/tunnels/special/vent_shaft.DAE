@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-06-21T23:08:43Z</created>
+    <keywords></keywords>
+    <modified>2012-06-21T23:08:43Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #5-image" name="Map #5">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\factorybase\factory_gate.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="factory_gate" name="factory_gate">
+      <instance_effect url="#factory_gate-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="factory_gate-fx" name="factory_gate">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #5-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="vent_shaft-lib" name="vent_shaftMesh">
+      <mesh>
+        <source id="vent_shaft-POSITION">
+          <float_array id="vent_shaft-POSITION-array" count="24">
+-0.375000 -1.000000 1.625000
+0.375000 -1.000000 1.625000
+-0.375000 0.000000 1.625000
+0.375000 0.000000 1.625000
+-0.375000 -1.000000 2.375000
+0.375000 -1.000000 2.375000
+-0.375000 0.000000 2.375000
+0.375000 0.000000 2.375000
+</float_array>
+          <technique_common>
+            <accessor source="#vent_shaft-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="vent_shaft-Normal0">
+          <float_array id="vent_shaft-Normal0-array" count="72">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#vent_shaft-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="vent_shaft-UV0">
+          <float_array id="vent_shaft-UV0-array" count="32">
+0.000000 0.658290
+0.000000 0.327847
+0.500000 0.658290
+0.500000 0.327847
+0.000000 0.327847
+0.000000 0.658290
+0.500000 0.327847
+0.500000 0.658290
+0.500000 0.327847
+0.000000 0.327847
+0.500000 0.658290
+-0.000000 0.658290
+0.500000 0.327847
+0.000000 0.327847
+0.500000 0.658290
+-0.000000 0.658290
+</float_array>
+          <technique_common>
+            <accessor source="#vent_shaft-UV0-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vent_shaft-VERTEX">
+          <input semantic="POSITION" source="#vent_shaft-POSITION"/>
+        </vertices>
+        <triangles count="8" material="factory_gate">
+          <input semantic="VERTEX" offset="0" source="#vent_shaft-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#vent_shaft-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#vent_shaft-UV0"/>
+          <p> 3 0 3 2 1 2 0 2 0 3 3 3 0 4 0 1 5 1 5 6 5 4 7 4 7 8 7 4 9 4 6 10 6 7 11 7 7 12 11 1 13 8 5 14 10 1 15 8 7 16 11 3 17 9 4 18 15 2 19 12 6 20 14 2 21 12 4 22 15 0 23 13</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="vent_shaft" id="vent_shaft" layer="tunnel_wall" sid="vent_shaft">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#vent_shaft-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="factory_gate" target="#factory_gate"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

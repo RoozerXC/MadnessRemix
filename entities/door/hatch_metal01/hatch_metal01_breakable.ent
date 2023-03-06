@@ -1,0 +1,68 @@
+<Entity>
+    <EditorSession>
+        <GridConfig GridPlane="1" Height="0.000000" Snap="false" SnapSeparation="1.000000" />
+        <ViewportConfig SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 20.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="1.323144" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="20.000000 0.240000 -0.735000" CameraTarget="-0.000000 0.240000 -0.735000" CameraZoom="4.202143" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 20.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.223144" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="1.307280 1.893480 -1.220119" CameraTarget="-0.468321 0.042564 -0.378148" CameraZoom="2.225791" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+        <GlobalLightConfig AmbientLight="true" PointLight="true" />
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="" EntityType="SwingDoor">
+        <Var Name="Active" Value="true" />
+        <Var Name="MaxFocusDistance" Value="2.5" />
+        <Var Name="MoveMaxSpeed" Value="50" />
+        <Var Name="MoveSlowDownFactor" Value="1" />
+        <Var Name="MoveSlowDownAngleDist" Value="10" />
+        <Var Name="MoveSpeedFactor" Value="20" />
+        <Var Name="MoveThrowImpulse" Value="10.0" />
+        <Var Name="Breakable" Value="true" />
+        <Var Name="DamageMesh1" Value="hatch_metal01.dae" />
+        <Var Name="DamageMesh2" Value="hatch_metal01.dae" />
+        <Var Name="BrokenEntity" Value="door/metal/metal_broken" />
+        <Var Name="DamageSound" Value="hit_wood" />
+        <Var Name="DamagePS" Value="ps_hit_wood" />
+        <Var Name="BreakSound" Value="break_wood_metal" />
+        <Var Name="BreakPS" Value="break_wood" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="HealthDamage1" Value="66" />
+        <Var Name="HealthDamage2" Value="33" />
+    </UserDefinedVariables>
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="hatch_metal01.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="MetalHatch01" Rotation="0.000000 0.000000 0.000000" Scale="1.500000 1.500000 1.500000" SubMeshID="0" Tag="" Type="5" WorldPos="0.000000 0.000000 0.000000" />
+            <SubMesh Active="true" GroupID="0" ID="1" Name="MetalHatch02_PIVOT" Rotation="0.000000 0.000000 0.000000" Scale="1.500000 1.500000 1.500000" SubMeshID="1" Tag="" Type="5" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="4" Name="BodyShape_2" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="1.470212 0.126378 1.445979" RelativeTranslation="0.000000 -0.023230 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="1.470212 0.126378 1.445979" ShapeType="Box" ShapeTypeID="0" Tag="" Type="2" WorldPos="0.001436 0.090797 0.011561" />
+            <BodyShape Active="true" GroupID="0" ID="5" Name="BodyShape_2_clone_1" RelativeRotation="-0.174215 0.000000 0.000000" RelativeScale="0.256625 0.092450 0.269661" RelativeTranslation="0.000000 0.017523 0.547672" Rotation="-0.174215 0.000000 0.000000" Scale="0.256625 0.092450 0.269661" ShapeType="Box" ShapeTypeID="0" Tag="" Type="2" WorldPos="0.001436 0.131550 0.559233" />
+            <BodyShape Active="true" GroupID="0" ID="7" Name="BodyShape_3" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.084221 0.119910 1.642016" RelativeTranslation="0.783908 0.000000 -0.000924" Rotation="0.000000 0.000000 0.000000" Scale="0.084221 0.119910 1.642016" ShapeType="Box" ShapeTypeID="0" Tag="" Type="2" WorldPos="0.783468 0.060489 -0.002306" />
+            <BodyShape Active="true" GroupID="0" ID="8" Name="BodyShape_3_clone_1" RelativeRotation="0.000000 1.570796 0.000000" RelativeScale="0.084221 0.119910 1.642016" RelativeTranslation="0.001332 0.000000 0.784289" Rotation="0.000000 1.570796 0.000000" Scale="0.084221 0.119910 1.642016" ShapeType="Box" ShapeTypeID="0" Tag="" Type="2" WorldPos="0.000893 0.060489 0.782906" />
+            <BodyShape Active="true" GroupID="0" ID="9" Name="BodyShape_3_clone_1_clone_1" RelativeRotation="0.000000 1.570796 0.000000" RelativeScale="0.084221 0.119910 1.642016" RelativeTranslation="0.001332 0.000000 -0.784289" Rotation="0.000000 1.570796 0.000000" Scale="0.084221 0.119910 1.642016" ShapeType="Box" ShapeTypeID="0" Tag="" Type="2" WorldPos="0.000893 0.060489 -0.785671" />
+            <BodyShape Active="true" GroupID="0" ID="10" Name="BodyShape_3_clone_2" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.084221 0.119910 1.642016" RelativeTranslation="-0.783908 0.000000 -0.000924" Rotation="0.000000 0.000000 0.000000" Scale="0.084221 0.119910 1.642016" ShapeType="Box" ShapeTypeID="0" Tag="" Type="2" WorldPos="-0.784347 0.060489 -0.002306" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="1.000000" BlocksSound="false" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" ID="6" LinearDamping="1.000000" Mass="10.000000" Material="Metal" MaxAngularSpeed="1.000000" MaxLinearSpeed="1.000000" Name="Body_2" PushedByCharacterGravity="false" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="3" Volatile="false" WorldPos="0.001436 0.114027 0.011561">
+                <Shape ID="5" />
+                <Shape ID="4" />
+                <Children>
+                    <Child ID="1" />
+                </Children>
+            </Body>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="false" GroupID="0" ID="11" LinearDamping="0.000000" Mass="0.000000" Material="Metal" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body_3" PushedByCharacterGravity="false" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="3" Volatile="false" WorldPos="-0.000439 0.060489 -0.001382">
+                <Shape ID="10" />
+                <Shape ID="9" />
+                <Shape ID="7" />
+                <Shape ID="8" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointHinge Active="true" BreakForce="0.000000" BreakSound="" Breakable="false" CollideBodies="false" ConnectedChildBodyID="6" ConnectedParentBodyID="11" GroupID="0" ID="13" LimitStepCount="1" MaxAngle="110.000000" MaxLimitMaxSpeed="0.000000" MaxLimitMinSpeed="0.000000" MaxLimitSound="" MaxMoveFreq="1.100000" MaxMoveFreqSpeed="0.700000" MaxMoveSpeed="2.000000" MaxMoveVolume="0.800000" MiddleMoveSpeed="0.500000" MiddleMoveVolume="0.500000" MinAngle="0.000000" MinLimitMaxSpeed="0.000000" MinLimitMinSpeed="0.000000" MinLimitSound="" MinMoveFreq="0.950000" MinMoveFreqSpeed="0.200000" MinMoveSpeed="0.100000" MinMoveVolume="0.010000" MoveSound="" Name="HingeJoint_1" PinDir="1.000000 -0.000000 0.000000" Rotation="0.000000 0.000000 -1.570796" Scale="1.000000 1.000000 1.000000" StickyMaxLimit="true" StickyMinLimit="true" SubType="1" Tag="" Type="4" WorldPos="0.001498 0.133174 -0.738828" />
+        </Joints>
+    </ModelData>
+</Entity>

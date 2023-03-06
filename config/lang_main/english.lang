@@ -1,0 +1,38 @@
+<LANGUAGE>
+	<RESOURCES>
+		<Directory Path="fonts/eng" />
+		<Directory Path="lang/eng" />
+	</RESOURCES>
+
+	<CATEGORY Name="CustomStoryMain">
+		<Entry Name="Description">[br]</Entry>
+	</CATEGORY>
+
+	<CATEGORY Name="PreMenu">
+		<Entry Name="WelcomeMessage01">Adjust the gamma slider until the square at the right is barely visible.</Entry>
+	</CATEGORY>
+
+	<CATEGORY Name="Levels">
+		<Entry Name="TheMansonHub">Main entrance</Entry>
+		<Entry Name="JambaStorage">Storage</Entry>
+	</CATEGORY>
+
+	<CATEGORY Name="Message">
+		<Entry Name="HintBONUS">I wonder where this door leads to...</Entry>
+		<Entry Name="HintOUTDOORS">The door which leads outside is jammed.</Entry>
+		<Entry Name="InfoSTORAGE">I don't think I can go to Jamba's storage without his permission.</Entry>
+		<Entry Name="Cut">You accidentally cut yourself while doing it.</Entry>
+		<Entry Name="Survive120">Survive for 2 minutes!</Entry>
+	</CATEGORY>
+
+	<CATEGORY Name="Inventory">
+		<Entry Name="ItemName_Saw">Saw</Entry>
+		<Entry Name="ItemDesc_Saw">I could use this to cut metal bars.</Entry>
+	</CATEGORY>
+
+	<CATEGORY Name="Signs">
+		<Entry Name="TopSign">Top Floor</Entry>
+		<Entry Name="MiddleSign">Middle Floor</Entry>
+		<Entry Name="BottomSign">Bottom Floor</Entry>
+	</CATEGORY>
+</LANGUAGE>

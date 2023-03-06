@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-06-27T13:37:17Z</created>
+    <keywords></keywords>
+    <modified>2012-06-27T13:37:17Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #7-image" name="Map #7">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\tunnels\concrete_wall_square.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="concrete_wall" name="concrete_wall">
+      <instance_effect url="#concrete_wall-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="concrete_wall-fx" name="concrete_wall">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #7-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="tunnel_pillars_cap-lib" name="tunnel_pillars_capMesh">
+      <mesh>
+        <source id="tunnel_pillars_cap-POSITION">
+          <float_array id="tunnel_pillars_cap-POSITION-array" count="36">
+-0.304496 -0.304496 0.377791
+0.304496 -0.304496 0.377791
+-0.304496 0.304496 0.377791
+0.304496 0.304496 0.377791
+0.375000 -0.375000 0.326472
+-0.375000 -0.375000 0.326472
+0.375000 0.375000 0.326472
+-0.375000 0.375000 0.326472
+0.375000 -0.375000 0.000000
+-0.375000 -0.375000 0.000000
+0.375000 0.375000 0.000000
+-0.375000 0.375000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_pillars_cap-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tunnel_pillars_cap-Normal0">
+          <float_array id="tunnel_pillars_cap-Normal0-array" count="162">
+-0.239227 -0.239227 0.941032
+0.239227 -0.239227 0.941032
+0.239227 0.239227 0.941032
+0.239227 0.239227 0.941032
+-0.239227 0.239227 0.941032
+-0.239227 -0.239227 0.941032
+0.239227 -0.239227 0.941032
+-0.239227 -0.239227 0.941032
+-0.323595 -0.323595 0.889142
+-0.323595 -0.323595 0.889142
+0.323595 -0.323595 0.889142
+0.239227 -0.239227 0.941032
+0.239227 0.239227 0.941032
+0.239227 -0.239227 0.941032
+0.323595 -0.323595 0.889142
+0.323595 -0.323595 0.889142
+0.323594 0.323594 0.889142
+0.239227 0.239227 0.941032
+-0.239227 0.239227 0.941032
+0.239227 0.239227 0.941032
+0.323594 0.323594 0.889142
+0.323594 0.323594 0.889142
+-0.323594 0.323594 0.889142
+-0.239227 0.239227 0.941032
+-0.239227 -0.239227 0.941032
+-0.239227 0.239227 0.941032
+-0.323594 0.323594 0.889142
+-0.323594 0.323594 0.889142
+-0.323595 -0.323595 0.889142
+-0.239227 -0.239227 0.941032
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_pillars_cap-Normal0-array" count="54" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tunnel_pillars_cap-UV0">
+          <float_array id="tunnel_pillars_cap-UV0-array" count="48">
+0.462639 0.176886
+0.604506 0.176886
+0.604506 0.318753
+0.462639 0.318753
+0.622740 0.158652
+0.444404 0.158652
+0.622740 0.336988
+0.444404 0.336988
+0.364410 0.422739
+0.653967 0.422739
+0.653967 0.422739
+0.364410 0.422739
+0.364410 0.422739
+0.653967 0.422739
+0.364410 0.422739
+0.653967 0.422739
+0.364410 0.547705
+0.653967 0.547705
+0.653967 0.547705
+0.364410 0.547705
+0.364410 0.547705
+0.653967 0.547705
+0.364410 0.547705
+0.653967 0.547705
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_pillars_cap-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tunnel_pillars_cap-VERTEX">
+          <input semantic="POSITION" source="#tunnel_pillars_cap-POSITION"/>
+        </vertices>
+        <triangles count="18" material="concrete_wall">
+          <input semantic="VERTEX" offset="0" source="#tunnel_pillars_cap-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#tunnel_pillars_cap-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#tunnel_pillars_cap-UV0"/>
+          <p> 0 0 0 1 1 1 3 2 2 3 3 2 2 4 3 0 5 0 1 6 1 0 7 0 5 8 5 5 9 5 4 10 4 1 11 1 3 12 2 1 13 1 4 14 4 4 15 4 6 16 6 3 17 2 2 18 3 3 19 2 6 20 6 6 21 6 7 22 7 2 23 3 0 24 0 2 25 3 7 26 7 7 27 7 5 28 5 0 29 0 4 30 8 5 31 10 9 32 18 9 33 18 8 34 16 4 35 8 6 36 12 4 37 9 8 38 17 8 39 17 10 40 20 6 41 12 7 42 14 6 43 13 10 44 21 10 45 21 11 46 22 7 47 14 5 48 11 7 49 15 11 50 23 11 51 23 9 52 19 5 53 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="tunnel_pillars_cap" id="tunnel_pillars_cap" layer="tunnel_pillars" sid="tunnel_pillars_cap">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#tunnel_pillars_cap-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="concrete_wall" target="#concrete_wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

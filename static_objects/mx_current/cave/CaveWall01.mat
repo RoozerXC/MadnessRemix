@@ -1,0 +1,16 @@
+<Material>
+    <Main BlendMode="Add" DepthTest="true" PhysicsMaterial="Default" Type="soliddiffuse" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="true" File="E:/Program Files (x86)/Steam/steamapps/common/amnesia the dark descent/static_objects/Timorem_Caves/CaveWalls/CaveWall01.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <NMap AnimFrameTime="0" AnimMode="None" Compress="true" File="E:/Program Files (x86)/Steam/steamapps/common/amnesia the dark descent/static_objects/Timorem_Caves/CaveWalls/CaveWall01_normal.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <Specular AnimFrameTime="0" AnimMode="None" Compress="true" File="E:/Program Files (x86)/Steam/steamapps/common/amnesia the dark descent/static_objects/Timorem_Caves/CaveWalls/CaveWall01_specular.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <Height AnimFrameTime="0" AnimMode="None" Compress="true" File="E:/Program Files (x86)/Steam/steamapps/common/amnesia the dark descent/static_objects/Timorem_Caves/CaveWalls/CaveWall01_normal.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+    <SpecificVariables>
+        <Var Name="HeightMapScale" Value="0.06" />
+        <Var Name="HeightMapBias" Value="1.1" />
+        <Var Name="FrenselBias" Value="0.5" />
+        <Var Name="FrenselPow" Value="8.4" />
+        <Var Name="AlphaDissolveFilter" Value="false" />
+    </SpecificVariables>
+</Material>

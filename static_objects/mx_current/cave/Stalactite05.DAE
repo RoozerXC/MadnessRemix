@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Linus</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.3.1;  Revision: 847M;  Platform: x64;  Configuration: Release_Max2012_static</authoring_tool>
+      <source_data>file:///C:/Users/Linus/Documents/3dsMax/scenes/Timorem/Stalactite3.max</source_data>
+    </contributor>
+    <created>2012-03-24T23:31:00</created>
+    <modified>2012-03-24T23:31:00</modified>
+    <unit name="inch" meter="0.0254"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material__25">
+      <profile_COMMON>
+        <newparam sid="Stalactite01_diffuse_dds-surface">
+          <surface type="2D">
+            <init_from>Stalactite01_diffuse_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Stalactite01_diffuse_dds-sampler">
+          <sampler2D>
+            <source>Stalactite01_diffuse_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Stalactite01_diffuse_dds-sampler" texcoord="CHANNEL1"/>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <apply_reflection_dimming>0</apply_reflection_dimming>
+            <dim_level>0</dim_level>
+            <falloff_type>0</falloff_type>
+            <index_of_refraction>1.5</index_of_refraction>
+            <opacity_type>0</opacity_type>
+            <reflection_level>3</reflection_level>
+            <wire_size>1</wire_size>
+            <wire_units>0</wire_units>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_lock>1</ambient_diffuse_lock>
+            <ambient_diffuse_texture_lock>1</ambient_diffuse_texture_lock>
+            <diffuse_specular_lock>0</diffuse_specular_lock>
+            <soften>0.1</soften>
+            <use_self_illum_color>0</use_self_illum_color>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Material__25-material" name="Material__25">
+      <instance_effect url="#Material__25"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-Cylinder001" name="Cylinder001">
+      <mesh>
+        <source id="geom-Cylinder001-positions">
+          <float_array id="geom-Cylinder001-positions-array" count="123">5.298573 0.07643954 0 4.209376 3.295706 0 1.560187 5.106109 0 -1.727822 4.913183 0 -4.398745 3.010596 0 -5.341651 -0.02005729 0 -4.222132 -3.243571 0 -1.596504 -5.20627 0 1.691506 -5.013344 0 4.385991 -2.958459 0 2.195868 -0.2918587 20.66422 1.723308 0.9265138 20.66422 0.863607 1.746667 20.66422 -0.3409147 1.477939 20.66422 -1.43017 0.822751 20.66422 -1.702047 -0.2615626 20.66422 -1.231687 -1.468386 20.66422 -0.3407564 -2.229198 20.66422 0.8637659 -1.960469 20.66422 1.921792 -1.364622 20.66422 2.633248 3.500425 14.26038 3.819516 0.8277016 14.26038 0.5896963 4.918635 14.26038 -2.068102 4.541856 14.26038 -4.324958 2.931632 14.26038 -4.781303 0.2849851 14.26038 -3.822612 -2.123802 14.26038 -1.605067 -3.638007 14.26038 1.052732 -3.261227 14.26038 3.135597 -1.555008 14.26038 4.492939 3.818032 5.8 1.622496 6.341388 5.8 -2.083618 6.383906 5.8 -5.209793 4.159339 5.8 -6.555679 0.5322514 5.8 -5.398806 -2.890109 5.8 -2.347947 -5.022341 5.8 1.358168 -5.064859 5.8 4.303929 -3.231414 5.8 5.437559 0.2677638 5.8 0.2231925 -0.2546543 23.01897</float_array>
+          <technique_common>
+            <accessor source="#geom-Cylinder001-positions-array" count="41" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Cylinder001-normals">
+          <float_array id="geom-Cylinder001-normals-array" count="183">0.8004823 0.503319 0.3254195 0.969286 0.02347421 0.2448134 0.9728354 0.08703946 0.214512 0.7396182 0.6255495 0.2482997 0.272033 0.8560359 0.4395458 0.2052608 0.9326112 0.2968238 -0.3144075 0.8260087 0.4678221 -0.349596 0.8798763 0.3218698 -0.702118 0.5094184 0.497517 -0.8061526 0.5006037 0.3154583 -0.896639 -0.0856237 0.4344045 -0.9517285 -0.08227363 0.2957092 -0.7469308 -0.5587814 0.3603579 -0.7603006 -0.5915853 0.2682717 -0.1798182 -0.9484946 0.260813 -0.2278346 -0.9496251 0.2151826 0.3467019 -0.9195459 0.1850217 0.3820208 -0.9061122 0.1817162 0.7779943 -0.5969018 0.1960434 0.8248831 -0.5330409 0.1882424 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.1855612 -0.7306176 0.6570882 0.2829201 -0.7385427 0.611973 -0.006149736 -6.7742e-4 0.9999809 0.9954141 -0.01935962 0.09367992 0.8439283 0.5321071 0.06816959 0.3422205 0.93945 0.01785496 -0.2968665 0.9547709 -0.01681544 -0.7922155 0.6099935 -0.01738895 -0.9997732 0.01991092 0.007560757 -0.810589 -0.5845218 0.03577615 -0.3156321 -0.9448227 0.08767319 0.271619 -0.9546361 0.1220368 0.7812493 -0.6137456 0.1138684 0.9992907 -0.001090303 -0.03764261 0.809796 0.5749512 -0.1168831 0.2823739 0.9345651 -0.2164556 -0.3259834 0.9113889 -0.2512074 -0.7905061 0.565633 -0.2348604 -0.9784912 -0.03433894 -0.2034103 -0.7788545 -0.6169944 -0.1127098 -0.272429 -0.9619388 -0.02135854 0.3419492 -0.9396769 -0.008840568 0.8249654 -0.5648441 -0.01957691 -0.6327177 -0.455938 0.6259305 -0.2911735 0.7359349 0.6112429 -0.6197205 0.451703 0.6418029 -0.7733671 -0.04398671 0.6324306 0.6063173 -0.4553007 0.651982 0.7662641 0.03958808 0.641305 0.6437102 0.436116 0.6288403 0.2041921 0.7178199 0.6656125</float_array>
+          <technique_common>
+            <accessor source="#geom-Cylinder001-normals-array" count="61" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Cylinder001-map1">
+          <float_array id="geom-Cylinder001-map1-array" count="195">0.7010553 0 1 0.8010554 0 1 0.9010553 0 1 0.001055337 0 0.9999999 0.1010554 0 1 0.2010553 0 1 0.3010553 0 1 0.4010553 0 0.9999999 0.5010552 0 1 0.6010554 0 1 1.001056 0 0.9999999 0.2567225 0.2730273 -0.25 0.3115496 0.1975644 -0.25 0.3115496 0.1042871 -0.25 0.2567226 0.02882426 -0.25 0.1680107 0 -0.25 0.07929873 0.02882424 -0.25 0.02447174 0.1042871 -0.25 0.02447173 0.1975644 -0.25 0.0792987 0.2730272 -0.25 0.1680107 0.3018515 -0.25 0.5956078 0.4761038 0.25 0.5317858 0.4553667 0.25 0.4923416 0.4010766 0.25 0.4923416 0.3339701 0.25 0.5317858 0.2796799 0.25 0.5956078 0.2589427 0.25 0.6594298 0.2796799 0.25 0.6988741 0.3339701 0.25 0.6988741 0.4010766 0.25 0.6594298 0.4553668 0.25 0.8010554 0.31386 1 0.7010553 0.3138601 1 0.9010553 0.31386 1 1.001056 0.31386 0.9999999 0.001055337 0.31386 0.9999999 0.1010554 0.31386 1 0.2010553 0.31386 1 0.3010553 0.31386 1 0.4010553 0.31386 0.9999999 0.5010552 0.31386 1 0.6010554 0.31386 1 0.8010554 0.47079 1 0.7010553 0.4707901 1 0.9010553 0.47079 1 1.001056 0.47079 0.9999999 0.001055337 0.47079 0.9999999 0.1010554 0.47079 1 0.2010553 0.47079 1 0.3010553 0.47079 1 0.4010553 0.47079 0.9999999 0.5010552 0.47079 1 0.6010554 0.47079 1 0.8010554 0.09101941 1 0.9010553 0.09101941 1 1.001056 0.09101941 0.9999999 0.001055337 0.09101941 0.9999999 0.1010554 0.09101941 1 0.2010553 0.09101941 1 0.3010553 0.09101941 1 0.4010553 0.09101941 0.9999999 0.5010552 0.09101941 1 0.6010554 0.09101941 1 0.7010553 0.09101942 1 0.5971897 0.3672376 0.25</float_array>
+          <technique_common>
+            <accessor source="#geom-Cylinder001-map1-array" count="65" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-Cylinder001-vertices">
+          <input semantic="POSITION" source="#geom-Cylinder001-positions"/>
+        </vertices>
+        <triangles material="Material__25_1" count="78">
+          <input semantic="VERTEX" source="#geom-Cylinder001-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-Cylinder001-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-Cylinder001-map1" offset="2" set="0"/>
+          <p>11 0 42 10 1 43 21 2 32 21 2 32 20 3 31 11 0 42 12 4 44 11 0 42 20 3 31 20 3 31 22 5 33 12 4 44 13 6 45 12 4 44 22 5 33 22 5 33 23 7 34 13 6 45 14 8 47 13 6 46 23 7 35 23 7 35 24 9 36 14 8 47 15 10 48 14 8 47 24 9 36 24 9 36 25 11 37 15 10 48 16 12 49 15 10 48 25 11 37 25 11 37 26 13 38 16 12 49 17 14 50 16 12 49 26 13 38 26 13 38 27 15 39 17 14 50 18 16 51 17 14 50 27 15 39 27 15 39 28 17 40 18 16 51 19 18 52 18 16 51 28 17 40 28 17 40 29 19 41 19 18 52 10 1 43 19 18 52 29 19 41 29 19 41 21 2 32 10 1 43 8 20 12 7 21 13 6 22 14 6 22 14 5 23 15 4 24 16 4 24 16 3 25 17 2 26 18 2 26 18 1 27 19 0 28 20 4 24 16 2 26 18 0 28 20 6 22 14 4 24 16 0 28 20 8 20 12 6 22 14 0 28 20 9 29 11 8 20 12 0 28 20 17 30 28 18 31 29 40 32 64 39 33 63 30 34 53 20 3 31 20 3 31 21 2 32 39 33 63 30 34 53 31 35 54 22 5 33 22 5 33 20 3 31 30 34 53 31 35 54 32 36 55 23 7 34 23 7 34 22 5 33 31 35 54 32 36 56 33 37 57 24 9 36 24 9 36 23 7 35 32 36 56 33 37 57 34 38 58 25 11 37 25 11 37 24 9 36 33 37 57 34 38 58 35 39 59 26 13 38 26 13 38 25 11 37 34 38 58 35 39 59 36 40 60 27 15 39 27 15 39 26 13 38 35 39 59 36 40 60 37 41 61 28 17 40 28 17 40 27 15 39 36 40 60 37 41 61 38 42 62 29 19 41 29 19 41 28 17 40 37 41 61 38 42 62 39 33 63 21 2 32 21 2 32 29 19 41 38 42 62 0 43 0 1 44 1 30 34 53 30 34 53 39 33 63 0 43 0 1 44 1 2 45 2 31 35 54 31 35 54 30 34 53 1 44 1 2 45 2 3 46 10 32 36 55 32 36 55 31 35 54 2 45 2 3 46 3 4 47 4 33 37 57 33 37 57 32 36 56 3 46 3 4 47 4 5 48 5 34 38 58 34 38 58 33 37 57 4 47 4 5 48 5 6 49 6 35 39 59 35 39 59 34 38 58 5 48 5 6 49 6 7 50 7 36 40 60 36 40 60 35 39 59 6 49 6 7 50 7 8 51 8 37 41 61 37 41 61 36 40 60 7 50 7 8 51 8 9 52 9 38 42 62 38 42 62 37 41 61 8 51 8 9 52 9 0 43 0 39 33 63 39 33 63 38 42 62 9 52 9 16 53 27 17 30 28 40 32 64 40 32 64 13 54 24 14 55 25 40 32 64 14 55 25 15 56 26 40 32 64 15 56 26 16 53 27 18 31 29 19 57 30 40 32 64 40 32 64 19 57 30 10 58 21 40 32 64 10 58 21 11 59 22 40 32 64 11 59 22 12 60 23 40 32 64 12 60 23 13 54 24</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="Stalactite01_diffuse_dds">
+      <init_from>file:///E:/Program%20Files%20(x86)/Steam/steamapps/common/amnesia%20the%20dark%20descent/static_objects/Timorem_Caves/Rocks/images/Stalactite01_diffuse.dds</init_from>
+    </image>
+  </library_images>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-Cylinder001" name="Cylinder001">
+        <scale>0.05752527 0.05752527 0.05752527</scale>
+        <instance_geometry url="#geom-Cylinder001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material__25_1" target="#Material__25-material">
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

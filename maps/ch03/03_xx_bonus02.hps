@@ -1,0 +1,90 @@
+void OnStart() {
+	StopMusic(0, 0);
+	StopMusic(0, 100);
+
+	AddTimer("", 1, "LightScript1");
+	AddEntityCollideCallback("Player", "DeathArea", "DeathScript", true, 1);
+	AddEntityCollideCallback("Player", "SpawnArea", "SpawnScript", true, 1);
+	AddEntityCollideCallback("Player", "TimerReset", "ResetScript", true, 1);
+}
+
+void LightScript1(string &in asTimer) {
+	SetLightVisible("Green", true);
+	SetLightVisible("Red", false);
+	AddTimer("", 1, "LightScript2");
+}
+
+void LightScript2(string &in asTimer) {
+	SetLightVisible("Blue", true);
+	SetLightVisible("Green", false);
+	AddTimer("", 1, "LightScript3");
+}
+
+void LightScript3(string &in asTimer) {
+	SetLightVisible("Purple", true);
+	SetLightVisible("Blue", false);
+	AddTimer("", 1, "LightScript4");
+}
+
+void LightScript4(string &in asTimer) {
+	SetLightVisible("Red", true);
+	SetLightVisible("Purple", false);
+	AddTimer("", 1, "LightScript1");
+}
+
+void DeathScript(string &in asParent, string &in asChild, int alState) {
+	SetPlayerHealth(0);
+	CheckPoint("first", "PlayerStartArea_1", "DeathScript2", "", "");
+	RemoveTimer("SurviveScript");
+}
+
+void DeathScript2(string &in asName, int alCount) {
+	AddEntityCollideCallback("Player", "DeathArea", "DeathScript", true, 1);
+	AddEntityCollideCallback("Player", "SpawnArea", "SpawnScript", true, 1);
+}
+
+void SpawnScript(string &in asParent, string &in asChild, int alState) {
+	PlayMusic("mx_ch03_b1_amb02.ogg", true, 2.0f, 0, 100, true);
+    SetPlayerRunSpeedMul(1.6f);
+	SetEntityActive("Brute1", true);
+	SetEntityActive("Brute2", true);
+	SetEntityActive("Grunt1", true);
+	SetEntityActive("Grunt2", true);
+    ShowEnemyPlayerPosition("Brute1");
+    ShowEnemyPlayerPosition("Brute2");
+    ShowEnemyPlayerPosition("Grunt1");
+    ShowEnemyPlayerPosition("Grunt2");
+	AddTimer("", 1, "MonsterScript");
+	AddTimer("", 120, "SurviveScript");
+	SetMessage("Message", "Survive120", 4.0f);
+}
+
+void MonsterScript(string &in asTimer) {
+    ShowEnemyPlayerPosition("Brute1");
+    ShowEnemyPlayerPosition("Brute2");
+    ShowEnemyPlayerPosition("Grunt1");
+    ShowEnemyPlayerPosition("Grunt2");
+	AddTimer("", 1, "MonsterScript2");
+}
+
+void MonsterScript2(string &in asTimer) {
+    ShowEnemyPlayerPosition("Brute1");
+    ShowEnemyPlayerPosition("Brute2");
+    ShowEnemyPlayerPosition("Grunt1");
+    ShowEnemyPlayerPosition("Grunt2");
+	AddTimer("", 1, "MonsterScript");
+}
+
+void SurviveScript(string &in asTimer) {
+	StopMusic(0, 0);
+	StopMusic(0, 100);
+	SetPlayerRunSpeedMul(1.0f);
+	ChangeMap("03_00_tower.map", "PlayerStartArea_1", "", "");
+}
+
+void ResetScript(string &in asParent, string &in asChild, int alState) {
+	RemoveTimer("SurviveScript");
+    SetPlayerRunSpeedMul(1.0f);
+	AddEntityCollideCallback("Player", "DeathArea", "DeathScript", true, 1);
+	AddEntityCollideCallback("Player", "SpawnArea", "SpawnScript", true, 1);
+}

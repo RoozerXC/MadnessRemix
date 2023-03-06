@@ -1,0 +1,79 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.906407 0.677396 -0.270364" CameraTarget="-0.111328 0.256478 -0.336197" CameraZoom="4.01513" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/statues/armour_gold/armour_gold_glove.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="Scene_Root" Rotation="0 0 -1.46356" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="-1.54528 -0.430023 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="1" Name="Shape_1" RelativeRotation="-5.96356e-015 -8.23138e-010 -1.8546e-014" RelativeScale="0.219897 0.9 0.187256" RelativeTranslation="5.48771e-009 5.62145e-010 -2.21997e-010" Rotation="-7.0585e-015 -0.00853391 -1.5708" Scale="0.187256 0.9 0.187256" ShapeType="Box" Tag="" WorldPos="-0.0283427 0.0996663 -0.0137027" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="3" LinearDamping="0" Mass="3" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 -0.00853391 -1.5708" Scale="0.851563 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.0283427 0.0996663 -0.0137027">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="Grab" EntityType="Object">
+        <Var Name="Health" Value="40" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="10" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="3" />
+        <Var Name="HitDamageAmount" Value="5" />
+        <Var Name="HitDamageStrength" Value="1" />
+        <Var Name="MinHitDamageSpeed" Value="3" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="IsFood" Value="false" />
+        <Var Name="GrabUseDepth" Value="false" />
+        <Var Name="GrabDepth" Value="1" />
+        <Var Name="GrabDepthInc" Value="0.15" />
+        <Var Name="GrabMinDepth" Value="1.0" />
+        <Var Name="GrabMaxDepth" Value="2.2" />
+        <Var Name="GrabUseOffset" Value="false" />
+        <Var Name="GrabPositionOffset" Value="0" />
+        <Var Name="GrabRotationOffset" Value="0" />
+        <Var Name="GrabThrowImpulse" Value="10" />
+        <Var Name="GrabMassMul" Value="0.1" />
+        <Var Name="GrabForceMul" Value="1" />
+        <Var Name="GrabTorqueMul" Value="1" />
+        <Var Name="GrabUseRotation" Value="true" />
+        <Var Name="GrabSkipNonOuterBodies" Value="false" />
+    </UserDefinedVariables>
+</Entity>

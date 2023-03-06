@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-06-21T12:28:16Z</created>
+    <keywords></keywords>
+    <modified>2012-06-21T12:28:16Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #7-image" name="Map #7">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\tunnels\concrete_wall_square.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="concrete_wall" name="concrete_wall">
+      <instance_effect url="#concrete_wall-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="concrete_wall-fx" name="concrete_wall">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #7-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="tunnels_ceiling-lib" name="tunnels_ceilingMesh">
+      <mesh>
+        <source id="tunnels_ceiling-POSITION">
+          <float_array id="tunnels_ceiling-POSITION-array" count="66">
+2.002034 -2.000000 3.763014
+-1.997966 -2.000000 3.763013
+2.002034 2.000000 3.763014
+-1.997966 2.000000 3.763013
+0.998520 -2.000000 3.763014
+0.599926 -2.000000 3.907776
+0.201331 -2.000000 3.973707
+-0.197263 -2.000000 3.973707
+-0.595858 -2.000000 3.907776
+-0.994452 -2.000000 3.763013
+-0.994452 2.000000 3.763013
+-0.595858 2.000000 3.907776
+-0.197263 2.000000 3.973707
+0.201331 2.000000 3.973707
+0.599926 2.000000 3.907776
+0.998520 2.000000 3.763014
+0.998520 -0.996486 3.763014
+0.599926 -0.555791 3.907776
+0.201331 -0.138021 3.973707
+-0.197263 0.260573 3.973707
+-0.595858 0.639993 3.907776
+-0.994452 0.996486 3.763013
+</float_array>
+          <technique_common>
+            <accessor source="#tunnels_ceiling-POSITION-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tunnels_ceiling-Normal0">
+          <float_array id="tunnels_ceiling-Normal0-array" count="234">
+0.081871 -0.000000 -0.996643
+0.081871 -0.000000 -0.996643
+-0.081870 0.000000 -0.996643
+-0.081870 0.000000 -0.996643
+-0.081870 0.000000 -0.996643
+0.081871 -0.000000 -0.996643
+0.000000 0.000000 -1.000000
+0.173306 -0.000000 -0.984868
+0.173306 -0.000000 -0.984868
+0.173306 -0.000000 -0.984868
+0.173306 -0.000000 -0.984868
+0.253355 -0.000000 -0.967373
+0.253355 -0.000000 -0.967373
+0.253355 0.000000 -0.967373
+0.173306 -0.000000 -0.984868
+0.253355 0.000000 -0.967373
+0.253355 -0.000000 -0.967373
+0.081871 -0.000000 -0.996643
+0.081871 -0.000000 -0.996643
+0.081871 -0.000000 -0.996643
+0.253355 0.000000 -0.967373
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.173305 -0.000000 -0.984868
+-0.173305 -0.000000 -0.984868
+-0.173305 0.000000 -0.984868
+0.000000 0.000000 -1.000000
+-0.173305 0.000000 -0.984868
+-0.173305 -0.000000 -0.984868
+-0.253355 -0.000000 -0.967373
+-0.253355 -0.000000 -0.967373
+-0.253355 0.000000 -0.967373
+-0.173305 0.000000 -0.984868
+-0.253355 0.000000 -0.967373
+-0.253355 -0.000000 -0.967373
+-0.081870 0.000000 -0.996643
+-0.081870 0.000000 -0.996643
+-0.081870 0.000000 -0.996643
+-0.253355 0.000000 -0.967373
+0.000000 0.000000 -1.000000
+-0.173305 0.000000 -0.984868
+-0.173305 -0.000000 -0.984868
+-0.173305 -0.000000 -0.984868
+-0.173305 0.000000 -0.984868
+-0.253355 -0.000000 -0.967373
+-0.253355 -0.000000 -0.967373
+-0.253355 -0.000000 -0.967373
+-0.173305 -0.000000 -0.984868
+-0.253355 -0.000000 -0.967373
+-0.253355 -0.000000 -0.967373
+-0.081870 -0.000000 -0.996643
+-0.081870 -0.000000 -0.996643
+-0.081870 0.000000 -0.996643
+-0.253355 -0.000000 -0.967373
+-0.081870 0.000000 -0.996643
+-0.081870 -0.000000 -0.996643
+0.081871 -0.000000 -0.996643
+0.081871 -0.000000 -0.996643
+0.081871 -0.000000 -0.996643
+-0.081870 0.000000 -0.996643
+0.081871 -0.000000 -0.996643
+0.081871 -0.000000 -0.996643
+0.253355 -0.000000 -0.967373
+0.253355 -0.000000 -0.967373
+0.253355 0.000000 -0.967373
+0.081871 -0.000000 -0.996643
+0.253355 0.000000 -0.967373
+0.253355 -0.000000 -0.967373
+0.173306 0.000000 -0.984868
+0.173306 0.000000 -0.984868
+0.173306 -0.000000 -0.984868
+0.253355 0.000000 -0.967373
+0.173306 -0.000000 -0.984868
+0.173306 0.000000 -0.984868
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.173306 -0.000000 -0.984868
+</float_array>
+          <technique_common>
+            <accessor source="#tunnels_ceiling-Normal0-array" count="78" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tunnels_ceiling-UV0">
+          <float_array id="tunnels_ceiling-UV0-array" count="44">
+0.000000 0.549824
+0.000000 0.450176
+1.000000 0.450176
+1.000000 0.549824
+0.000000 0.250878
+0.000000 -0.000000
+1.000000 0.000000
+1.000000 0.250879
+0.000000 0.350527
+1.000000 0.350527
+1.000000 0.749122
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.749122
+1.000000 0.649473
+0.000000 0.649473
+0.250878 0.749122
+0.361052 0.649473
+0.465495 0.549824
+0.565143 0.450176
+0.659998 0.350527
+0.749121 0.250879
+</float_array>
+          <technique_common>
+            <accessor source="#tunnels_ceiling-UV0-array" count="22" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tunnels_ceiling-VERTEX">
+          <input semantic="POSITION" source="#tunnels_ceiling-POSITION"/>
+        </vertices>
+        <triangles count="26" material="concrete_wall">
+          <input semantic="VERTEX" offset="0" source="#tunnels_ceiling-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#tunnels_ceiling-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#tunnels_ceiling-UV0"/>
+          <p> 19 0 19 12 1 2 13 2 3 13 3 3 18 4 18 19 5 19 3 6 6 10 7 7 21 8 21 21 9 21 10 10 7 11 11 9 11 12 9 20 13 20 21 14 21 20 15 20 11 16 9 12 17 2 12 18 2 19 19 19 20 20 20 2 21 11 0 22 12 16 23 16 16 24 16 15 25 10 2 26 11 15 27 10 16 28 16 17 29 17 17 30 17 14 31 14 15 32 10 14 33 14 17 34 17 18 35 18 18 36 18 13 37 3 14 38 14 0 39 12 4 40 13 16 41 16 16 42 16 4 43 13 5 44 15 5 45 15 17 46 17 16 47 16 17 48 17 5 49 15 6 50 0 6 51 0 18 52 18 17 53 17 18 54 18 6 55 0 7 56 1 7 57 1 19 58 19 18 59 18 19 60 19 7 61 1 8 62 8 8 63 8 20 64 20 19 65 19 20 66 20 8 67 8 9 68 4 9 69 4 21 70 21 20 71 20 21 72 21 9 73 4 1 74 5 1 75 5 3 76 6 21 77 21</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="tunnels_ceiling" id="tunnels_ceiling" layer="tunnel_ceiling" sid="tunnels_ceiling">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#tunnels_ceiling-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="concrete_wall" target="#concrete_wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

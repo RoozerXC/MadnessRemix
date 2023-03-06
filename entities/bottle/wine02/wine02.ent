@@ -1,0 +1,58 @@
+<Entity>
+    <EditorSession>
+        <GridConfig GridPlane="1" Height="0.000000" Snap="false" SnapSeparation="1.000000" />
+        <ViewportConfig SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 20.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.223144" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="20.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.223144" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 20.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.223144" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.222745 0.162248 0.417205" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="3.912024" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+        <GlobalLightConfig AmbientLight="true" PointLight="true" />
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="Grab" EntityType="Object">
+	    <Var Name="Health" Value="40" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="true" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="10" />
+        <Var Name="BreakEntity" Value="wine02_broken.ent" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="break_glass_bottle" />
+        <Var Name="BreakParticleSystem" Value="ps_break_glass" />
+        <Var Name="BreakImpulse" Value="3" />
+        <Var Name="GrabDepth" Value="1" />
+        <Var Name="GrabDepthInc" Value="0.15" />
+        <Var Name="GrabMinDepth" Value="1.0" />
+        <Var Name="GrabMaxDepth" Value="2.2" />
+        <Var Name="GrabPositionOffset" Value="0" />
+        <Var Name="GrabRotationOffset" Value="0" />
+        <Var Name="GrabThrowImpulse" Value="10" />
+        <Var Name="GrabUseRotationOffset" Value="true" />
+        <Var Name="GrabMassMul" Value="0.1" />
+    </UserDefinedVariables>
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="C:/Skolarbeten och diverse projekt/3d/projekt/Frictional Games/SVN/redist/_temp/Marcus/bottle/wine02/wine02.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="winebottle" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="5" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="1" Name="BodyShape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.050000 0.188000 0.050000" RelativeTranslation="0.000000 -0.079866 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.050000 0.188000 0.050000" ShapeType="Cylinder" ShapeTypeID="1" Tag="" Type="2" WorldPos="0.000000 -0.079788 0.000000" />
+            <BodyShape Active="true" GroupID="0" ID="3" Name="BodyShape_3" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.020000 0.160000 0.020000" RelativeTranslation="0.000000 0.093866 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.020000 0.160000 0.020000" ShapeType="Cylinder" ShapeTypeID="1" Tag="" Type="2" WorldPos="0.000000 0.093945 0.000000" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.200000" BlocksSound="false" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" ID="4" LinearDamping="0.200000" Mass="2.000000" Material="Glass" MaxAngularSpeed="20.000000" MaxLinearSpeed="20.000000" Name="Body_1" PushedByCharacterGravity="false" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="3" Volatile="false" WorldPos="0.000000 0.000078 0.000000">
+                <Shape ID="3" />
+                <Shape ID="1" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

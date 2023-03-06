@@ -1,0 +1,8 @@
+<Material>
+    <Main BlendMode="Add" DepthTest="true" HeightMapBias="0.000000" HeightMapScale="0.100000" PhysicsMaterial="Rock" Type="SolidDiffuse" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0.000000" AnimMode="None" Compress="false" File="woody_brick.png" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <NMap AnimFrameTime="0.000000" AnimMode="None" Compress="false" File="woody_brick_nrm.png" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <Specular AnimFrameTime="0.000000" AnimMode="None" Compress="false" File="woody_brick_spec.png" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+</Material>

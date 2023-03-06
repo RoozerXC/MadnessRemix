@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2013-01-04T16:12:30Z</created>
+    <keywords></keywords>
+    <modified>2013-01-04T16:12:30Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.001000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file2-image" name="file2">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/Amnesia - Source/StaticObjects/streets/buildings/streets_generic_buildings_brick_stock.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="lambert2" name="lambert2">
+      <instance_effect url="#lambert2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert2-fx" name="lambert2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="stockbrick_plain_brick_bricks-lib" name="stockbrick_plain_brick_bricksMesh">
+      <mesh>
+        <source id="stockbrick_plain_brick_bricks-POSITION">
+          <float_array id="stockbrick_plain_brick_bricks-POSITION-array" count="12">
+-400.820068 -0.000000 0.000000
+0.000000 0.000000 0.000000
+-400.820068 400.000000 -0.000000
+0.000000 400.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#stockbrick_plain_brick_bricks-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="stockbrick_plain_brick_bricks-Normal0">
+          <float_array id="stockbrick_plain_brick_bricks-Normal0-array" count="12">
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#stockbrick_plain_brick_bricks-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="stockbrick_plain_brick_bricks-UV0">
+          <float_array id="stockbrick_plain_brick_bricks-UV0-array" count="8">
+0.000968 0.003012
+0.996984 0.003012
+0.996984 0.996988
+0.000968 0.996988
+</float_array>
+          <technique_common>
+            <accessor source="#stockbrick_plain_brick_bricks-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="stockbrick_plain_brick_bricks-VERTEX">
+          <input semantic="POSITION" source="#stockbrick_plain_brick_bricks-POSITION"/>
+          <input semantic="NORMAL" source="#stockbrick_plain_brick_bricks-Normal0"/>
+        </vertices>
+        <triangles count="2" material="lambert2">
+          <input semantic="VERTEX" offset="0" source="#stockbrick_plain_brick_bricks-VERTEX"/>
+          <input semantic="TEXCOORD" offset="1" set="0" source="#stockbrick_plain_brick_bricks-UV0"/>
+          <p> 1 0 0 1 2 2 1 0 2 2 3 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="streets_windows_plain_brick_dae" id="streets_windows_plain_brick_dae" sid="streets_windows_plain_brick_dae">
+        <matrix sid="matrix">10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+        <node name="stockbrick_plain_brick_bricks" id="stockbrick_plain_brick_bricks" sid="stockbrick_plain_brick_bricks">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <instance_geometry url="#stockbrick_plain_brick_bricks-lib">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert2" target="#lambert2"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

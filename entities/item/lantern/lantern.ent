@@ -1,0 +1,62 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.566171 0.393075 0.221581" CameraTarget="-0.0692178 0.0498555 0.0199672" CameraZoom="4.2" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities>
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0.83 0.53 0.0999999 1" FalloffMap="" FlickerActive="true" FlickerFade="true" FlickerOffColor="0.75 0.45 0.115 1" FlickerOffFadeMaxLength="0.65" FlickerOffFadeMinLength="0.35" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="2.8" FlickerOffSound="" FlickerOnFadeMaxLength="0.65" FlickerOnFadeMinLength="0.35" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="8" Name="PointLight_1" Radius="2.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-0.00183778 0.200257 0.00483126" />
+            <Billboard Active="true" BillboardColor="0.7 0.6 0.4 0.5" BillboardOffset="0" BillboardSize="0.9 0.9" BillboardType="Point" ConnectLight="PointLight_1" HaloSourceSize="0.3 0.3 0.3" ID="9" IsHalo="true" MaterialFile="D:/SteamLibrary/steamapps/common/Amnesia The Dark Descent/billboards/bb_white_halo_no_depthtest.mat" Name="Billboard_1" Rotation="0 0 0" Tag="" WorldPos="0.00615348 0.140287 -0.000213357" />
+        </Entities>
+        <Mesh Filename="custom_stories/MadnessRemix/models/hand_objects/lantern/amadeus_lantern.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="polySurface51" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2.75 2.75 2.75" SubMeshID="0" Tag="" WorldPos="0 0.49986 0" />
+            <SubMesh Active="true" ID="1" Material="" Name="polySurface52" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2.75 2.75 2.75" SubMeshID="1" Tag="" WorldPos="0 0.49986 0" />
+            <SubMesh Active="true" ID="2" Material="" Name="polySurface53" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2.75 2.75 2.75" SubMeshID="2" Tag="" WorldPos="0 0.49986 0" />
+            <SubMesh Active="true" ID="3" Material="" Name="polySurface54" Rotation="3.14159 -8.74228e-008 3.14159" Scale="2.75 2.75 2.75" SubMeshID="3" Tag="" WorldPos="0 0.49986 0" />
+            <SubMesh Active="true" ID="4" Material="" Name="polySurface55" Rotation="0 0 0" Scale="1 1 1" SubMeshID="4" Tag="" WorldPos="0 0.49986 0" />
+            <SubMesh Active="true" ID="5" Material="" Name="polySurface56" Rotation="3.14159 -8.74228e-008 5.11434" Scale="2.75 2.75 2.75" SubMeshID="5" Tag="" WorldPos="-0.138374 0.282687 0" />
+            <SubMesh Active="true" ID="6" Material="" Name="polySurface57" Rotation="3.14159 -8.74228e-008 5.11434" Scale="2.75 2.75 2.75" SubMeshID="6" Tag="" WorldPos="-0.138374 0.282687 0" />
+            <SubMesh Active="true" ID="7" Material="" Name="polySurface58" Rotation="3.14159 -8.74228e-008 5.11434" Scale="2.75 2.75 2.75" SubMeshID="7" Tag="" WorldPos="-0.138374 0.282687 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="11" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="0.15 0.35 0.15" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.15 0.35 0.15" ShapeType="Cylinder" Tag="" WorldPos="0 0.169984 0" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="12" LinearDamping="0" Mass="1" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0 0.169984 0">
+                <Shape ID="11" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="Lantern" EntityType="Item">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="SubItemTypeName" Value="Lantern" />
+        <Var Name="ImageFile" Value="D:/SteamLibrary/steamapps/common/Amnesia The Dark Descent/Amadeus/models/hand_objects/lantern/amadeus_lantern.tga" />
+        <Var Name="PickSound" Value="Generic" />
+    </UserDefinedVariables>
+</Entity>

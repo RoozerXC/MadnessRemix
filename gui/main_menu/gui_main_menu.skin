@@ -1,0 +1,222 @@
+<GuiSkin>
+	<GfxElements>
+		<!-- POINTER GRAPHICS -->
+		<Gfx type="PointerNormal"				file="gui_amn_mm_pointer_normal.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="PointerText"					file="gui_amn_mm_pointer_text.tga"				offset="-7 -11" active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<!-- WINDOW GRAPHICS -->
+		<Gfx type="WindowBorderRight"			file="gui_amn_mm_window_border_r.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="WindowBorderLeft"			file="gui_amn_mm_window_border_l.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="WindowBorderUp"				file="gui_amn_mm_window_border_u.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="WindowBorderDown"			file="gui_amn_mm_window_border_d.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="WindowCornerLU"				file="gui_amn_mm_window_corner_lu.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="WindowCornerRU"				file="gui_amn_mm_window_corner_ru.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="WindowCornerRD"				file="gui_amn_mm_window_corner_rd.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="WindowCornerLD"				file="gui_amn_mm_window_corner_ld.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="WindowLabel"					file=""											offset="0 0"	active_size="0 0"	color="1.0 1.0 1.0 1.0" />
+		<Gfx type="WindowBackground"			file="gui_amn_mm_window_bg.tga"					offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="WindowButtonCross"			file="gui_amn_mm_window_cross.tga"				offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<!-- FRAME GRAPHICS -->
+		<Gfx type="FrameBorderRight"			file=""											offset="0 0"	active_size="-1 -1"	color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FrameBorderLeft"				file=""											offset="0 0"	active_size="-1 -1"	color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FrameBorderUp"				file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FrameBorderDown"				file=""											offset="0 0"	active_size="-1 -1"	color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="FrameCornerLU"				file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FrameCornerRU"				file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FrameCornerRD"				file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FrameCornerLD"				file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="FrameBackground" 			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<!-- CHECK BOX GRAPHICS -->
+		<Gfx type="CheckBoxEnabledUnchecked"	file="gui_amn_mm_checkbox_unchecked.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="CheckBoxEnabledChecked"		file="gui_amn_mm_checkbox_checked.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="CheckBoxDisabledUnchecked"	file="gui_amn_mm_checkbox_unchecked.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="CheckBoxDisabledChecked"		file="gui_amn_mm_checkbox_checked.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<!-- TEXT BOX GRAPHICS -->
+		<Gfx type="TextBoxBackground"			file="gui_amn_mm_listbox_bg.tga"				offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="TextBoxSelectedTextBack"		file=""											color="0.325 0.325 0.325 1.0" />
+		<Gfx type="TextBoxMarker"				file="gui_amn_mm_textbox_marker.tga"			animated="true"	anim_frame_time="0.5" anim_mode="loop" />
+
+		<!-- COMBO BOX GRAPHICS -->
+		<Gfx type="ComboBoxButtonIcon"			file="gui_amn_mm_slider_vert_arrow_d.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="ComboBoxBorderRight"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="ComboBoxBorderLeft"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="ComboBoxBorderUp"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="ComboBoxBorderDown"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="ComboBoxCornerLU"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="ComboBoxCornerRU"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="ComboBoxCornerRD"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="ComboBoxCornerLD"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="ComboBoxBackground"			file="gui_amn_mm_listbox_bg.tga"				offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<!-- LIST BOX GRAPHICS -->
+		<Gfx type="ListBoxBackground"			file="gui_amn_mm_listbox_bg.tga"				offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<!-- SLIDER GRAPHICS -->
+		<Gfx type="SliderHandleBorderRight"		file="gui_amn_mm_slider_handle_border.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="SliderHandleBorderLeft"		file="gui_amn_mm_slider_handle_border.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="SliderHandleBorderUp"		file="gui_amn_mm_slider_handle_border.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="SliderHandleBorderDown"		file="gui_amn_mm_slider_handle_border.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+
+		<Gfx type="SliderHandleCornerLU"		file="gui_amn_mm_slider_handle_corner_lu.tga"	offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="SliderHandleCornerRU"		file="gui_amn_mm_slider_handle_corner_ru.tga"	offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="SliderHandleCornerRD"		file="gui_amn_mm_slider_handle_corner_rd.tga"	offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="SliderHandleCornerLD"		file="gui_amn_mm_slider_handle_corner_ld.tga"	offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+
+		<Gfx type="SliderHandleBackground"		file="gui_amn_mm_slider_handle_bg.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="SliderVertArrowUp"			file="gui_amn_mm_slider_vert_arrow_u.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="SliderVertArrowDown"			file="gui_amn_mm_slider_vert_arrow_d.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="SliderVertBackground"		file="gui_amn_mm_listbox_bg.tga"				offset="0 0"	active_size="-1 -1" color="0.5 0.5 0.5 1.0" />
+
+		<Gfx type="SliderHoriArrowUp"			file="gui_amn_mm_slider_hori_arrow_u.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="SliderHoriArrowDown"			file="gui_amn_mm_slider_hori_arrow_d.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="SliderHoriBackground"		file="gui_amn_mm_listbox_bg.tga"				offset="0 0"	active_size="-1 -1" color="0.5 0.5 0.5 1.0" />
+
+		<!-- BUTTON GRAPHICS -->
+		<Gfx type="ButtonUpBorderRight" 		file="gui_amn_mm_button_up_border_r.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="ButtonUpBorderLeft"			file="gui_amn_mm_button_up_border_l.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="ButtonUpBorderUp"			file="gui_amn_mm_button_up_border_u.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="ButtonUpBorderDown"			file="gui_amn_mm_button_up_border_d.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+
+		<Gfx type="ButtonUpCornerLU"			file="gui_amn_mm_button_up_corner_lu.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="ButtonUpCornerRU"			file="gui_amn_mm_button_up_corner_ru.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="ButtonUpCornerRD"			file="gui_amn_mm_button_up_corner_rd.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="ButtonUpCornerLD"			file="gui_amn_mm_button_up_corner_ld.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+
+		<Gfx type="ButtonUpBackground"			file="gui_amn_mm_button_up_bg.tga"				offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="ButtonDownBorderRight"		file="gui_amn_mm_button_up_border_r.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="ButtonDownBorderLeft"		file="gui_amn_mm_button_up_border_l.tga"		offset="0 0"	active_size="-1 -1" color="0.5 0.5 0.5 1.0" />
+		<Gfx type="ButtonDownBorderUp"			file="gui_amn_mm_button_up_border_u.tga"		offset="0 0"	active_size="-1 -1" color="0.5 0.5 0.5 1.0" />
+		<Gfx type="ButtonDownBorderDown"		file="gui_amn_mm_button_up_border_d.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="ButtonDownCornerLU"			file="gui_amn_mm_button_up_corner_lu.tga"		offset="0 0"	active_size="-1 -1" color="0.5 0.5 0.5 1.0" />
+		<Gfx type="ButtonDownCornerRU"			file="gui_amn_mm_button_up_corner_ru.tga"		offset="0 0"	active_size="-1 -1" color="0.5 0.5 0.5 1.0" />
+		<Gfx type="ButtonDownCornerRD"			file="gui_amn_mm_button_up_corner_rd.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="ButtonDownCornerLD"			file="gui_amn_mm_button_up_corner_ld.tga"		offset="0 0"	active_size="-1 -1" color="0.5 0.5 0.5 1.0" />
+
+		<Gfx type="ButtonDownBackground"		file="gui_amn_mm_button_up_bg.tga"				offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<!-- MENU GRAPHICS -->
+		<Gfx type="MenuEnabledChecked"			file="gui_amn_mm_menu_checked.tga"				offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="MenuDisabledChecked"			file="gui_amn_mm_menu_checked.tga"				offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="MenuSeparatorLine"			file=""											offset="0 0"	active_size="-1 -1" color="0.25 0.25 0.25 1.0" />
+		<Gfx type="MenuItemArrow"				file="gui_amn_mm_menu_arrow.tga"				offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<!-- TAB GRAPHICS -->
+		<Gfx type="TabLabelBorderRight"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabLabelBorderLeft"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabLabelBorderUp"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabLabelBorderDown"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+
+		<Gfx type="TabLabelCornerLU"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabLabelCornerRU"			file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabLabelCornerRD"			file=""											offset="0 0"	active_size="2 2"	color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabLabelCornerLD"			file=""											offset="0 0"	active_size="2 2"	color="1.0 1.0 1.0 0.0" />
+
+		<Gfx type="TabBorderRight"				file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabBorderLeft"				file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabBorderUp"					file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabBorderDown"				file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+
+		<Gfx type="TabCornerLU"					file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabCornerRU"					file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabCornerRD"					file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+		<Gfx type="TabCornerLD"					file=""											offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 0.0" />
+
+		<Gfx type="TabLabelBackground"			file="gui_amn_mm_tab_label_bg.tga"				offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="TabLabelBackgroundActive"	file="gui_amn_mm_tab_label_bg_active.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="TabBackground"				file=""											offset="0 0"	active_size="-1 -1" color="0.0 0.0 0.0 0.0" />
+
+		<Gfx type="TabFrameArrowLeft"			file="gui_amn_mm_slider_hori_arrow_u.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="TabFrameArrowRight"			file="gui_amn_mm_slider_hori_arrow_d.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<!-- GROUP GRAPHICS -->
+		<Gfx type="GroupBorderRight"			file="gui_amn_mm_group_border_r.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="GroupBorderLeft"				file="gui_amn_mm_group_border_l.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="GroupBorderUp"				file="gui_amn_mm_group_border_u.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="GroupBorderDown"				file="gui_amn_mm_group_border_d.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+
+		<Gfx type="GroupCornerLU"				file="gui_amn_mm_group_corner_lu.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="GroupCornerRU"				file="gui_amn_mm_group_corner_ru.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="GroupCornerRD"				file="gui_amn_mm_group_corner_rd.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+		<Gfx type="GroupCornerLD"				file="gui_amn_mm_group_corner_ld.tga"			offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" material="alpha" />
+
+		<Gfx type="GroupBackground"				file=""											offset="0 0"	active_size="-1 -1" color="0.0 0.0 0.0 0.0" />
+
+		<!-- FILE PICKER POPUP GRAPHICS -->
+		<Gfx type="FilePickerUpButton"			file="gui_amn_mm_filepicker_upbutton.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+
+		<Gfx type="FilePickerIconFolder"		file="gui_amn_mm_filepicker_icon_folder.tga"	offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FilePickerIconGraphics"		file="gui_amn_mm_filepicker_icon_graphics.tga"	offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FilePickerIconModels"		file="gui_amn_mm_filepicker_icon_models.tga"	offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FilePickerIconSounds"		file="gui_amn_mm_filepicker_icon_sounds.tga"	offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FilePickerIconText"			file="gui_amn_mm_filepicker_icon_text.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+		<Gfx type="FilePickerIconOther"			file="gui_amn_mm_filepicker_icon_rest.tga"		offset="0 0"	active_size="-1 -1" color="1.0 1.0 1.0 1.0" />
+	</GfxElements>
+
+	<Fonts>
+		<Font type="Default"					file="menu_gui_default.fnt"						size="16 16"	color="1.0 1.0 1.0 1.0" />
+		<Font type="Disabled"					file="menu_gui_default.fnt"						size="16 16"	color="0.5 0.5 0.5 1.0" />
+		<Font type="WindowLabel"				file="menu_gui_default.fnt"						size="28 28"	color="1.0 1.0 1.0 1.0" />
+	</Fonts>
+
+	<Attributes>
+		<Attribute type="WindowLabelTextOffset"				value="35 -20"/>
+		<Attribute type="WindowButtonSize"					value="18"/>
+		<Attribute type="WindowBordersOutside"				value="1"/>
+
+		<Attribute type="ButtonPressedContentOffset"		value="1 1"/>
+
+		<Attribute type="SliderButtonSize"					value="18"/>
+
+		<Attribute type="ListBoxSliderWidth"				value="18"/>
+
+		<Attribute type="ComboBoxButtonWidth"				value="18"/>
+		<Attribute type="ComboBoxSliderWidth"				value="18"/>
+
+		<Attribute type="ContextMenuItemArrowSize"			value="10"/>
+		<Attribute type="ContextMenuItemCheckSize"			value="18"/>
+		<Attribute type="ContextMenuItemHPadding"			value="5"/>
+		<Attribute type="ContextMenuItemVPadding"			value="2"/>
+		<Attribute type="ContextMenuItemTextLeftPadding"	value="5"/>
+		<Attribute type="ContextMenuItemTextRightPadding"	value="15"/>
+		<Attribute type="ContextMenuItemSeparation"			value="0"/>
+		<Attribute type="ContextMenuSeparatorPadding"		value="0"/>
+
+		<Attribute type="MainMenuItemTextPadding"			value="4"/>
+		<Attribute type="MainMenuItemVPadding"				value="2"/>
+		<Attribute type="MainMenuItemSeparation"			value="5"/>
+
+		<Attribute type="MenuSeparatorPadding"				value="6"/>
+		<Attribute type="MenuSeparatorHeight"				value="1"/>
+
+		<Attribute type="TabFrameButtonSize"				value="18"/>
+		<Attribute type="TabFrameIconPadding"				value="2"/>
+		<Attribute type="TabFrameTextLeftPadding"			value="10"/>
+		<Attribute type="TabFrameTextRightPadding"			value="10"/>
+		<Attribute type="TabFrameLabelInactiveOffset"		value="0"/>
+		<Attribute type="TabFrameLabelActiveOffset"			value="0"/>
+		<Attribute type="FirstTabOffset"					value="20"/>
+		<Attribute type="TabSeparation"						value="20"/>
+
+		<Attribute type="GroupHeaderOffset"					value="20"/>
+		<Attribute type="GroupHeaderOverUpperBorder"		value="1"/>
+
+		<Attribute type="DefaultFontHighlightColor"			value="1 1 1"/>
+	</Attributes>
+</GuiSkin>

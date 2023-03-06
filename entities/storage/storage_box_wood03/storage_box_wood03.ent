@@ -1,0 +1,27 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="0" UsingEnlargedViewport="false">
+            <Viewport CameraPosition="0.000000 0.000000 100.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="100.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 100.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.443134 2.215497 3.135496" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="2.560132" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="E:/lux/redist/entities/entities_lester/storage_box_wood03/storage_box_wood03.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="pCube1" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="11" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="1" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="1.900000 1.300000 1.300000" RelativeTranslation="0.000000 0.000000 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="1.900000 1.300000 1.300000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="8" WorldPos="0.000000 0.700000 0.000000" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" ID="2" LinearDamping="0.000000" Mass="0.000000" Material="Wood_Heavy" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body_1" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="9" UseSurfaceEffects="true" Volatile="false" WorldPos="0.000000 0.700000 0.000000">
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

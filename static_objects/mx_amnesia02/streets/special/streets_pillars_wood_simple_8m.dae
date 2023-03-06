@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2013-01-11T12:22:43Z</created>
+    <keywords></keywords>
+    <modified>2013-01-11T12:22:43Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.001000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="streets_buildings_doors_lp_file2-image" name="streets_buildings_doors_lp_file2">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/Amnesia - Source/StaticObjects/streets/buildings/streets_generic_buildings_attachments.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="streets_buildings_doors_lp_lambert2" name="streets_buildings_doors_lp_lambert2">
+      <instance_effect url="#streets_buildings_doors_lp_lambert2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="streets_buildings_doors_lp_lambert2-fx" name="streets_buildings_doors_lp_lambert2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="streets_buildings_doors_lp_file2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="streets_buildings_doors_lp_polySurface30-lib" name="streets_buildings_doors_lp_polySurface30Mesh">
+      <mesh>
+        <source id="streets_buildings_doors_lp_polySurface30-POSITION">
+          <float_array id="streets_buildings_doors_lp_polySurface30-POSITION-array" count="24">
+4777.233398 1224.608521 1602.146484
+4857.942383 1224.608521 1602.146484
+4777.233398 1224.560791 1494.535156
+4857.942383 1224.560791 1494.535156
+4777.233398 -39.874329 1495.094849
+4857.942383 -39.874329 1495.094849
+4777.233398 -39.826679 1602.706299
+4857.942383 -39.826679 1602.706299
+</float_array>
+          <technique_common>
+            <accessor source="#streets_buildings_doors_lp_polySurface30-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="streets_buildings_doors_lp_polySurface30-Normal0">
+          <float_array id="streets_buildings_doors_lp_polySurface30-Normal0-array" count="108">
+0.000000 1.000000 -0.000443
+0.000000 1.000000 -0.000443
+0.000000 1.000000 -0.000443
+0.000000 1.000000 -0.000443
+0.000000 1.000000 -0.000443
+0.000000 1.000000 -0.000443
+0.000000 -0.000443 -1.000000
+0.000000 -0.000443 -1.000000
+0.000000 -0.000443 -1.000000
+0.000000 -0.000443 -1.000000
+0.000000 -0.000443 -1.000000
+0.000000 -0.000443 -1.000000
+0.000000 -1.000000 0.000443
+0.000000 -1.000000 0.000443
+0.000000 -1.000000 0.000443
+0.000000 -1.000000 0.000443
+0.000000 -1.000000 0.000443
+0.000000 -1.000000 0.000443
+0.000000 0.000443 1.000000
+0.000000 0.000443 1.000000
+0.000000 0.000443 1.000000
+0.000000 0.000443 1.000000
+0.000000 0.000443 1.000000
+0.000000 0.000443 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#streets_buildings_doors_lp_polySurface30-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="streets_buildings_doors_lp_polySurface30-UV0">
+          <float_array id="streets_buildings_doors_lp_polySurface30-UV0-array" count="48">
+0.176991 0.956372
+0.176991 0.995972
+0.097538 0.995972
+0.097538 0.956372
+0.261915 0.017055
+0.321505 0.017055
+0.321505 0.950631
+0.261915 0.950631
+0.091029 0.955438
+0.091029 0.995038
+0.011576 0.995038
+0.011576 0.955438
+0.326263 0.017055
+0.385853 0.017055
+0.385853 0.950631
+0.326263 0.950631
+0.093781 0.950631
+0.093781 0.017055
+0.173234 0.017055
+0.173234 0.950631
+0.176810 0.950631
+0.176810 0.017055
+0.256263 0.017055
+0.256263 0.950631
+</float_array>
+          <technique_common>
+            <accessor source="#streets_buildings_doors_lp_polySurface30-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="streets_buildings_doors_lp_polySurface30-VERTEX">
+          <input semantic="POSITION" source="#streets_buildings_doors_lp_polySurface30-POSITION"/>
+        </vertices>
+        <triangles count="12" material="streets_buildings_doors_lp_lambert2">
+          <input semantic="VERTEX" offset="0" source="#streets_buildings_doors_lp_polySurface30-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#streets_buildings_doors_lp_polySurface30-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#streets_buildings_doors_lp_polySurface30-UV0"/>
+          <p> 1 0 1 3 1 2 0 2 0 0 3 0 3 4 2 2 5 3 4 6 7 2 7 4 5 8 6 5 9 6 2 10 4 3 11 5 7 12 10 6 13 11 4 14 8 7 15 10 4 16 8 5 17 9 0 18 15 6 19 12 1 20 14 1 21 14 6 22 12 7 23 13 7 24 17 3 25 19 1 26 16 3 27 19 7 28 17 5 29 18 2 30 22 6 31 20 0 32 21 6 33 20 2 34 22 4 35 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="group6" id="group6" sid="group6">
+        <matrix sid="matrix">10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+        <node name="streets_buildings_doors_lp_streets_buildings_bake_attachments_polySurface6" id="streets_buildings_doors_lp_streets_buildings_bake_attachments_polySurface6" sid="streets_buildings_doors_lp_streets_buildings_bake_attachments_polySurface6">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 -4709.976344 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+          <node name="streets_buildings_doors_lp_polySurface30" id="streets_buildings_doors_lp_polySurface30" sid="streets_buildings_doors_lp_polySurface30">
+            <matrix sid="matrix">0.929265 0.000000 0.000000 233.162582 0.000000 0.632670 0.000000 25.227280 0.000000 0.000000 0.693346 -1073.729614 0.000000 0.000000 0.000000 1.000000</matrix>
+            <instance_geometry url="#streets_buildings_doors_lp_polySurface30-lib">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="streets_buildings_doors_lp_lambert2" target="#streets_buildings_doors_lp_lambert2"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+          </node>
+        </node>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

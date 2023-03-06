@@ -1,0 +1,177 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-2.92197 2.75061 3.58789" CameraTarget="0.0389493 1.8106 0.0338091" CameraZoom="2.36013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="fp_monster_chubby03.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="Mesh" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones>
+            <Bone ID="1" Name="Monster_Tutorial_Maya4_Mesh" />
+            <Bone ID="2" Name="Root" />
+            <Bone ID="3" Name="Spine1" />
+            <Bone ID="4" Name="Spine2" />
+            <Bone ID="5" Name="Neck" />
+            <Bone ID="6" Name="Head" />
+            <Bone ID="7" Name="Tentacle1" />
+            <Bone ID="8" Name="Tentacle2" />
+            <Bone ID="9" Name="Tentacle3" />
+            <Bone ID="10" Name="TentacleEnd" />
+            <Bone ID="11" Name="Collar_R" />
+            <Bone ID="12" Name="Shoulder_R" />
+            <Bone ID="13" Name="Elbow_R" />
+            <Bone ID="14" Name="ArmAttatchment_R" />
+            <Bone ID="15" Name="Collar_L" />
+            <Bone ID="16" Name="Shoulder_L" />
+            <Bone ID="17" Name="Elbow_L" />
+            <Bone ID="18" Name="ArmAttatchment_L" />
+            <Bone ID="19" Name="Thigh_R" />
+            <Bone ID="20" Name="Knee_R" />
+            <Bone ID="21" Name="Foot_R" />
+            <Bone ID="22" Name="Toes_R" />
+            <Bone ID="23" Name="ToesEnd_R" />
+            <Bone ID="24" Name="Thigh_L" />
+            <Bone ID="25" Name="Knee_L" />
+            <Bone ID="26" Name="Foot_L" />
+            <Bone ID="27" Name="Toes_L" />
+            <Bone ID="28" Name="ToesEnd_L" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations>
+            <Animation File="animations/fp_monster_chubby_idle.dae_anim" Name="Idle" SpecialEventTime="3.30331e-039" Speed="1" />
+            <Animation File="animations/fp_monster_chubby_run.dae_anim" Name="Run" SpecialEventTime="3.30331e-039" Speed="0.2">
+                <Event Time="0.35" Type="PlaySound" Value="fp_monster_buffy_step.snt" />
+            </Animation>
+            <Animation File="animations/fp_monster_chubby_walk.dae_anim" Name="Walk" SpecialEventTime="3.30331e-039" Speed="1">
+                <Event Time="0.5" Type="Step" Value="1" />
+                <Event Time="0.5" Type="PlaySound" Value="fp_monster_buffy_step.snt" />
+                <Event Time="1.5" Type="Step" Value="1" />
+                <Event Time="1.5" Type="PlaySound" Value="fp_monster_buffy_step.snt" />
+            </Animation>
+            <Animation File="animations/fp_monster_chubby_swing.dae_anim" Name="SwingClaws01" SpecialEventTime="1.15" Speed="1.1" />
+            <Animation File="animations/fp_monster_chubby_swing.dae_anim" Name="SwingClaws02" SpecialEventTime="1.15" Speed="1.1" />
+            <Animation File="animations/fp_monster_chubby_swinglaunch.dae_anim" Name="SwingLaunch" SpecialEventTime="0.3" Speed="1" />
+            <Animation File="animations/fp_monster_chubby_swing.dae_anim" Name="BreakDoor" SpecialEventTime="1.15" Speed="1.1" />
+            <Animation File="animations/fp_monster_chubby_idle.dae_anim" Name="Flinch" SpecialEventTime="3.30331e-039" Speed="1">
+                <Event Time="0.1" Type="PlaySound" Value="fp_monster_skinny_whimp.snt" />
+            </Animation>
+            <Animation File="animations/fp_monster_chubby_notice.dae_anim" Name="Notice1" SpecialEventTime="3.30331e-039" Speed="1.1" />
+            <Animation File="animations/fp_monster_chubby_notice.dae_anim" Name="Notice2" SpecialEventTime="3.30331e-039" Speed="1.1" />
+            <Animation File="animations/fp_monster_chubby_idle.dae_anim" Name="IdleExtra1" SpecialEventTime="1.67112e-038" Speed="1" />
+            <Animation File="animations/fp_monster_chubby_idle.dae_anim" Name="IdleExtra2" SpecialEventTime="4.679e-039" Speed="1" />
+            <Animation File="animations/fp_monster_chubby_idle.dae_anim" Name="IdleExtra3" SpecialEventTime="4.679e-039" Speed="1" />
+        </Animations>
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="Enemy_Grunt">
+        <Var Name="Health" Value="999" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="AutoRemoveAtPathEnd" Value="false" />
+        <Var Name="SightRange" Value="15" />
+        <Var Name="DarknessSightRange" Value="5" />
+        <Var Name="HearVolume" Value="0.4" />
+        <Var Name="FOV" Value="120" />
+        <Var Name="FOVXMul" Value="1" />
+        <Var Name="ActivationDistance" Value="999" />
+        <Var Name="MaxRegenHealth" Value="500" />
+        <Var Name="RegenHealthSpeed" Value="10" />
+        <Var Name="DangerMusic" Value="mx_penumbra_dan_infected03.ogg" />
+        <Var Name="DangerMusicPrio" Value="0" />
+        <Var Name="SearchMusic" Value="" />
+        <Var Name="SearchMusicPrio" Value="0" />
+        <Var Name="AttackMusic" Value="mx_penumbra_att_infected03.ogg" />
+        <Var Name="AttackMusicPrio" Value="0" />
+        <Var Name="PlayerSearchMaxAngle" Value="45" />
+        <Var Name="PlayerSearchMinDistMul" Value="0.5" />
+        <Var Name="PlayerSearchMaxDistMul" Value="2" />
+        <Var Name="PlayerSearchTime" Value="25" />
+        <Var Name="PlayerPatrolMaxAngle" Value="110" />
+        <Var Name="PlayerPatrolMinDist" Value="8" />
+        <Var Name="PlayerPatrolMaxDist" Value="18" />
+        <Var Name="Body_Size" Value="1.2 2 1.2" />
+        <Var Name="Body_Mass" Value="80" />
+        <Var Name="Body_AccurateClimbing" Value="true" />
+        <Var Name="Body_MaxNoSlideSlopeAngle" Value="45" />
+        <Var Name="Body_MaxPushMass" Value="60" />
+        <Var Name="Body_PushForce" Value="200" />
+        <Var Name="Body_CharacterMaxPushMass" Value="25" />
+        <Var Name="Body_CharacterPushForce" Value="120" />
+        <Var Name="Body_MaxStepSize" Value="0.5" />
+        <Var Name="Body_StepClimbSpeed" Value="6.0" />
+        <Var Name="Body_OffsetRot" Value="0 180 0" />
+        <Var Name="Body_OffsetTrans" Value="0 -0.02 0" />
+        <Var Name="Walk_ForwardSpeed" Value="1.3" />
+        <Var Name="Walk_BackwardSpeed" Value="0.4" />
+        <Var Name="Walk_ForwardAcc" Value="2" />
+        <Var Name="Walk_ForwardDeacc" Value="18" />
+        <Var Name="Run_ForwardSpeed" Value="5.1" />
+        <Var Name="Run_BackwardSpeed" Value="2.0" />
+        <Var Name="Run_ForwardAcc" Value="4.0" />
+        <Var Name="Run_ForwardDeacc" Value="8.0" />
+        <Var Name="TurnSpeedMul" Value="5" />
+        <Var Name="TurnMaxSpeed" Value="8" />
+        <Var Name="TurnMinBreakAngle" Value="10" />
+        <Var Name="TurnBreakMul" Value="2" />
+        <Var Name="MoveSpeedAnimMul" Value="1.2" />
+        <Var Name="StoppedToWalkSpeed" Value="0.2" />
+        <Var Name="WalkToStoppedSpeed" Value="0.1" />
+        <Var Name="WalkToRunSpeed" Value="2.9" />
+        <Var Name="RunToWalkSpeed" Value="2.7" />
+        <Var Name="WaterStepSpeedWalk" Value="3.0" />
+        <Var Name="WaterStepSpeedRun" Value="5.0" />
+        <Var Name="WaterStepSpeedMisc" Value="3.0" />
+        <Var Name="HitPS_Sword" Value="blood.ps" />
+        <Var Name="HitSound_Sword" Value="hit_generic" />
+        <Var Name="HitPS_Club" Value="blood.ps" />
+        <Var Name="HitSound_Club" Value="hit_generic" />
+        <Var Name="HitPS_Bullet" Value="blood.ps" />
+        <Var Name="HitSound_Bullet" Value="hit_generic" />
+        <Var Name="HitPS_Dud" Value="" />
+        <Var Name="HitSound_Dud" Value="" />
+        <Var Name="AmbientSound_Idle" Value="D:/games/Steam/steamapps/common/Amnesia The Dark Descent/ArchaicTwilight_rus/sounds/enemy/Vilmor/vilmor_idle.snt" />
+        <Var Name="AmbientMinTime_Idle" Value="3.5" />
+        <Var Name="AmbientMaxTime_Idle" Value="5.5" />
+        <Var Name="AmbientSound_Alert" Value="D:/games/Steam/steamapps/common/Amnesia The Dark Descent/ArchaicTwilight_rus/sounds/enemy/Vilmor/Vilmor_alert.snt" />
+        <Var Name="AmbientMinTime_Alert" Value="3" />
+        <Var Name="AmbientMaxTime_Alert" Value="6" />
+        <Var Name="AmbientSound_Hunt" Value="" />
+        <Var Name="AmbientMinTime_Hunt" Value="1" />
+        <Var Name="AmbientMaxTime_Hunt" Value="3" />
+        <Var Name="NormalAttackDistance" Value="1.9" />
+        <Var Name="NormalDamageSize" Value="1 1.6 1.75" />
+        <Var Name="NormalDamageOffset" Value="0 0 1.2" />
+        <Var Name="NormalAttackHitSound" Value="D:/games/Steam/steamapps/common/Amnesia The Dark Descent/ArchaicTwilight_rus/sounds/enemy/Vilmor/fp_monster_skinny_attack.snt" />
+        <Var Name="NormalAttackDamage" Value="60 80" />
+        <Var Name="NormalAttackForce" Value="30 5" />
+        <Var Name="NormalAttackStrength" Value="1" />
+        <Var Name="NormalDamageType" Value="Claws" />
+        <Var Name="BreakDoorAttackDamage" Value="100 110" />
+        <Var Name="BreakDoorAttackForce" Value="30 5" />
+        <Var Name="BreakDoorAttackStrength" Value="6.7" />
+        <Var Name="BreakDoorAttackHitSound" Value="D:/games/Steam/steamapps/common/Amnesia The Dark Descent/ArchaicTwilight_rus/sounds/enemy/Vilmor/fp_monster_skinny_attack.snt" />
+        <Var Name="BreakDoorDamageType" Value="BloodSplat" />
+        <Var Name="NoticeSound" Value="D:/games/Steam/steamapps/common/Amnesia The Dark Descent/ArchaicTwilight_rus/sounds/enemy/Vilmor/fp_monster_skinny_notice.snt" />
+        <Var Name="GiveUpNoticeSound" Value="" />
+        <Var Name="EnabledSound" Value="D:/games/Steam/steamapps/common/Amnesia The Dark Descent/ArchaicTwilight_rus/sounds/enemy/Vilmor/fp_monster_skinny_enable.snt" />
+        <Var Name="GroggyDamageCount" Value="1" />
+        <Var Name="AlertToHuntDistance" Value="10" />
+        <Var Name="AlertToInstantHuntDistance" Value="2.5" />
+        <Var Name="HuntPauseMinTime" Value="2.0" />
+        <Var Name="HuntPauseMaxTime" Value="4.5" />
+        <Var Name="IncreaseAlertSpeedDistance" Value="6" />
+        <Var Name="IncreasedAlertSpeedMul" Value="1.25" />
+        <Var Name="AlertRunTowardsToHuntLimit" Value="30" />
+        <Var Name="AlertRunTowardsCheckDistance" Value="6" />
+        <Var Name="IdleExtraTimeMin" Value="2" />
+        <Var Name="IdleExtraTimeMax" Value="3" />
+        <Var Name="IdleExtraNum" Value="2" />
+    </UserDefinedVariables>
+</Entity>

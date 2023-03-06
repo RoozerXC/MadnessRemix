@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2013-01-30T21:49:27Z</created>
+    <keywords></keywords>
+    <modified>2013-01-30T21:49:27Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file1-image" name="file1">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/Amnesia - Source/StaticObjects/streets/decals/street_signs_streetsigns.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface4-lib" name="polySurface4Mesh">
+      <mesh>
+        <source id="polySurface4-POSITION">
+          <float_array id="polySurface4-POSITION-array" count="12">
+814.880737 8.259765 -7054.846680
+814.880737 8.259765 -10212.577148
+541.973816 8.259765 -10212.577148
+541.973816 8.259765 -7054.846680
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface4-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface4-Normal0">
+          <float_array id="polySurface4-Normal0-array" count="12">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface4-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface4-UV0">
+          <float_array id="polySurface4-UV0-array" count="8">
+1.000000 0.394922
+1.000000 0.481347
+0.000000 0.481347
+0.000000 0.394922
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface4-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface4-VERTEX">
+          <input semantic="POSITION" source="#polySurface4-POSITION"/>
+          <input semantic="NORMAL" source="#polySurface4-Normal0"/>
+        </vertices>
+        <triangles count="2" material="lambert1">
+          <input semantic="VERTEX" offset="0" source="#polySurface4-VERTEX"/>
+          <input semantic="TEXCOORD" offset="1" set="0" source="#polySurface4-UV0"/>
+          <p> 1 2 3 0 0 1 3 0 1 2 2 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="polySurface4" id="polySurface4" sid="polySurface4">
+        <matrix sid="matrix">-0.000000 -1.000000 0.000000 -0.000000 0.648567 -0.000000 0.000000 -440.005585 0.000000 0.000000 0.324284 2799.770508 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#polySurface4-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert1" target="#lambert1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

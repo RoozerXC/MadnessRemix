@@ -1,0 +1,32 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="0" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.023122 0.520254 180.000000" CameraTarget="0.023122 0.520254 0.000000" CameraZoom="3.299999" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="180.000000 0.650433 0.123187" CameraTarget="0.000000 0.650433 0.123187" CameraZoom="2.899999" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.036837 180.000000 -0.104335" CameraTarget="0.036837 0.000000 -0.104335" CameraZoom="3.299999" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.142684 1.616305 2.542380" CameraTarget="0.126366 0.679778 -0.479977" CameraZoom="2.760131" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="entities/ornament/shield04/shield04.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="polySurface4" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="12" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="1" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="1.000000 0.700000 0.150000" RelativeTranslation="-0.000780 0.299664 0.000591" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 0.700000 0.150000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="9" WorldPos="0.000000 0.963701 -0.023102" />
+            <BodyShape Active="true" GroupID="0" ID="2" Name="Shape_2" RelativeRotation="1.570796 0.000000 0.000000" RelativeScale="0.500000 0.150000 0.600000" RelativeTranslation="0.000780 -0.049664 -0.000591" Rotation="1.570796 0.000000 0.000000" Scale="0.500000 0.150000 0.600000" ShapeType="Cylinder" ShapeTypeID="1" Tag="" Type="9" WorldPos="0.001560 0.614373 -0.024283" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" ID="4" LinearDamping="0.000000" Mass="0.000000" Material="Metal" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="10" UseSurfaceEffects="true" Volatile="false" WorldPos="0.000780 0.664037 -0.023692">
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

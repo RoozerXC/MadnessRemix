@@ -1,0 +1,42 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.785797 1.59088 -1.52788" CameraTarget="0.509008 -0.077761 -0.248156" CameraZoom="3.16013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/Timorem_Furniture/Bed01.DAE">
+            <SubMesh Active="true" ID="0" Material="" Name="TimmyWall" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="1" Name="Shape_1" RelativeRotation="0 0 0" RelativeScale="0.0915042 0.45 0.104121" RelativeTranslation="-0.525142 -0.0690488 -1.48488" Rotation="0 0 0" Scale="0.0915042 0.45 0.104121" ShapeType="Box" Tag="" WorldPos="-0.418274 0.226348 -1.49669" />
+            <BodyShape Active="true" ID="3" Name="Shape_2" RelativeRotation="0 0 0" RelativeScale="0.0915042 0.45 0.104121" RelativeTranslation="0.525142 -0.0690488 -1.48488" Rotation="0 0 0" Scale="0.0915042 0.45 0.104121" ShapeType="Box" Tag="" WorldPos="0.63201 0.226348 -1.49669" />
+            <BodyShape Active="true" ID="4" Name="Shape_3" RelativeRotation="0 0 0" RelativeScale="0.0915042 0.45 0.104121" RelativeTranslation="0.525142 -0.0690488 1.48488" Rotation="0 0 0" Scale="0.0915042 0.45 0.104121" ShapeType="Box" Tag="" WorldPos="0.63201 0.226348 1.47306" />
+            <BodyShape Active="true" ID="5" Name="Shape_4" RelativeRotation="0 0 0" RelativeScale="0.0915042 0.45 0.104121" RelativeTranslation="-0.525142 -0.0690488 1.48488" Rotation="0 0 0" Scale="0.0915042 0.45 0.104121" ShapeType="Box" Tag="" WorldPos="-0.418274 0.226348 1.47306" />
+            <BodyShape Active="true" ID="6" Name="Shape_5" RelativeRotation="0 0 0" RelativeScale="0.995058 0.15 0.0523286" RelativeTranslation="0.00123464 0.0690488 1.48488" Rotation="0 0 0" Scale="0.995058 0.15 0.0523286" ShapeType="Box" Tag="" WorldPos="0.108102 0.364445 1.47306" />
+            <BodyShape Active="true" ID="7" Name="Shape_6" RelativeRotation="0 0 0" RelativeScale="1.14027 0.05 3.05872" RelativeTranslation="0.00123464 0.0173796 -0.00674343" Rotation="0 0 0" Scale="1.14027 0.05 3.05872" ShapeType="Box" Tag="" WorldPos="0.108102 0.312776 -0.0185537" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="8" LinearDamping="0" Mass="25" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0.106868 0.295397 -0.0118103">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="7" />
+                <Shape ID="1" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="6" />
+                <Shape ID="5" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+</Entity>

@@ -1,0 +1,196 @@
+void OnStart() { 
+	// ELEVATOR STUFFS
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_1", "ElevatorDoorHandler", false, 0);
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_2", "ElevatorDoorHandler", false, 0);
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_3", "ElevatorDoorHandler", false, 0);
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_4", "ElevatorDoorHandler", false, 0);
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_5", "ElevatorDoorHandler", false, 0);
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_6", "ElevatorDoorHandler", false, 0);
+	SetLocalVarInt("ElevatorDoorsOpen_1", 0);
+	SetLocalVarInt("ElevatorDoorsOpen_2", 0);
+	SetLocalVarInt("ElevatorDoorsOpen_3", 0);
+	SetLocalVarInt("ElevatorDoorsOpen_4", 0);
+	SetLocalVarInt("ElevatorDoorsOpen_5", 0);
+	SetLocalVarInt("ElevatorDoorsOpen_6", 0);
+}
+
+void OnEnter() { }
+void OnLeave() { }
+
+void ElevatorDoorHandler(string &in asParent, string &in asChild, int alState) {
+	if (asChild == "ElevatorOpenTrigger_1") {
+		if (alState == 1 && GetLocalVarInt("ElevatorDoorsOpen_1") == 0) {
+			SetMoveObjectState("ElevatorDoorRight_1", 1);
+			SetMoveObjectState("ElevatorDoorLeft_1", 1);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_3D.snt", "ElevatorDoors_Source_1", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_2D.snt", "ElevatorDoors_Source_1", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_1", 1);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_1");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_1");
+			return;
+		}
+		else if (alState == -1 && GetLocalVarInt("ElevatorDoorsOpen_1") == 1) {
+			SetMoveObjectState("ElevatorDoorRight_1", 0);
+			SetMoveObjectState("ElevatorDoorLeft_1", 0);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_3D.snt", "ElevatorDoors_Source_1", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_2D.snt", "ElevatorDoors_Source_1", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_1", 0);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_1");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_1");
+			return;
+		}
+	}
+
+	if (asChild == "ElevatorOpenTrigger_2") {
+		if (alState == 1 && GetLocalVarInt("ElevatorDoorsOpen_2") == 0) {
+			SetMoveObjectState("ElevatorDoorRight_2", 1);
+			SetMoveObjectState("ElevatorDoorLeft_2", 1);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_3D.snt", "ElevatorDoors_Source_2", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_2D.snt", "ElevatorDoors_Source_2", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_2", 1);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_2");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_2");
+			return;
+		}
+		else if (alState == -1 && GetLocalVarInt("ElevatorDoorsOpen_2") == 1) {
+			SetMoveObjectState("ElevatorDoorRight_2", 0);
+			SetMoveObjectState("ElevatorDoorLeft_2", 0);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_3D.snt", "ElevatorDoors_Source_2", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_2D.snt", "ElevatorDoors_Source_2", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_2", 0);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_2");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_2");
+			return;
+		}
+	}
+
+	if (asChild == "ElevatorOpenTrigger_3") {
+		if (alState == 1 && GetLocalVarInt("ElevatorDoorsOpen_3") == 0) {
+			SetMoveObjectState("ElevatorDoorRight_3", 1);
+			SetMoveObjectState("ElevatorDoorLeft_3", 1);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_3D.snt", "ElevatorDoors_Source_3", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_2D.snt", "ElevatorDoors_Source_3", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_3", 1);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_3");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_3");
+			return;
+		}
+		else if (alState == -1 && GetLocalVarInt("ElevatorDoorsOpen_3") == 1) {
+			SetMoveObjectState("ElevatorDoorRight_3", 0);
+			SetMoveObjectState("ElevatorDoorLeft_3", 0);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_3D.snt", "ElevatorDoors_Source_3", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_2D.snt", "ElevatorDoors_Source_3", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_3", 0);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_3");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_3");
+			return;
+		}
+	}
+
+	if (asChild == "ElevatorOpenTrigger_4") {
+		if (alState == 1 && GetLocalVarInt("ElevatorDoorsOpen_4") == 0) {
+			SetMoveObjectState("ElevatorDoorRight_4", 1);
+			SetMoveObjectState("ElevatorDoorLeft_4", 1);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_3D.snt", "ElevatorDoors_Source_4", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_2D.snt", "ElevatorDoors_Source_4", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_4", 1);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_4");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_4");
+			return;
+		}
+		else if (alState == -1 && GetLocalVarInt("ElevatorDoorsOpen_4") == 1) {
+			SetMoveObjectState("ElevatorDoorRight_4", 0);
+			SetMoveObjectState("ElevatorDoorLeft_4", 0);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_3D.snt", "ElevatorDoors_Source_4", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_2D.snt", "ElevatorDoors_Source_4", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_4", 0);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_4");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_4");
+			return;
+		}
+	}
+
+	if (asChild == "ElevatorOpenTrigger_5") {
+		if (alState == 1 && GetLocalVarInt("ElevatorDoorsOpen_5") == 0) {
+			SetMoveObjectState("ElevatorDoorRight_5", 1);
+			SetMoveObjectState("ElevatorDoorLeft_5", 1);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_3D.snt", "ElevatorDoors_Source_5", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_2D.snt", "ElevatorDoors_Source_5", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_5", 1);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_5");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_5");
+			return;
+		}
+		else if (alState == -1 && GetLocalVarInt("ElevatorDoorsOpen_5") == 1) {
+			SetMoveObjectState("ElevatorDoorRight_5", 0);
+			SetMoveObjectState("ElevatorDoorLeft_5", 0);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_3D.snt", "ElevatorDoors_Source_5", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_2D.snt", "ElevatorDoors_Source_5", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_5", 0);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_5");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_5");
+			return;
+		}
+	}
+
+	if (asChild == "ElevatorOpenTrigger_6") {
+		if (alState == 1 && GetLocalVarInt("ElevatorDoorsOpen_6") == 0) {
+			SetMoveObjectState("ElevatorDoorRight_6", 1);
+			SetMoveObjectState("ElevatorDoorLeft_6", 1);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_3D.snt", "ElevatorDoors_Source_6", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_open_2D.snt", "ElevatorDoors_Source_6", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_6", 1);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_6");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_6");
+			return;
+		}
+		else if (alState == -1 && GetLocalVarInt("ElevatorDoorsOpen_6") == 1) {
+			SetMoveObjectState("ElevatorDoorRight_6", 0);
+			SetMoveObjectState("ElevatorDoorLeft_6", 0);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_3D.snt", "ElevatorDoors_Source_6", 0.0f, false);
+			PlaySoundAtEntity("", "reactor_elevator_door_close_2D.snt", "ElevatorDoors_Source_6", 0.0f, false);
+			SetLocalVarInt("ElevatorDoorsOpen_6", 0);
+			RemoveEntityCollideCallback("Player", "ElevatorOpenTrigger_6");
+			AddTimer("RestoreCallbackTimer", 1, "RestoreCallback_6");
+			return;
+		}
+	}
+}	
+
+void RestoreCallback_1(string &in asTimer) {
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_1", "ElevatorDoorHandler", false, 0);
+}
+void RestoreCallback_2(string &in asTimer) {
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_2", "ElevatorDoorHandler", false, 0);
+}
+void RestoreCallback_3(string &in asTimer) {
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_3", "ElevatorDoorHandler", false, 0);
+}
+void RestoreCallback_4(string &in asTimer) {
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_4", "ElevatorDoorHandler", false, 0);
+}
+void RestoreCallback_5(string &in asTimer) {
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_5", "ElevatorDoorHandler", false, 0);
+}
+void RestoreCallback_6(string &in asTimer) {
+	AddEntityCollideCallback("Player", "ElevatorOpenTrigger_6", "ElevatorDoorHandler", false, 0);
+}
+
+// ---------------------------------------------- //
+// -- TOP                                         //
+//	  SetMoveObjectState("ElevatorPod_1", -.35);  //
+// -- MIDDLE                                      //
+//	  SetMoveObjectState("ElevatorPod_1", 0);     //
+// -- BOTTOM                                      //
+//	  SetMoveObjectState("ElevatorPod_1", .35);   //
+// ---------------------------------------------- //
+
+void ElevationLeverCallback_1(string &in asEntity, int ElevationLeverState_1)
+{
+	if(ElevationLeverState_1 == -1) {
+		SetMoveObjectState("ElevatorPod_1", -.35);
+	}
+	else if(ElevationLeverState_1 == 1) {
+		SetMoveObjectState("ElevatorPod_1", .35);
+	}
+}

@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Marc</author>
+      <authoring_tool>OpenCOLLADA2008</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=1;relativePaths=1;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=0;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=0;exportPolygonMeshes=1;exportLights=0;
+			exportCameras=0;exportJointsAndSkin=1;exportAnimations=1;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=0;exportVertexColors=1;exportVertexColorsPerVertex=0;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=0;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=0;doublePrecision=0
+		</comments>
+      <source_data>file:///F:/pig/Game/redist/static_objects/tunnels/floor/tunnels_pipe_pit.DAE</source_data>
+    </contributor>
+    <created>2013-04-24T11:41:42</created>
+    <modified>2013-04-24T11:41:42</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+    <material id="Material__9" name="Material__9">
+      <instance_effect url="#Material__9-fx"/>
+    </material>
+    <material id="_11___Default" name="_11___Default">
+      <instance_effect url="#_11___Default-fx"/>
+    </material>
+    <material id="Material__6" name="Material__6">
+      <instance_effect url="#Material__6-fx"/>
+    </material>
+    <material id="Material__7" name="Material__7">
+      <instance_effect url="#Material__7-fx"/>
+    </material>
+    <material id="Material__8" name="Material__8">
+      <instance_effect url="#Material__8-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material__6-fx">
+      <profile_COMMON>
+        <newparam sid="Map__25_image-surface">
+          <surface type="2D">
+            <init_from>Map__25_image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Map__25_image-sampler">
+          <sampler2D>
+            <source>Map__25_image-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__25_image-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material__7-fx">
+      <profile_COMMON>
+        <newparam sid="Map__26_image-surface">
+          <surface type="2D">
+            <init_from>Map__26_image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Map__26_image-sampler">
+          <sampler2D>
+            <source>Map__26_image-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__26_image-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material__8-fx">
+      <profile_COMMON>
+        <newparam sid="Map__27_image-surface">
+          <surface type="2D">
+            <init_from>Map__27_image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Map__27_image-sampler">
+          <sampler2D>
+            <source>Map__27_image-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__27_image-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material__9-fx">
+      <profile_COMMON>
+        <newparam sid="Map__28_image-surface">
+          <surface type="2D">
+            <init_from>Map__28_image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Map__28_image-sampler">
+          <sampler2D>
+            <source>Map__28_image-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__28_image-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_11___Default-fx">
+      <profile_COMMON>
+        <newparam sid="Map__18_image-surface">
+          <surface type="2D">
+            <init_from>Map__18_image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Map__18_image-sampler">
+          <sampler2D>
+            <source>Map__18_image-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588235 0.588235 0.588235 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__18_image-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert1-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.4 0.4 0.4 1</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="Map__25_image" name="Map__25_image">
+      <init_from>../../../entities/gameplay/pneumatic_tube/pneumatic_tube_pipes.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>Map__25_image</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+    <image id="Map__18_image" name="Map__18_image">
+      <init_from>../../factorybase/fence_grating.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>Map__18_image</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+    <image id="Map__27_image" name="Map__27_image">
+      <init_from>../../spraylock/pipes01.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>Map__27_image</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+    <image id="Map__26_image" name="Map__26_image">
+      <init_from>../../spraylock/pipes03.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>Map__26_image</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+    <image id="Map__28_image" name="Map__28_image">
+      <init_from>../../teslabase/dressing/tesla_dressing_wires_01.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>Map__28_image</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="pipe_pitShape" name="pipe_pitShape">
+      <mesh>
+        <source id="pipe_pitShape-positions" name="pipe_pitShape-positions">
+          <float_array id="pipe_pitShape-positions-array" count="228">-0.023461 0 0.02418 -4 0 0 -0.023461 0 1.97582 -4 0 2 -0.099303 -0.5 0.09031 -3.900697 -0.5 0.09031 -0.099303 -0.5 1.90969 -3.900697 -0.5 1.90969 -0.023461 -0.0725 0.02418 -3.976539 -0.0725 0.02418 -3.976539 -0.0725 1.97582 -0.023461 -0.0725 1.97582 -0.099303 -0.0725 0.09031 -3.900697 -0.0725 0.09031 -3.900697 -0.0725 1.90969 -0.099303 -0.0725 1.90969 0 0 0 0 0 2 -3.976539 0 0.02418 -3.976539 0 1.97582 -3.037506 -0.01205 1.985032 -3.037506 -0.01205 0.014967 -3.037506 -0.063447 0.014967 -3.037506 -0.063447 1.985032 -2.962494 -0.063447 0.014967 -2.962494 -0.063447 1.985032 -2.962494 -0.01205 0.014967 -2.962494 -0.01205 1.985032 -2.037506 -0.063447 0.014968 -2.037506 -0.063447 1.985033 -2.037506 -0.01205 1.985032 -2.037506 -0.01205 0.014967 -1.962494 -0.01205 1.985032 -1.962494 -0.01205 0.014967 -1.962494 -0.063447 1.985032 -1.962494 -0.063447 0.014967 -0.962494 -0.01205 0.014968 -0.962494 -0.01205 1.985033 -0.962494 -0.063447 1.985032 -0.962494 -0.063447 0.014967 -1.037506 -0.063447 1.985032 -1.037506 -0.063447 0.014967 -1.037506 -0.01205 1.985032 -1.037506 -0.01205 0.014967 -4.000675 -0.010453 0.027494 -4.000675 -0.085882 0.027494 -4.000675 -0.085882 0.102506 -4.000675 -0.010453 0.102506 6.75e-4 -0.010453 0.027494 6.75e-4 -0.010453 0.102506 6.75e-4 -0.085882 0.102506 6.75e-4 -0.085882 0.027494 -4.000675 -0.010453 1.899166 -4.000675 -0.085882 1.899166 -4.000675 -0.085882 1.974178 -4.000675 -0.010453 1.974178 6.75e-4 -0.010453 1.899166 6.75e-4 -0.010453 1.974178 6.75e-4 -0.085882 1.974178 6.75e-4 -0.085882 1.899166 -3.974958 -0.01205 1.985032 -3.974958 -0.01205 0.014967 -3.974958 -0.063447 0.014967 -3.974958 -0.063447 1.985032 -3.899946 -0.063447 0.014967 -3.899947 -0.063447 1.985032 -3.899946 -0.01205 0.014967 -3.899947 -0.01205 1.985032 -0.030458 -0.01205 0.014968 -0.030458 -0.01205 1.985033 -0.030458 -0.063447 1.985032 -0.030458 -0.063447 0.014967 -0.10547 -0.063447 1.985032 -0.10547 -0.063447 0.014967 -0.10547 -0.01205 1.985032 -0.10547 -0.01205 0.014967</float_array>
+          <technique_common>
+            <accessor source="#pipe_pitShape-positions-array" count="76" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe_pitShape-normals" name="pipe_pitShape-normals">
+          <float_array id="pipe_pitShape-normals-array" count="540">0 0.9999999 0 0 1 0 0 0.9999999 0 0 0.9999999 0 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 1 0 0 0.9999999 0 0 1 0 0 1 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 1 0 0 0.9999999 0 0 1 0 0 1 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0</float_array>
+          <technique_common>
+            <accessor source="#pipe_pitShape-normals-array" count="180" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe_pitShape-UVSet0" name="pipe_pitShape-UVSet0">
+          <float_array id="pipe_pitShape-UVSet0-array" count="376">0.33877 0.728535 0.222784 0.728535 0.222784 0.673023 0.33877 0.673023 1.634543 0.929736 1.644159 0.901482 0.855708 0.620392 0.855708 0.65972 0.004662 0.901629 0.014425 0.929735 0.673374 0.620392 0.673374 0.65972 0.824188 0.901556 0.81428 0.929735 0.855708 0.620392 0.855708 0.65972 1.644159 0.901482 1.634543 0.929736 0.673374 0.65972 0.673374 0.620392 0.004662 0.901629 0.014425 0.929735 1.634543 0.929736 1.644159 0.901482 0.824188 0.901556 0.81428 0.929735 1.644159 0.901482 1.634543 0.929736 0.014425 0.929735 0.004662 0.901629 0.004662 0.901629 0.014425 0.929735 0.004662 0.901629 0.014425 0.929735 0.824188 0.901556 0.81428 0.929735 0.004662 0.901629 0.014425 0.929735 0.014425 0.929735 0.004662 0.901629 0.004662 0.901629 0.014425 0.929735 0.824188 0.901556 0.81428 0.929735 -1.224552 0.913117 1.004094 0.913117 -1.224552 0.82823 1.004094 0.82823 1.004094 0.827759 -1.224552 0.827759 1.004094 0.913117 -1.224552 0.913117 1.004094 0.827758 -1.224552 0.827758 -1.224552 0.913117 1.004094 0.913117 1.004094 0.827759 -1.224552 0.827759 1.004094 0.913117 -1.224552 0.913117 1.004094 0.827758 -1.224552 0.827758 1.004094 0.82823 -1.224552 0.82823 -1.224552 0.913117 1.004094 0.913117 1.004094 0.827759 -1.224552 0.827759 1.004094 0.913117 -1.224552 0.913117 1.004094 0.827758 -1.224552 0.827758 1.004094 0.82823 -1.224552 0.82823 -2.458389 0.827758 -2.458389 0.913117 -2.373502 0.913117 -2.373502 0.827758 2.237931 0.827758 2.153045 0.827758 2.153045 0.913117 2.237931 0.913117 -2.373502 0.913117 2.153045 0.913117 2.153045 0.827759 -2.373502 0.827759 2.153045 0.82823 -2.373503 0.82823 -2.458389 0.827758 -2.458389 0.913117 -2.373502 0.913117 -2.373502 0.827758 2.237931 0.827758 2.153045 0.827758 2.153045 0.913117 2.237931 0.913117 -2.373502 0.913117 2.153045 0.913117 2.153045 0.827759 -2.373502 0.827759 2.153045 0.82823 -2.373503 0.82823 -1.224552 0.913117 1.004094 0.913117 1.004094 0.827759 -1.224552 0.827759 1.004094 0.913117 -1.224552 0.913117 1.004094 0.827758 -1.224552 0.827758 1.004094 0.82823 -1.224552 0.82823 -1.224552 0.913117 1.004094 0.913117 1.004094 0.827759 -1.224552 0.827759 1.004094 0.913117 -1.224552 0.913117 1.004094 0.827758 -1.224552 0.827758 1.004094 0.82823 -1.224552 0.82823 0.004662 0.931343 0.804517 0.931343 0.804517 0.901629 0.004662 0.901629 0.004662 0.901629 0.804517 0.901629 0.804517 0.931343 0.004662 0.931343 0.004662 0.901629 1.624781 0.901629 1.624781 0.931343 0.004662 0.931343 0.004662 0.931343 1.624781 0.931343 1.624781 0.901629 0.004662 0.901629 0.506001 0.65972 0.506001 0.620392 0.506001 0.65972 0.506001 0.620392 0.506001 0.65972 0.506001 0.620392 0.506001 0.620392 0.506001 0.65972 1.004094 0.913117 -1.224552 0.913117 1.004094 0.82823 -1.224552 0.82823 1.004094 0.913117 -1.224552 0.913117 1.004094 0.913117 -1.224552 0.913117 1.004094 0.82823 -1.224552 0.82823 1.004094 0.913117 -1.224552 0.913117 1.004094 0.913117 -1.224552 0.913117 1.004094 0.82823 -1.224552 0.82823 1.004094 0.913117 -1.224552 0.913117 -2.373503 0.82823 -2.373503 0.913117 2.153045 0.913117 2.153045 0.82823 2.153045 0.913117 -2.373503 0.913117 -2.373503 0.82823 -2.373503 0.913117 2.153045 0.913117 2.153045 0.82823 2.153045 0.913117 -2.373503 0.913117 1.004094 0.913117 -1.224552 0.913117 1.004094 0.82823 -1.224552 0.82823 1.004094 0.913117 -1.224552 0.913117 1.004094 0.913117 -1.224552 0.913117 1.004094 0.82823 -1.224552 0.82823 1.004094 0.913117 -1.224552 0.913117</float_array>
+          <technique_common>
+            <accessor source="#pipe_pitShape-UVSet0-array" count="188" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pipe_pitShape-vertices" name="pipe_pitShape-vertices">
+          <input semantic="POSITION" source="#pipe_pitShape-positions"/>
+        </vertices>
+        <triangles material="pipe_pitSG" count="98">
+          <input semantic="VERTEX" source="#pipe_pitShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pipe_pitShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pipe_pitShape-UVSet0" offset="2" set="0"/>
+          <p>4 0 0 5 1 1 7 2 2 7 2 2 6 3 3 4 0 0 18 4 131 9 5 132 8 6 133 8 6 133 0 7 130 18 4 131 19 8 127 10 9 128 9 10 129 9 10 129 18 11 126 19 8 127 2 12 135 11 13 136 10 14 137 10 14 137 19 15 134 2 12 135 0 16 123 8 17 124 11 18 125 11 18 125 2 19 122 0 16 123 5 20 7 4 21 138 12 22 139 12 22 139 13 23 6 5 20 7 7 24 11 5 25 140 13 26 141 13 26 141 14 27 10 7 24 11 6 28 15 7 29 142 14 30 143 14 30 143 15 31 14 6 28 15 4 32 19 6 33 144 15 34 145 15 34 145 12 35 18 4 32 19 9 36 20 13 37 21 12 38 22 12 38 22 8 39 23 9 36 20 10 40 24 14 41 25 13 37 37 13 37 37 9 36 36 10 40 24 11 42 26 15 43 27 14 41 41 14 41 41 10 40 40 11 42 26 8 39 39 12 38 38 15 43 43 15 43 43 11 42 42 8 39 39 0 44 4 16 45 5 1 46 8 1 46 8 18 47 9 0 44 4 18 47 31 1 46 30 3 48 12 3 48 12 19 49 13 18 47 31 19 49 33 3 48 32 17 50 16 17 50 16 2 51 17 19 49 33 2 51 35 17 50 34 16 45 29 16 45 29 0 44 28 2 51 35 21 52 45 22 53 48 23 54 49 23 54 49 20 55 44 21 52 45 22 56 146 24 57 148 25 58 149 25 58 149 23 59 147 22 56 146 24 60 50 26 61 52 27 62 53 27 62 53 25 63 51 24 60 50 26 64 150 21 65 47 20 66 46 20 66 46 27 67 151 26 64 150 29 68 55 30 69 56 31 70 57 31 70 57 28 71 54 29 68 55 30 72 152 32 73 154 33 74 155 33 74 155 31 75 153 30 72 152 32 76 58 34 77 60 35 78 61 35 78 61 33 79 59 32 76 58 34 80 156 29 81 62 28 82 63 28 82 63 35 83 157 34 80 156 37 84 65 38 85 66 39 86 67 39 86 67 36 87 64 37 84 65 38 88 158 40 89 160 41 90 161 41 90 161 39 91 159 38 88 158 40 92 68 42 93 70 43 94 71 43 94 71 41 95 69 40 92 68 42 96 162 37 97 72 36 98 73 36 98 73 43 99 163 42 96 162 44 100 74 45 101 75 46 102 76 46 102 76 47 103 77 44 100 74 48 104 78 49 105 79 50 106 80 50 106 80 51 107 81 48 104 78 44 108 82 48 109 83 51 110 84 51 110 84 45 111 85 44 108 82 45 112 169 51 113 168 50 114 167 50 114 167 46 115 164 45 112 169 46 116 76 50 117 80 49 118 79 49 118 79 47 119 77 46 116 76 47 120 165 49 121 166 48 122 86 48 122 86 44 123 87 47 120 165 52 124 88 53 125 89 54 126 90 54 126 90 55 127 91 52 124 88 56 128 92 57 129 93 58 130 94 58 130 94 59 131 95 56 128 92 52 132 96 56 133 97 59 134 98 59 134 98 53 135 99 52 132 96 53 136 175 59 137 174 58 138 173 58 138 173 54 139 170 53 136 175 54 140 90 58 141 94 57 142 93 57 142 93 55 143 91 54 140 90 55 144 171 57 145 172 56 146 100 56 146 100 52 147 101 55 144 171 61 148 103 62 149 104 63 150 105 63 150 105 60 151 102 61 148 103 62 152 176 64 153 178 65 154 179 65 154 179 63 155 177 62 152 176 64 156 106 66 157 108 67 158 109 67 158 109 65 159 107 64 156 106 66 160 180 61 161 110 60 162 111 60 162 111 67 163 181 66 160 180 69 164 113 70 165 114 71 166 115 71 166 115 68 167 112 69 164 113 70 168 182 72 169 184 73 170 185 73 170 185 71 171 183 70 168 182 72 172 116 74 173 118 75 174 119 75 174 119 73 175 117 72 172 116 74 176 186 69 177 120 68 178 121 68 178 121 75 179 187 74 176 186</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>pipe_pitShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="pipe_pit_fenceShape" name="pipe_pit_fenceShape">
+      <mesh>
+        <source id="pipe_pit_fenceShape-positions" name="pipe_pit_fenceShape-positions">
+          <float_array id="pipe_pit_fenceShape-positions-array" count="12">-3.987629 -0.022966 1.976678 -0.012371 -0.022966 1.976678 -0.012371 -0.022966 0.023322 -3.987629 -0.022966 0.023322</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_fenceShape-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe_pit_fenceShape-normals" name="pipe_pit_fenceShape-normals">
+          <float_array id="pipe_pit_fenceShape-normals-array" count="12">0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_fenceShape-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe_pit_fenceShape-UVSet0" name="pipe_pit_fenceShape-UVSet0">
+          <float_array id="pipe_pit_fenceShape-UVSet0-array" count="8">11.32645 -0.975337 36.36172 24.05996 24.05993 36.36173 -0.975339 11.32644</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_fenceShape-UVSet0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pipe_pit_fenceShape-vertices" name="pipe_pit_fenceShape-vertices">
+          <input semantic="POSITION" source="#pipe_pit_fenceShape-positions"/>
+        </vertices>
+        <triangles material="pipe_pit_fenceSG" count="2">
+          <input semantic="VERTEX" source="#pipe_pit_fenceShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pipe_pit_fenceShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pipe_pit_fenceShape-UVSet0" offset="2" set="0"/>
+          <p>1 0 1 2 1 2 3 2 3 3 2 3 0 3 0 1 0 1</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>pipe_pit_fenceShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="pipe_pit_pipe_steelShape" name="pipe_pit_pipe_steelShape">
+      <mesh>
+        <source id="pipe_pit_pipe_steelShape-positions" name="pipe_pit_pipe_steelShape-positions">
+          <float_array id="pipe_pit_pipe_steelShape-positions-array" count="60">0 -0.168681 1.774198 0 -0.133822 1.666915 0 -0.259942 1.840503 0 -0.372746 1.840503 0 -0.464006 1.774198 0 -0.498865 1.666915 0 -0.464006 1.559631 0 -0.372746 1.493327 0 -0.259942 1.493327 0 -0.168681 1.559631 -4 -0.133822 1.666915 -4 -0.168681 1.774198 -4 -0.259942 1.840503 -4 -0.372746 1.840503 -4 -0.464006 1.774198 -4 -0.498865 1.666915 -4 -0.464006 1.559631 -4 -0.372746 1.493327 -4 -0.259942 1.493327 -4 -0.168681 1.559631</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_pipe_steelShape-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe_pit_pipe_steelShape-normals" name="pipe_pit_pipe_steelShape-normals">
+          <float_array id="pipe_pit_pipe_steelShape-normals-array" count="60">0 0.3090168 0.9510565 0 -0.40963 0.9122518 0 -0.2048149 0.9788007 0 0.3090167 0.9510567 0 0.3090136 -0.9510576 0 0.3090135 -0.9510576 0 -0.309016 -0.9510568 0 -0.3090158 -0.9510569 0 0.8676023 -0.4972587 0 0.7410186 -0.6714843 0 0.9941856 0.10768 0 0.9941858 -0.1076767 0 0.8090152 0.5877877 0 0.8090152 0.5877877 0 -0.8676031 0.4972575 0 -0.7410234 0.6714793 0 -1 0 0 -0.9999999 0 0 -0.8090157 -0.587787 0 -0.8090159 -0.5877869</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_pipe_steelShape-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe_pit_pipe_steelShape-UVSet0" name="pipe_pit_pipe_steelShape-UVSet0">
+          <float_array id="pipe_pit_pipe_steelShape-UVSet0-array" count="44">3.552238 0.699468 3.552238 0.799646 0 0.799646 0 0.699468 3.552238 0.198561 3.552238 0.298743 0 0.298743 0 0.198561 3.552238 0.398927 0 0.398927 3.552238 0.499108 0 0.499108 3.552238 0.599288 0 0.599288 3.552238 0.899823 0 0.899823 3.552238 1 0 1 3.552238 0.098381 0 0.098381 3.552237 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_pipe_steelShape-UVSet0-array" count="22" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pipe_pit_pipe_steelShape-vertices" name="pipe_pit_pipe_steelShape-vertices">
+          <input semantic="POSITION" source="#pipe_pit_pipe_steelShape-positions"/>
+        </vertices>
+        <triangles material="pipe_pit_pipe_steelSG" count="20">
+          <input semantic="VERTEX" source="#pipe_pit_pipe_steelShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pipe_pit_pipe_steelShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pipe_pit_pipe_steelShape-UVSet0" offset="2" set="0"/>
+          <p>12 0 0 13 1 1 3 2 2 3 2 2 2 3 3 12 0 0 18 4 5 8 5 6 7 6 7 7 6 7 17 7 4 18 4 5 18 4 5 19 8 8 9 9 9 9 9 9 8 5 6 18 4 5 19 8 8 10 10 10 1 11 11 1 11 11 9 9 9 19 8 8 10 10 10 11 12 12 0 13 13 0 13 13 1 11 11 10 10 10 12 0 0 2 3 3 0 13 13 0 13 13 11 12 12 12 0 0 13 1 1 14 14 14 4 15 15 4 15 15 3 2 2 13 1 1 14 14 14 15 16 16 5 17 17 5 17 17 4 15 15 14 14 14 16 18 18 6 19 19 5 17 21 5 17 21 15 16 20 16 18 18 16 18 18 17 7 4 7 6 7 7 6 7 6 19 19 16 18 18</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>pipe_pit_pipe_steelShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="pipe_pit_pipe_copperShape" name="pipe_pit_pipe_copperShape">
+      <mesh>
+        <source id="pipe_pit_pipe_copperShape-positions" name="pipe_pit_pipe_copperShape-positions">
+          <float_array id="pipe_pit_pipe_copperShape-positions-array" count="60">-4 -0.211663 1.456946 -4 -0.2824 1.456946 0 -0.2824 1.456946 0 -0.211663 1.456946 -4 -0.2824 1.23924 -4 -0.211663 1.23924 0 -0.211663 1.23924 0 -0.2824 1.23924 -4 -0.154435 1.280819 0 -0.154435 1.280819 -4 -0.132577 1.348093 0 -0.132577 1.348093 -4 -0.154435 1.415368 0 -0.154435 1.415368 -4 -0.339627 1.415368 0 -0.339627 1.415368 -4 -0.361486 1.348093 0 -0.361486 1.348093 -4 -0.339627 1.280819 0 -0.339627 1.280819</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_pipe_copperShape-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe_pit_pipe_copperShape-normals" name="pipe_pit_pipe_copperShape-normals">
+          <float_array id="pipe_pit_pipe_copperShape-normals-array" count="60">0 0.3090143 0.9510574 0 -0.4096288 0.9122523 0 -0.2048145 0.9788008 0 0.3090142 0.9510574 0 0.3090197 -0.9510556 0 0.3090196 -0.9510557 0 -0.3090237 -0.9510544 0 -0.3090238 -0.9510543 0 0.8676078 -0.497249 0 0.7410266 -0.6714755 0 0.9941866 0.1076708 0 0.994186 -0.1076754 0 0.809019 0.5877824 0 0.8090191 0.5877823 0 -0.8676044 0.4972549 0 -0.7410235 0.671479 0 -0.9999999 0 0 -1 0 0 -0.8090196 -0.5877817 0 -0.8090196 -0.5877818</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_pipe_copperShape-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe_pit_pipe_copperShape-UVSet0" name="pipe_pit_pipe_copperShape-UVSet0">
+          <float_array id="pipe_pit_pipe_copperShape-UVSet0-array" count="44">1 0.699467 1 0.799646 0 0.799646 0 0.699468 1 0.198561 1 0.298742 0 0.298743 0 0.198561 1 0.398926 0 0.398927 1 0.499108 0 0.499108 1 0.599288 0 0.599288 1 0.899823 0 0.899823 1 1 0 1 1 0 1 0.098381 0 0.098381 0 0</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_pipe_copperShape-UVSet0-array" count="22" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pipe_pit_pipe_copperShape-vertices" name="pipe_pit_pipe_copperShape-vertices">
+          <input semantic="POSITION" source="#pipe_pit_pipe_copperShape-positions"/>
+        </vertices>
+        <triangles material="pipe_pit_pipe_copperSG" count="20">
+          <input semantic="VERTEX" source="#pipe_pit_pipe_copperShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pipe_pit_pipe_copperShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pipe_pit_pipe_copperShape-UVSet0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 3 3 3 0 0 0 5 4 5 6 5 6 7 6 7 7 6 7 4 7 4 5 4 5 5 4 5 8 8 8 9 9 9 9 9 9 6 5 6 5 4 5 8 8 8 10 10 10 11 11 11 11 11 11 9 9 9 8 8 8 10 10 10 12 12 12 13 13 13 13 13 13 11 11 11 10 10 10 0 0 0 3 3 3 13 13 13 13 13 13 12 12 12 0 0 0 1 1 1 14 14 14 15 15 15 15 15 15 2 2 2 1 1 1 14 14 14 16 16 16 17 17 17 17 17 17 15 15 15 14 14 14 18 18 19 19 19 20 17 17 21 17 17 21 16 16 18 18 18 19 18 18 19 4 7 4 7 6 7 7 6 7 19 19 20 18 18 19</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>pipe_pit_pipe_copperShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="pipe_pit_pipe_blackShape" name="pipe_pit_pipe_blackShape">
+      <mesh>
+        <source id="pipe_pit_pipe_blackShape-positions" name="pipe_pit_pipe_blackShape-positions">
+          <float_array id="pipe_pit_pipe_blackShape-positions-array" count="174">-4 -0.239908 1.020272 -4 -0.37945 1.020272 0 -0.37945 1.020272 0 -0.239908 1.020272 -4 -0.37945 0.590805 -4 -0.239908 0.590805 0 -0.239908 0.590805 0 -0.37945 0.590805 -4 -0.127016 0.672826 0 -0.127016 0.672826 -4 -0.083895 0.805538 0 -0.083895 0.805538 -4 -0.127016 0.938251 0 -0.127016 0.938251 -4 -0.492342 0.938251 0 -0.492342 0.938251 -4 -0.492342 0.672826 0 -0.492342 0.672826 -4 -0.263181 0.570541 -4 -0.356177 0.570541 0 -0.356177 0.570541 0 -0.263181 0.570541 -4 -0.356177 0.284331 -4 -0.263181 0.284331 0 -0.263181 0.284331 0 -0.356177 0.284331 -4 -0.187947 0.338992 0 -0.187947 0.338992 -4 -0.15921 0.427436 0 -0.15921 0.427436 -4 -0.187947 0.51588 0 -0.187947 0.51588 -4 -0.431411 0.51588 0 -0.431411 0.51588 -4 -0.460148 0.427436 0 -0.460148 0.427436 -4 -0.431411 0.338992 0 -0.431411 0.338992 -4 -0.367119 1.261051 -4 -0.426987 1.261051 0 -0.426987 1.261051 0 -0.367119 1.261051 -4 -0.426987 1.076795 -4 -0.367119 1.076795 0 -0.367119 1.076795 0 -0.426987 1.076795 -4 -0.318684 1.111985 0 -0.318684 1.111985 -4 -0.300184 1.168923 0 -0.300184 1.168923 -4 -0.318684 1.225862 0 -0.318684 1.225862 -4 -0.475422 1.225862 0 -0.475422 1.225862 -4 -0.493922 1.168923 0 -0.493922 1.168923 -4 -0.475422 1.111985 0 -0.475422 1.111985</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_pipe_blackShape-positions-array" count="58" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe_pit_pipe_blackShape-normals" name="pipe_pit_pipe_blackShape-normals">
+          <float_array id="pipe_pit_pipe_blackShape-normals-array" count="174">0 0.3090173 0.9510564 0 -0.4096276 0.9122529 0 -0.2048138 0.978801 0 0.3090173 0.9510564 0 0.3090175 -0.9510563 0 0.3090175 -0.9510564 0 -0.3090175 -0.9510563 0 -0.3090175 -0.9510563 0 0.8676038 -0.4972561 0 0.7410226 -0.6714801 0 0.9941862 0.107676 0 0.9941859 -0.1076782 0 0.8090173 0.5877847 0 0.8090173 0.5877848 0 -0.5877858 0.8090166 0 -0.5877858 0.8090166 0 -0.5877861 -0.8090163 0 -0.5877861 -0.8090163 0 0.3090185 0.9510561 0 -0.409629 0.9122521 0 -0.2048145 0.9788008 0 0.3090186 0.9510561 0 0.3090183 -0.9510561 0 0.3090183 -0.9510561 0 -0.3090183 -0.9510561 0 -0.3090181 -0.9510562 0 0.8676051 -0.4972536 0 0.741024 -0.6714785 0 0.994186 0.1076763 0 0.994186 -0.1076763 0 0.8090184 0.5877833 0 0.8090185 0.5877832 0 -0.8676053 0.4972534 0 -0.7410243 0.6714783 0 -1 0 0 -1 0 0 -0.8090182 -0.5877835 0 -0.8090184 -0.5877833 0 0.3090099 0.9510588 0 -0.409618 0.912257 0 -0.204809 0.9788018 0 0.30901 0.9510587 0 0.3090162 -0.9510567 0 0.3090164 -0.9510567 0 -0.3090164 -0.9510567 0 -0.3090164 -0.9510567 0 0.8676054 -0.497253 0 0.7410227 -0.6714799 0 0.9941864 0.1076719 0 0.9941859 -0.1076766 0 0.8090153 0.5877876 0 0.8090154 0.5877874 0 -0.8676049 0.4972542 0 -0.7410175 0.6714856 0 -0.9999999 0 0 -1 0 0 -0.8090178 -0.5877841 0 -0.8090177 -0.5877844</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_pipe_blackShape-normals-array" count="58" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe_pit_pipe_blackShape-UVSet0" name="pipe_pit_pipe_blackShape-UVSet0">
+          <float_array id="pipe_pit_pipe_blackShape-UVSet0-array" count="124">1 0.699468 1 0.799646 0 0.799646 0 0.699468 1 0.198561 1 0.298743 0 0.298743 0 0.198561 1 0.398927 0 0.398927 1 0.499108 0 0.499108 1 0.599288 0 0.599288 1 0.899823 0 0.899823 1 0.098381 0 0.098381 1 0.699468 1 0.799646 0 0.799646 0 0.699468 1 0.198561 1 0.298743 0 0.298743 0 0.198561 1 0.398927 0 0.398927 1 0.499108 0 0.499108 1 0.599288 0 0.599288 1 0.899823 0 0.899823 1 1 0 1 1 0 1 0.098381 0 0.098381 0 0 1 0.699468 1 0.799646 0 0.799646 0 0.699468 1 0.198561 1 0.298743 0 0.298743 0 0.198561 1 0.398927 0 0.398927 1 0.499108 0 0.499108 1 0.599288 0 0.599288 1 0.899823 0 0.899823 1 1 0 1 1 0 1 0.098381 0 0.098381 0 0</float_array>
+          <technique_common>
+            <accessor source="#pipe_pit_pipe_blackShape-UVSet0-array" count="62" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pipe_pit_pipe_blackShape-vertices" name="pipe_pit_pipe_blackShape-vertices">
+          <input semantic="POSITION" source="#pipe_pit_pipe_blackShape-positions"/>
+        </vertices>
+        <triangles material="pipe_pit_pipe_blackSG" count="56">
+          <input semantic="VERTEX" source="#pipe_pit_pipe_blackShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pipe_pit_pipe_blackShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pipe_pit_pipe_blackShape-UVSet0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 3 3 3 0 0 0 5 4 5 6 5 6 7 6 7 7 6 7 4 7 4 5 4 5 5 4 5 8 8 8 9 9 9 9 9 9 6 5 6 5 4 5 8 8 8 10 10 10 11 11 11 11 11 11 9 9 9 8 8 8 10 10 10 12 12 12 13 13 13 13 13 13 11 11 11 10 10 10 0 0 0 3 3 3 13 13 13 13 13 13 12 12 12 0 0 0 1 1 1 14 14 14 15 15 15 15 15 15 2 2 2 1 1 1 16 16 16 4 7 4 7 6 7 7 6 7 17 17 17 16 16 16 18 18 18 19 19 19 20 20 20 20 20 20 21 21 21 18 18 18 23 22 23 24 23 24 25 24 25 25 24 25 22 25 22 23 22 23 23 22 23 26 26 26 27 27 27 27 27 27 24 23 24 23 22 23 26 26 26 28 28 28 29 29 29 29 29 29 27 27 27 26 26 26 28 28 28 30 30 30 31 31 31 31 31 31 29 29 29 28 28 28 18 18 18 21 21 21 31 31 31 31 31 31 30 30 30 18 18 18 19 19 19 32 32 32 33 33 33 33 33 33 20 20 20 19 19 19 32 32 32 34 34 34 35 35 35 35 35 35 33 33 33 32 32 32 36 36 37 37 37 38 35 35 39 35 35 39 34 34 36 36 36 37 36 36 37 22 25 22 25 24 25 25 24 25 37 37 38 36 36 37 38 38 40 39 39 41 40 40 42 40 40 42 41 41 43 38 38 40 43 42 45 44 43 46 45 44 47 45 44 47 42 45 44 43 42 45 43 42 45 46 46 48 47 47 49 47 47 49 44 43 46 43 42 45 46 46 48 48 48 50 49 49 51 49 49 51 47 47 49 46 46 48 48 48 50 50 50 52 51 51 53 51 51 53 49 49 51 48 48 50 38 38 40 41 41 43 51 51 53 51 51 53 50 50 52 38 38 40 39 39 41 52 52 54 53 53 55 53 53 55 40 40 42 39 39 41 52 52 54 54 54 56 55 55 57 55 55 57 53 53 55 52 52 54 56 56 59 57 57 60 55 55 61 55 55 61 54 54 58 56 56 59 56 56 59 42 45 44 45 44 47 45 44 47 57 57 60 56 56 59</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>pipe_pit_pipe_blackShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="tunnels_pipe_pit">
+      <node id="pipe_pit" name="pipe_pit" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#pipe_pitShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="pipe_pitSG" target="#Material__9">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>pipe_pit</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="pipe_pit_fence" name="pipe_pit_fence" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#pipe_pit_fenceShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="pipe_pit_fenceSG" target="#_11___Default">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>pipe_pit_fence</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="pipe_pit_pipe_steel" name="pipe_pit_pipe_steel" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#pipe_pit_pipe_steelShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="pipe_pit_pipe_steelSG" target="#Material__6">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>pipe_pit_pipe_steel</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="pipe_pit_pipe_copper" name="pipe_pit_pipe_copper" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#pipe_pit_pipe_copperShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="pipe_pit_pipe_copperSG" target="#Material__7">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>pipe_pit_pipe_copper</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="pipe_pit_pipe_black" name="pipe_pit_pipe_black" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#pipe_pit_pipe_blackShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="pipe_pit_pipe_blackSG" target="#Material__8">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>pipe_pit_pipe_black</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

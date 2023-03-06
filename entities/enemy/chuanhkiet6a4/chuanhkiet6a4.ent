@@ -1,0 +1,174 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="true" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.518017 2.32006 1.34137" CameraTarget="-0.0209657 0.812677 -0.0655483" CameraZoom="3.16013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="custom_stories/MadnessRemix/entities/mx_current/enemy/chuanhkiet6a4/chuanhkiet6a4.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="torso" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="1" Material="" Name="armLeft" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="2" Material="" Name="legLeft" Rotation="0 0 0" Scale="1 1 1" SubMeshID="2" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="3" Material="" Name="armRight" Rotation="0 0 0" Scale="1 1 1" SubMeshID="3" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="4" Material="" Name="legRight" Rotation="0 0 0" Scale="1 1 1" SubMeshID="4" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="5" Material="" Name="head" Rotation="0 0 0" Scale="1 1 1" SubMeshID="5" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones>
+            <Bone ID="6" Name="torso" />
+            <Bone ID="7" Name="armLeft" />
+            <Bone ID="8" Name="legLeft" />
+            <Bone ID="9" Name="armRight" />
+            <Bone ID="10" Name="legRight" />
+            <Bone ID="11" Name="head" />
+            <Bone ID="12" Name="Root_C" />
+            <Bone ID="13" Name="Neck_C" />
+            <Bone ID="14" Name="Head_C" />
+            <Bone ID="15" Name="Arm_L" />
+            <Bone ID="16" Name="Wrist_L" />
+            <Bone ID="17" Name="Arm_R" />
+            <Bone ID="18" Name="Wrist_R" />
+            <Bone ID="19" Name="Thigh_L" />
+            <Bone ID="20" Name="Shin_L" />
+            <Bone ID="21" Name="Foot_L" />
+            <Bone ID="22" Name="Thigh_R" />
+            <Bone ID="23" Name="Shin_R" />
+            <Bone ID="24" Name="Foot_R" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations>
+            <Animation File="C:/Games/AmnesiaTDD_Workbench/custom_stories/chuanhkiet6a4/animations/chuan_idle.dae_anim" Name="Idle" SpecialEventTime="4.86381e-039" Speed="0.8" />
+            <Animation File="C:/Games/AmnesiaTDD_Workbench/custom_stories/chuanhkiet6a4/animations/chuan_run.dae_anim" Name="Run" SpecialEventTime="4.86381e-039" Speed="0.1">
+                <Event Time="0.25" Type="PlaySound" Value="insanity/insanity_step_slime_sneak.snt" />
+                <Event Time="0.25" Type="Step" Value="" />
+                <Event Time="0.75" Type="PlaySound" Value="insanity/insanity_step_slime_sneak.snt" />
+                <Event Time="0.75" Type="Step" Value="" />
+            </Animation>
+            <Animation File="C:/Games/AmnesiaTDD_Workbench/custom_stories/chuanhkiet6a4/animations/chuan_walk.dae_anim" Name="Walk" SpecialEventTime="4.86381e-039" Speed="0.7">
+                <Event Time="0.25" Type="PlaySound" Value="insanity/insanity_step_slime_sneak.snt" />
+                <Event Time="0.25" Type="Step" Value="" />
+                <Event Time="0.75" Type="PlaySound" Value="insanity/insanity_step_slime_sneak.snt" />
+                <Event Time="0.75" Type="Step" Value="" />
+            </Animation>
+            <Animation File="C:/Games/AmnesiaTDD_Workbench/custom_stories/chuanhkiet6a4/animations/chuan_attack01.dae_anim" Name="SwingClaws01" SpecialEventTime="4.86381e-039" Speed="0.8" />
+            <Animation File="chuan_attack02.dae_anim" Name="SwingClaws02" SpecialEventTime="4.86381e-039" Speed="0.7" />
+            <Animation File="C:/Games/AmnesiaTDD_Workbench/custom_stories/chuanhkiet6a4/animations/chuan_attack_run.dae_anim" Name="SwingLaunch" SpecialEventTime="4.86381e-039" Speed="1" />
+            <Animation File="chuan_attack_run.dae_anim" Name="BreakDoor" SpecialEventTime="4.86381e-039" Speed="1" />
+            <Animation File="C:/Games/AmnesiaTDD_Workbench/custom_stories/chuanhkiet6a4/animations/chuan_flinch.dae_anim" Name="Flinch" SpecialEventTime="4.86381e-039" Speed="0.6" />
+            <Animation File="chuan_idle.dae_anim" Name="IdleExtra1" SpecialEventTime="4.86381e-039" Speed="0.8" />
+            <Animation File="chuan_idle.dae_anim" Name="IdleExtra2" SpecialEventTime="4.86381e-039" Speed="0.8" />
+            <Animation File="chuan_idle.dae_anim" Name="IdleExtra3" SpecialEventTime="4.86381e-039" Speed="0.8" />
+            <Animation File="C:/Games/AmnesiaTDD_Workbench/custom_stories/chuanhkiet6a4/animations/chuan_notice.dae_anim" Name="Notice1" SpecialEventTime="4.86381e-039" Speed="0.5" />
+            <Animation File="chuan_notice.dae_anim" Name="Notice2" SpecialEventTime="4.86381e-039" Speed="0.5" />
+        </Animations>
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="Enemy_Grunt">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="AutoRemoveAtPathEnd" Value="true" />
+        <Var Name="SightRange" Value="10" />
+        <Var Name="DarknessSightRange" Value="4" />
+        <Var Name="HearVolume" Value="10" />
+        <Var Name="FOV" Value="180" />
+        <Var Name="FOVXMul" Value="1" />
+        <Var Name="ActivationDistance" Value="20" />
+        <Var Name="MaxRegenHealth" Value="100" />
+        <Var Name="RegenHealthSpeed" Value="0" />
+        <Var Name="DangerMusic" Value="mx_current_dan_chuan.ogg" />
+        <Var Name="DangerMusicPrio" Value="0" />
+        <Var Name="SearchMusic" Value="" />
+        <Var Name="SearchMusicPrio" Value="0" />
+        <Var Name="AttackMusic" Value="mx_current_att_chuan.ogg" />
+        <Var Name="AttackMusicPrio" Value="0" />
+        <Var Name="PlayerSearchMaxAngle" Value="45" />
+        <Var Name="PlayerSearchMinDistMul" Value="0.5" />
+        <Var Name="PlayerSearchMaxDistMul" Value="2" />
+        <Var Name="PlayerSearchTime" Value="10" />
+        <Var Name="PlayerPatrolMaxAngle" Value="110" />
+        <Var Name="PlayerPatrolMinDist" Value="8" />
+        <Var Name="PlayerPatrolMaxDist" Value="18" />
+        <Var Name="Body_Size" Value="0.75 1.5 0.75" />
+        <Var Name="Body_Mass" Value="25" />
+        <Var Name="Body_AccurateClimbing" Value="true" />
+        <Var Name="Body_MaxNoSlideSlopeAngle" Value="45" />
+        <Var Name="Body_MaxPushMass" Value="40" />
+        <Var Name="Body_PushForce" Value="200" />
+        <Var Name="Body_CharacterMaxPushMass" Value="20" />
+        <Var Name="Body_CharacterPushForce" Value="100" />
+        <Var Name="Body_MaxStepSize" Value="0.5" />
+        <Var Name="Body_StepClimbSpeed" Value="6" />
+        <Var Name="Body_OffsetRot" Value="0 0 0" />
+        <Var Name="Body_OffsetTrans" Value="0 0 0" />
+        <Var Name="Walk_ForwardSpeed" Value="2.6" />
+        <Var Name="Walk_BackwardSpeed" Value="1.3" />
+        <Var Name="Walk_ForwardAcc" Value="2" />
+        <Var Name="Walk_ForwardDeacc" Value="18" />
+        <Var Name="Run_ForwardSpeed" Value="6.5" />
+        <Var Name="Run_BackwardSpeed" Value="3.25" />
+        <Var Name="Run_ForwardAcc" Value="4" />
+        <Var Name="Run_ForwardDeacc" Value="8" />
+        <Var Name="TurnSpeedMul" Value="6" />
+        <Var Name="TurnMaxSpeed" Value="12" />
+        <Var Name="TurnMinBreakAngle" Value="10" />
+        <Var Name="TurnBreakMul" Value="2" />
+        <Var Name="MoveSpeedAnimMul" Value="1" />
+        <Var Name="StoppedToWalkSpeed" Value="0.15" />
+        <Var Name="WalkToStoppedSpeed" Value="0.1" />
+        <Var Name="WalkToRunSpeed" Value="3.2" />
+        <Var Name="RunToWalkSpeed" Value="2.8" />
+        <Var Name="WaterStepSpeedWalk" Value="3" />
+        <Var Name="WaterStepSpeedRun" Value="5" />
+        <Var Name="WaterStepSpeedMisc" Value="3" />
+        <Var Name="HitPS_Sword" Value="" />
+        <Var Name="HitSound_Sword" Value="" />
+        <Var Name="HitPS_Club" Value="" />
+        <Var Name="HitSound_Club" Value="" />
+        <Var Name="HitPS_Bullet" Value="" />
+        <Var Name="HitSound_Bullet" Value="" />
+        <Var Name="HitPS_Dud" Value="" />
+        <Var Name="HitSound_Dud" Value="" />
+        <Var Name="AmbientSound_Idle" Value="" />
+        <Var Name="AmbientMinTime_Idle" Value="1" />
+        <Var Name="AmbientMaxTime_Idle" Value="3" />
+        <Var Name="AmbientSound_Alert" Value="" />
+        <Var Name="AmbientMinTime_Alert" Value="1" />
+        <Var Name="AmbientMaxTime_Alert" Value="3" />
+        <Var Name="AmbientSound_Hunt" Value="" />
+        <Var Name="AmbientMinTime_Hunt" Value="1" />
+        <Var Name="AmbientMaxTime_Hunt" Value="3" />
+        <Var Name="NormalAttackDistance" Value="2" />
+        <Var Name="NormalDamageSize" Value="1 1.5 1.75" />
+        <Var Name="NormalDamageOffset" Value="0 0 1" />
+        <Var Name="NormalAttackHitSound" Value="C:/Games/AmnesiaTDD_Workbench/sounds/enemy/grunt/attack_claw_hit.snt" />
+        <Var Name="NormalAttackDamage" Value="15 30" />
+        <Var Name="NormalAttackForce" Value="15 2.5" />
+        <Var Name="NormalAttackStrength" Value="0.5" />
+        <Var Name="NormalDamageType" Value="Claws" />
+        <Var Name="BreakDoorAttackDamage" Value="30 60" />
+        <Var Name="BreakDoorAttackForce" Value="30 5" />
+        <Var Name="BreakDoorAttackStrength" Value="1" />
+        <Var Name="BreakDoorAttackHitSound" Value="C:/Games/AmnesiaTDD_Workbench/sounds/enemy/grunt/attack_claw_hit.snt" />
+        <Var Name="BreakDoorDamageType" Value="BloodSplat" />
+        <Var Name="NoticeSound" Value="" />
+        <Var Name="GiveUpNoticeSound" Value="" />
+        <Var Name="EnabledSound" Value="" />
+        <Var Name="GroggyDamageCount" Value="1" />
+        <Var Name="AlertToHuntDistance" Value="9" />
+        <Var Name="AlertToInstantHuntDistance" Value="2.5" />
+        <Var Name="HuntPauseMinTime" Value="2" />
+        <Var Name="HuntPauseMaxTime" Value="4.5" />
+        <Var Name="IncreaseAlertSpeedDistance" Value="6" />
+        <Var Name="IncreasedAlertSpeedMul" Value="1.25" />
+        <Var Name="AlertRunTowardsToHuntLimit" Value="30" />
+        <Var Name="AlertRunTowardsCheckDistance" Value="6" />
+        <Var Name="IdleExtraTimeMin" Value="2" />
+        <Var Name="IdleExtraTimeMax" Value="6" />
+        <Var Name="IdleExtraNum" Value="3" />
+    </UserDefinedVariables>
+</Entity>

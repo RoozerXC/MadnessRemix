@@ -1,0 +1,6 @@
+<Material>
+    <Main BlendMode="Add" DepthTest="true" PhysicsMaterial="Dirt" Type="soliddiffuse" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="false" File="grassfloor002a.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+</Material>
